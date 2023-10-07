@@ -1,7 +1,15 @@
+import { Container } from "./styles"
+
+import { Header } from "../../components/Header"
 
 export function Home() {
   return (
-    <h1>Hello World</h1>
+    <Container>
+      <Header 
+        title="Catálogo de produtos"
+      />
+
+    </Container>
   )
 }
 
