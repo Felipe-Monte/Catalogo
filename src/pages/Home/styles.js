@@ -16,6 +16,8 @@ export const Container = styled.div`
 
     padding: 22px;
 
+    border: 5px solid yellow;
+
     @media screen and (max-width: 450px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);

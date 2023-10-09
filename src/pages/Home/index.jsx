@@ -1,7 +1,7 @@
 import { Container } from "./styles"
 
 import { Header } from "../../components/Header"
-import { Card } from "../../components/Card"
+import { Cards } from "../../components/Cards"
 
 export function Home() {
   return (
@@ -11,30 +11,7 @@ export function Home() {
       />
 
       <main>
-        <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
-        <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
-        <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
-        <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
+        <Cards/>
       </main>
 
     </Container>
