@@ -12,6 +12,12 @@ export const Container = styled.div`
 
   border: 2px solid red;
   border-radius: 10px;
+
+  @media screen and (max-width: 450px) {
+      width: 100%;
+      
+      padding: 0;
+    }
 `
 
 export const CardImg = styled.div`
@@ -19,6 +25,13 @@ export const CardImg = styled.div`
   height: 120px;
 
   border: 1px solid blue;
+
+  > img {
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+  }
 `
 
 export const CardText = styled.div`

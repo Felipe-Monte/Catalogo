@@ -35,57 +35,6 @@ export function Home() {
           code="00001"
           price="59,90"
         />
-        <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
-        <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
-        <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
-         <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
-        <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
-         <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
-        <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
-          <Card
-          imgUrl=""
-          title="Item 1"
-          code="00001"
-          price="59,90"
-        />
-
-
-
       </main>
 
     </Container>

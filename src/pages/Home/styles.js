@@ -15,5 +15,14 @@ export const Container = styled.div`
     gap: 15px;
 
     padding: 22px;
+
+    @media screen and (max-width: 450px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
+
+      padding: 10px;
+    }
   }
 `
+

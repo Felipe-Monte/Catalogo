@@ -13,7 +13,7 @@ export function Card({ imgUrl, title, code, price }) {
         <p>{code}</p>
         <span>{price}</span>
       </CardText>
-      
+
     </Container>
   )
 }
