@@ -16,14 +16,17 @@ export const Container = styled.div`
 
     padding: 22px;
 
-    border: 5px solid yellow;
+    border: 1px solid yellow;
 
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 480px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+      align-items: center;
+      justify-items: center;
       gap: 5px;
 
-      padding: 10px;
+      padding: 5px;
     }
   }
 `

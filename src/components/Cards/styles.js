@@ -3,17 +3,17 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 0px;
 
   width: 200px;
   height: fit-content;
 
   padding: 15px;
 
-  border: 2px solid red;
+  border: 1px solid red;
   border-radius: 10px;
 
-  @media screen and (max-width: 450px) {
+  @media screen and (max-width: 480px) {
       width: 100%;
       
       padding: 0;
@@ -35,6 +35,6 @@ export const CardImg = styled.div`
 `
 
 export const CardText = styled.div`
-
+  padding: 10px;
 `
 

@@ -12,6 +12,13 @@ export function Home() {
 
       <main>
         <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>  
       </main>
 
     </Container>

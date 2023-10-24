@@ -2,22 +2,22 @@
   {
     "id": "1",
     "imgUrl": "https://images.unsplash.com/photo-1562157873-818bc0726f68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1527&q=80",
-    "title": "Felipe",
+    "title": "Item 1",
     "code": "00001",
     "price": "19,90"
   },
   {
     "id": "2",
     "imgUrl": "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1468&q=80",
-    "title": "Felipe",
-    "code": "00001",
+    "title": "Item 1",
+    "code": "00002",
     "price": "19,90"
   },
   {
     "id": "3",
     "imgUrl": "https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80",
-    "title": "Felipe",
-    "code": "00001",
+    "title": "Item 3",
+    "code": "00003",
     "price": "19,90"
   }
 ]
