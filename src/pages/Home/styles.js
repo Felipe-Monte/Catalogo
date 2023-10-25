@@ -16,9 +16,9 @@ export const Container = styled.div`
 
     padding: 22px;
 
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 700px) {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       justify-content: center;
