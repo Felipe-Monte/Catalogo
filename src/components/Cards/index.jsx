@@ -1,17 +1,17 @@
 import { Container, CardImg, CardText } from './styles';
 
 
-export function Cards() {
+export function Cards({ imgUrl, title, code, price }) {
   return (
     <Container>
       <CardImg>
-        <img src="#" alt="imagem do card" />
+        <img src={imgUrl} alt={`Imagem de ${title}`} />
       </CardImg>
 
       <CardText>
-        <h2>titulo</h2>
-        <p>codigo</p>
-        <span>preço</span>
+        <h2>{title}</h2>
+        <p>{code}</p>
+        <span>{price}</span>
       </CardText>
     </Container>
   );

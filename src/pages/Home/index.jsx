@@ -3,6 +3,8 @@ import { Container } from "./styles"
 import { Header } from "../../components/Header"
 import { Cards } from "../../components/Cards"
 
+import jsonData from "../../products.json"
+
 export function Home() {
   return (
     <Container>
@@ -11,14 +13,17 @@ export function Home() {
       />
 
       <main>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>  
+        {
+          jsonData.map((item) => (
+            <Cards
+              key={item.id}
+              imgUrl={item.imgUrl}
+              title={item.title}
+              code={item.code}
+              price={item.price}
+            />
+          ))
+        }
       </main>
 
     </Container>
