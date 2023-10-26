@@ -21,7 +21,7 @@ export const Container = styled.div`
 
   @media screen and (max-width: 700px) {
       width: 100%;
-      height: 250px;
+      height: 275px;
       
       padding: 0;
       pointer-events: none;
@@ -45,27 +45,32 @@ export const CardImg = styled.div`
   }
 
   @media screen and (max-width: 425px) {
+      max-height: 200px;
       height: 100%;
     }
 `
 
 export const CardText = styled.div`
   width: 100%;
-  height: 100%;
+  height: 100px;
 
   padding: 10px;
 
-  white-space: nowrap; 
+  /* white-space: nowrap; 
   overflow: hidden; 
-  text-overflow: ellipsis; 
+  text-overflow: ellipsis;  */
 
   > h2 {
     font-size: 22px;
   }
 
   > p {
-    font-size: 12px;
+    font-size: 14px;
     opacity: 0.4;
+  }
+
+  > span {
+    font-size: 24px;
   }
 
   @media screen and (max-width: 700px) {
@@ -75,6 +80,15 @@ export const CardText = styled.div`
 
       > h2 {
         font-size: 18px;
+      }
+
+      > p {
+        font-size: 12px;
+        opacity: 0.4;
+      }
+
+      > span {
+        font-size: 12px;
       }
     }
 `
