@@ -6,6 +6,8 @@ export const Container = styled.div`
 
   > main {
     width: 100%;
+    max-width: 1500px;
+    margin: auto;
     height: fit-content;
 
     display: flex;
@@ -15,8 +17,6 @@ export const Container = styled.div`
     gap: 15px;
 
     padding: 22px;
-
-    /* border: 1px solid yellow; */
 
     @media screen and (max-width: 700px) {
       display: grid;
