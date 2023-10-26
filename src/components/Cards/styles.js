@@ -32,13 +32,15 @@ export const CardImg = styled.div`
   height: 200px;
 
   border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   /* border: 1px solid blue; */
 
   > img {
     width: 100%;
     height: 100%;
 
-    background-size: cover;
     border-radius: 5px;
   }
 
