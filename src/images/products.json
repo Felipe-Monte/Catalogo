@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "imgUrl": "src/images/argan.jpeg",
+    "imgUrl": "../../src/images/argan.jpeg",
     "title": "Doce",
     "code": "00001",
     "price": "19,90"
