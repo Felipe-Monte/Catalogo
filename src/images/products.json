@@ -1,84 +1,84 @@
 [
   {
     "id": "1",
-    "imgUrl": "../../src/images/argan.jpeg",
+    "imgUrl": "./argan.jpeg",
     "title": "Doce",
     "code": "00001",
     "price": "19,90"
   },
   {
     "id": "2",
-    "imgUrl": "src/images/bababell.jpeg",
+    "imgUrl": "./bababell.jpeg",
     "title": "Capilar bababell",
     "code": "00002",
     "price": "19,90"
   },
   {
     "id": "3",
-    "imgUrl": "src/images/blond.jpeg",
+    "imgUrl": "./blond.jpeg",
     "title": "Blond platinum",
     "code": "00003",
     "price": "19,90"
   },
   {
     "id": "4",
-    "imgUrl": "src/images/colonia.jpeg",
+    "imgUrl": "./colonia.jpeg",
     "title": "Colônia",
     "code": "00004",
     "price": "19,90"
   },
   {
     "id": "5",
-    "imgUrl": "src/images/doce.jpeg",
+    "imgUrl": "./doce.jpeg",
     "title": "Doce",
     "code": "00005",
     "price": "19,90"
   },
   {
     "id": "6",
-    "imgUrl": "src/images/garrafa.jpeg",
+    "imgUrl": "./garrafa.jpeg",
     "title": "Garrafa",
     "code": "00006",
     "price": "19,90"
   },
   {
     "id": "7",
-    "imgUrl": "src/images/gcareca.jpeg",
+    "imgUrl": "./gcareca.jpeg",
     "title": "Camisa",
     "code": "00007",
     "price": "19,90"
   },
   {
     "id": "8",
-    "imgUrl": "src/images/gel.jpeg",
+    "imgUrl": "./gel.jpeg",
     "title": "Natgel",
     "code": "00008",
     "price": "19,90"
   },
   {
     "id": "9",
-    "imgUrl": "src/images/maquinadecorte.jpeg",
+    "imgUrl": "./maquinadecorte.jpeg",
     "title": "Maquina de corte",
     "code": "00009",
     "price": "19,90"
   },
   {
     "id": "10",
-    "imgUrl": "src/images/massageador.jpeg",
+    "imgUrl": "./massageador.jpeg",
     "title": "Massageador",
     "code": "00010",
     "price": "19,90"
   },
   {
     "id": "11",
-    "imgUrl": "src/images/redejaguarana.jpeg",
+    "imgUrl": "./redejaguarana.jpeg",
     "title": "Rede jaguarana",
     "code": "00005",
     "price": "19,90"
   },
   {
     "id": "12",
-    "imgUrl": "src/images/tapete.jpeg",
+    "imgUrl": "./tapete.jpeg",
     "title": "Tapete",
     "code": "00006",
     "price": "19,90"
