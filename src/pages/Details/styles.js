@@ -6,17 +6,16 @@ export const Container = styled.div`
   
   > main {
     width: 100%;
-    height: calc(100% - 60px) ;
+    height: calc(100% - 100px) ;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    
   }
 `
 export const Section = styled.section`
-  width: 1000px;
-  height: 500px;
+  width: 800px;
+  height: 400px;
 
   display: flex;
 
