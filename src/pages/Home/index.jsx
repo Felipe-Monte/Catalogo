@@ -4,7 +4,7 @@ import { Header } from "../../components/Header"
 import { Cards } from "../../components/Cards"
 import { Footer } from "../../components/Footer"
 
-import jsonData from "../../products.json"
+import jsonData from "../../assets/products.json"
 
 export function Home() {
   return (
