@@ -1,84 +1,84 @@
 [
   {
     "id": "1",
-    "imgUrl": "./assets/argan.jpeg",
+    "imgUrl": "../src/assets/argan.jpeg",
     "title": "Doce",
     "code": "00001",
     "price": "19,90"
   },
   {
     "id": "2",
-    "imgUrl": "./assets/bababell.jpeg",
+    "imgUrl": "../src/assets/bababell.jpeg",
     "title": "Capilar bababell",
     "code": "00002",
     "price": "19,90"
   },
   {
     "id": "3",
-    "imgUrl": "./assets/blond.jpeg",
+    "imgUrl": "../src/assets/blond.jpeg",
     "title": "Blond platinum",
     "code": "00003",
     "price": "19,90"
   },
   {
     "id": "4",
-    "imgUrl": "./assets/colonia.jpeg",
+    "imgUrl": "../src/assets/colonia.jpeg",
     "title": "Colônia",
     "code": "00004",
     "price": "19,90"
   },
   {
     "id": "5",
-    "imgUrl": "./assets/doce.jpeg",
+    "imgUrl": "../src/assets/doce.jpeg",
     "title": "Doce",
     "code": "00005",
     "price": "19,90"
   },
   {
     "id": "6",
-    "imgUrl": "./assets/garrafa.jpeg",
+    "imgUrl": "../src/assets/garrafa.jpeg",
     "title": "Garrafa",
     "code": "00006",
     "price": "19,90"
   },
   {
     "id": "7",
-    "imgUrl": "./assets/gcareca.jpeg",
+    "imgUrl": "../src/assets/gcareca.jpeg",
     "title": "Camisa",
     "code": "00007",
     "price": "19,90"
   },
   {
     "id": "8",
-    "imgUrl": "./assets/gel.jpeg",
+    "imgUrl": "../src/assets/gel.jpeg",
     "title": "Natgel",
     "code": "00008",
     "price": "19,90"
   },
   {
     "id": "9",
-    "imgUrl": "./assets/maquinadecorte.jpeg",
+    "imgUrl": "../src/assets/maquinadecorte.jpeg",
     "title": "Maquina de corte",
     "code": "00009",
     "price": "19,90"
   },
   {
     "id": "10",
-    "imgUrl": "./assets/massageador.jpeg",
+    "imgUrl": "../src/assets/massageador.jpeg",
     "title": "Massageador",
     "code": "00010",
     "price": "19,90"
   },
   {
     "id": "11",
-    "imgUrl": "./assets/redejaguarana.jpeg",
+    "imgUrl": "../src/assets/redejaguarana.jpeg",
     "title": "Rede jaguarana",
     "code": "00005",
     "price": "19,90"
   },
   {
     "id": "12",
-    "imgUrl": "./assets/tapete.jpeg",
+    "imgUrl": "../src/assets/tapete.jpeg",
     "title": "Tapete",
     "code": "00006",
     "price": "19,90"
