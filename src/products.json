@@ -2,84 +2,84 @@
   {
     "id": "1",
     "imgUrl": "./src/assets/argan.jpeg",
-    "title": "Item 1",
+    "title": "Doce",
     "code": "00001",
     "price": "19,90"
   },
   {
     "id": "2",
     "imgUrl": "./src/assets/bababell.jpeg",
-    "title": "Item 2",
+    "title": "Capilar bababell",
     "code": "00002",
     "price": "19,90"
   },
   {
     "id": "3",
     "imgUrl": "./src/assets/blond.jpeg",
-    "title": "Item 3",
+    "title": "Blond platinum",
     "code": "00003",
     "price": "19,90"
   },
   {
     "id": "4",
     "imgUrl": "./src/assets/colonia.jpeg",
-    "title": "Item 4",
+    "title": "Colônia",
     "code": "00004",
     "price": "19,90"
   },
   {
     "id": "5",
     "imgUrl": "./src/assets/doce.jpeg",
-    "title": "Item 5",
+    "title": "Doce",
     "code": "00005",
     "price": "19,90"
   },
   {
     "id": "6",
     "imgUrl": "./src/assets/garrafa.jpeg",
-    "title": "Item 6",
+    "title": "Garrafa",
     "code": "00006",
     "price": "19,90"
   },
   {
     "id": "7",
     "imgUrl": "./src/assets/gcareca.jpeg",
-    "title": "Item 7",
+    "title": "Camisa",
     "code": "00007",
     "price": "19,90"
   },
   {
     "id": "8",
     "imgUrl": "./src/assets/gel.jpeg",
-    "title": "Item 8",
+    "title": "Natgel",
     "code": "00008",
     "price": "19,90"
   },
   {
     "id": "9",
     "imgUrl": "./src/assets/maquinadecorte.jpeg",
-    "title": "Item 9",
+    "title": "Maquina de corte",
     "code": "00009",
     "price": "19,90"
   },
   {
     "id": "10",
     "imgUrl": "./src/assets/massageador.jpeg",
-    "title": "Item 10",
+    "title": "Massageador",
     "code": "00010",
     "price": "19,90"
   },
   {
     "id": "11",
     "imgUrl": "./src/assets/redejaguarana.jpeg",
-    "title": "Item 11",
+    "title": "Rede jaguarana",
     "code": "00005",
     "price": "19,90"
   },
   {
     "id": "12",
     "imgUrl": "./src/assets/tapete.jpeg",
-    "title": "Item 12",
+    "title": "Tapete",
     "code": "00006",
     "price": "19,90"
   }
