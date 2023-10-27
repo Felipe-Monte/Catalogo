@@ -8,9 +8,15 @@ export const Container = styled.header`
   justify-content: center;
   align-items: center;
 
-  background-color: ${({theme}) => theme.COLORS.PURPLE};
+  background-color: ${({ theme }) => theme.COLORS.PURPLE};
 
   h1 {
     font-size: 28px;
+  }
+
+  @media (max-width:450px) {
+    > h1 {
+      font-size: 19px;
+    }
   }
 `
