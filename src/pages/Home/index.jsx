@@ -1,4 +1,4 @@
-import { Container } from "./styles"
+import { Container, Section } from "./styles"
 
 import { Header } from "../../components/Header"
 import { Cards } from "../../components/Cards"
@@ -16,20 +16,22 @@ export function Home() {
       />
 
       <main>
-        {
-          jsonData.map((item) => (
-            <Cards
-              key={item.id}
-              imgUrl={item.imgUrl}
-              title={item.title}
-              code={item.code}
-              price={item.price}
-            />
-          ))
-        }
+        <Section>
+          {
+            jsonData.map((item) => (
+              <Cards
+                key={item.id}
+                imgUrl={item.imgUrl}
+                title={item.title}
+                code={item.code}
+                price={item.price}
+              />
+            ))
+          }
+        </Section>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </Container>
   )
 }
