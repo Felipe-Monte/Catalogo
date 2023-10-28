@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 150px);
 
   border: 2px solid red;
 
@@ -24,8 +24,6 @@ export const Container = styled.div`
   @media (max-width: 450px) {
     > main {
       height: 100%; 
-
-      overflow-y: auto;
     }
   }
 `
