@@ -7,7 +7,7 @@ export function AppRoutes(){
   return(
     <Routes>
        <Route path='/' element={<Home />} />
-       <Route path='/details/:cardId' element={<Details />} />
+       <Route path='/details/:code' element={<Details />} />
     </Routes>
   )
 }

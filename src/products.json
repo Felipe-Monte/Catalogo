@@ -73,14 +73,14 @@
     "id": "11",
     "imgUrl": "/redejaguarana.jpeg",
     "title": "Rede jaguarana",
-    "code": "00005",
+    "code": "00011",
     "price": "19,90"
   },
   {
     "id": "12",
     "imgUrl": "/tapete.jpeg",
     "title": "Tapete",
-    "code": "00006",
+    "code": "00012",
     "price": "19,90"
   }
 ]
