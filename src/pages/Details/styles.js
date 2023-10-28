@@ -9,6 +9,9 @@ export const Container = styled.div`
   > main {
     width: 100%;
     height: 100%; 
+
+    margin-top: 50px;
+
     display: flex;
     justify-content: center;
   }
@@ -32,7 +35,7 @@ export const Section = styled.section`
 
   @media (max-width: 450px) {
     width: 100%;
-    height: calc(100% - 60px);
+    height: calc(100% - 50px);
 
     display: flex;
     flex-direction: column;

@@ -10,7 +10,7 @@ export const Container = styled.div`
   > main {
     width: 100%;
     max-width: 1500px;
-    margin: auto;
+    margin: 50px auto;
     height: fit-content;
 
     display: flex;
