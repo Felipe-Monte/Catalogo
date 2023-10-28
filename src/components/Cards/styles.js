@@ -25,7 +25,6 @@ export const Container = styled(Link)`
       height: 275px;
       
       padding: 0;
-      pointer-events: none;
     }
 `
 
