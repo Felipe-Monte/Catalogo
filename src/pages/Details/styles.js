@@ -2,19 +2,20 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
-  
+  height: calc(100vh - 100px);
+
+  border: 1px solid red;
+
   > main {
     width: 100%;
-    height: calc(100% - 100px) ;
-
+    height: 100%; // Altere esta linha
     display: flex;
     justify-content: center;
   }
 
   @media (max-width: 450px) {
     > main {
-      height: calc(100% - 100px);
+      height: 100%; // Altere esta linha
     }
   }
 `
