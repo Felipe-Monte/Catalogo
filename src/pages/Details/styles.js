@@ -41,6 +41,9 @@ export const Section = styled.section`
     height: 500px;
 
     margin-top: 70px;
+    
+    position: fixed;
+    top: 0;
 
     display: flex;
     flex-direction: column;
