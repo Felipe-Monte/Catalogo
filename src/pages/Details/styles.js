@@ -10,6 +10,7 @@ export const Container = styled.div`
   .container-section{
     width: 100%;
     height: 100%;
+    overflow-y: hidden;
   }
 
   > main {
@@ -39,7 +40,7 @@ export const Section = styled.section`
     width: 100%;
     height: 500px;
 
-    margin-top: 50px;
+    margin-top: 70px;
 
     display: flex;
     flex-direction: column;
