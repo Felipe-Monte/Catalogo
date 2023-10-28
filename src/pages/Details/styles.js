@@ -10,7 +10,6 @@ export const Container = styled.div`
 
     display: flex;
     justify-content: center;
-    align-items: center;
   }
 
   @media (max-width: 450px) {
@@ -30,7 +29,7 @@ export const Section = styled.section`
 
   @media (max-width: 450px) {
     width: 100%;
-    height: 100%;
+    height: calc(100% - 40px);
 
     display: flex;
     flex-direction: column;
