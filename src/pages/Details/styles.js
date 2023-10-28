@@ -5,6 +5,7 @@ export const Container = styled.div`
   height: 100vh;
 
   border: 2px solid red;
+  overflow-y: hidden;
 
   .container-section{
     width: 100%;
