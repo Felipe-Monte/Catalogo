@@ -23,7 +23,7 @@ export function Details() {
         </Section>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
 
     </Container>
   )

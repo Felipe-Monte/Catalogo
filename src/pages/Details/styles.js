@@ -2,20 +2,20 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  height: calc(100vh - 100px);
+  height: 100%;
 
-  border: 1px solid red;
+  border: 2px solid red;
 
   > main {
     width: 100%;
-    height: 100%; // Altere esta linha
+    height: 100%; 
     display: flex;
     justify-content: center;
   }
 
   @media (max-width: 450px) {
     > main {
-      height: 100%; // Altere esta linha
+      height: 100%; 
 
       overflow-y: auto;
     }
@@ -32,7 +32,7 @@ export const Section = styled.section`
 
   @media (max-width: 450px) {
     width: 100%;
-    height: calc(100% - 40px);
+    height: calc(100% - 60px);
 
     display: flex;
     flex-direction: column;
