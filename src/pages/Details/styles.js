@@ -5,6 +5,7 @@ export const Container = styled.div`
   height: calc(100vh - 100px);
 
   border: 1px solid red;
+  overflow: hidden;
 
   > main {
     width: 100%;
