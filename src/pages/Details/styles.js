@@ -67,7 +67,7 @@ export const ContainerImg = styled.div`
 
 export const ContainerText = styled.div`
   width: 50%;
-  height: 100%;
+  height: fit-content;
 
   display: flex;
   flex-direction: column;
@@ -93,7 +93,7 @@ export const ContainerText = styled.div`
     width: 100%;
 
     padding-top: 0;
-
+  
       > h2 {
       font-size: 28px;
     }
