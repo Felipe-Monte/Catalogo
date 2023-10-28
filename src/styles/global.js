@@ -24,6 +24,7 @@ export default createGlobalStyle`
   }
 
   a {
+    color: ${({theme}) => theme.COLORS.WHITE};
     text-decoration: none;
   }
 

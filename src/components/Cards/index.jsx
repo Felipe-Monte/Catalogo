@@ -1,6 +1,5 @@
 import { Container, CardImg, CardText } from './styles';
 
-
 export function Cards({ imgUrl, title, code, price }) {
   return (
     <Container>

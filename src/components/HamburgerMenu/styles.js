@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.button`
-  width: 42px;
-  height: 42px;
+  width: 45px;
+  height: 45px;
 
   position: absolute;
   right: 10px;
@@ -12,9 +12,8 @@ export const Container = styled.button`
   align-items: center;
 
   background-color: transparent;
-
-  border: 1px solid red;
-
+  border: none;
+ 
   > svg {
     width: 100%;
     height: 100%;
