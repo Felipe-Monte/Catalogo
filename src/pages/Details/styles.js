@@ -14,7 +14,7 @@ export const Container = styled.div`
 
   @media (max-width: 450px) {
     > main {
-      height: calc(100% - 100px) ;
+      height: fit-content ;
     }
   }
 `
