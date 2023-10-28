@@ -8,7 +8,7 @@ export default createGlobalStyle`
     font-family: 'Roboto Slab', serif;
   }
 
-  body {
+  body, html {
     width: 100%;
     height: 100vh;
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
