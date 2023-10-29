@@ -4,18 +4,25 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
+  
   border: 2px solid red;
   overflow-y: hidden;
 
   .container-section{
     width: 100%;
     height: 100%;
+
+    display: flex;
+    justify-content: center;
+
     overflow-y: hidden;
   }
 
   > main {
     width: 100%;
     height: 100%; 
+
+    margin-top: 100px;
 
     display: flex;
     justify-content: center;
@@ -36,9 +43,9 @@ export const Section = styled.section`
   border: 1px solid white;
   border-radius: 10px;
 
-  @media (max-width: 450px) {
+  @media (max-width: 768px) {
     width: 100%;
-    height: 500px;
+    height: 550px;
 
     margin-top: 70px;
     

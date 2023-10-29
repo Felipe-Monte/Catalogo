@@ -12,7 +12,7 @@ export const Container = styled.div`
     max-width: 1500px;
     height: 100vh;
 
-    margin: 50px auto;
+    margin: 0px auto;
     overflow-y: scroll;
 
     display: flex;
@@ -22,12 +22,24 @@ export const Container = styled.div`
     gap: 15px;
 
     padding: 0px;
+  }
 
+  @media (max-width: 1300px) {
+    margin: 50px auto;
   }
 `
 
 export const Section = styled.section`
   width: 100%;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  padding: 15px;
+
+  border: 2px solid white;
 
   @media screen and (max-width: 700px) {
       display: grid;
