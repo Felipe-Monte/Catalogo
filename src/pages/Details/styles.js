@@ -4,8 +4,6 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
-  
-  border: 2px solid red;
   overflow-y: hidden;
 
   .container-section{
@@ -40,7 +38,6 @@ export const Section = styled.section`
 
   display: flex;
 
-  border: 1px solid white;
   border-radius: 10px;
 
   @media (max-width: 768px) {
