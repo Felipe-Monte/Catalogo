@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;  
   height: 100vh;
+
+  margin-top: 50px;
   
   padding-bottom: 40px;
   position: relative;
@@ -13,7 +15,7 @@ export const Container = styled.div`
     height: 100vh;
 
     margin: 0px auto;
-    overflow-y: scroll;
+    overflow-y: auto;
 
     display: flex;
     justify-content: center;
@@ -22,6 +24,10 @@ export const Container = styled.div`
     gap: 15px;
 
     padding: 0px;
+  }
+
+  main::-webkit-scrollbar { 
+    display: none;
   }
 
   @media (max-width: 1300px) {
@@ -39,7 +45,7 @@ export const Section = styled.section`
 
   padding: 15px;
 
-  border: 2px solid white;
+  /* border: 2px solid white; */
 
   @media screen and (max-width: 700px) {
       display: grid;
