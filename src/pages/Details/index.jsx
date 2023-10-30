@@ -17,13 +17,13 @@ export function Details() {
         <div className='container-section'>
           <Section>
             <ContainerImg>
-              <img src="/bababell.jpeg" />
+              <img src={imgUrl}/>
             </ContainerImg>
 
             <ContainerText>
-              <h2>Item 1</h2>
-              <p>00000</p>
-              <span>R$: 59,90</span>
+              <h2>{title}</h2>
+              <p>{code}</p>
+              <span>R$: {price}</span>
             </ContainerText>
           </Section>
         </div>
