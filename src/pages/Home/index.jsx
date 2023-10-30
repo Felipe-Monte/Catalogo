@@ -7,8 +7,6 @@ import { Footer } from "../../components/Footer"
 import jsonData from "../../products.json"
 
 export function Home() {
-  console.log(jsonData)
-
   return (
     <Container>
       <Header
