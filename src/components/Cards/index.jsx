@@ -1,8 +1,16 @@
 import { Container, CardImg, CardText } from './styles';
+import { Navigate, useNavigate } from 'react-router-dom'
 
 export function Cards({ imgUrl, title, code, price }) {
+  const navigate = useNavigate()
+
+  function handleCardClick() {
+    navigate(`/details/${code}`, { state: { imgUrl, title, code, price } })
+    console.log(imgUrl, title, code, price )
+  }
+
   return (
-    <Container to={`/details/${code}`}>
+    <Container onClick={handleCardClick}>
       <CardImg>
         <img src={imgUrl} alt={`Imagem de ${title}`} />
       </CardImg>
