@@ -54,6 +54,14 @@ export const Section = styled.section`
     align-items: center; 
 
     border-radius: 0;
+
+    > a {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+
+      border: 1px solid red;
+    }
   }
 `
 export const ContainerImg = styled.div`

@@ -25,6 +25,8 @@ export function Details() {
               <p>{code}</p>
               <span>R$: {price}</span>
             </ContainerText>
+
+            <a href="#">voltar</a>
           </Section>
         </div>
       </main>
