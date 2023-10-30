@@ -1,9 +1,14 @@
 import { Container, Section, ContainerImg, ContainerText } from './styles'
+import { useLocation } from 'react-router-dom'
 
 import { Header } from '../../components/Header'
 import { Footer } from '../../components/Footer'
 
 export function Details() {
+  const location = useLocation()
+  const { imgUrl, title, code, price } = location.state || {}
+ 
+
   return (
     <Container>
       <Header title="Detalhes do produto" />

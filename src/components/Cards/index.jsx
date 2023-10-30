@@ -6,7 +6,6 @@ export function Cards({ imgUrl, title, code, price }) {
 
   function handleCardClick() {
     navigate(`/details/${code}`, { state: { imgUrl, title, code, price } })
-    console.log(imgUrl, title, code, price )
   }
 
   return (
