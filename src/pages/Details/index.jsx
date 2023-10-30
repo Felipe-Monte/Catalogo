@@ -1,4 +1,5 @@
-import { Container, Section, ContainerImg, ContainerText } from './styles'
+import { FiArrowLeft } from 'react-icons/fi'
+import { Container, Section, ContainerImg, ContainerText,ButtonBackContainer } from './styles'
 import { useLocation } from 'react-router-dom'
 
 import { Header } from '../../components/Header'
@@ -7,7 +8,7 @@ import { Footer } from '../../components/Footer'
 export function Details() {
   const location = useLocation()
   const { imgUrl, title, code, price } = location.state || {}
- 
+
 
   return (
     <Container>
@@ -17,7 +18,7 @@ export function Details() {
         <div className='container-section'>
           <Section>
             <ContainerImg>
-              <img src={imgUrl}/>
+              <img src={imgUrl} />
             </ContainerImg>
 
             <ContainerText>
@@ -26,7 +27,10 @@ export function Details() {
               <span>R$: {price}</span>
             </ContainerText>
 
-            <a href="#">voltar</a>
+            <ButtonBackContainer>
+              <FiArrowLeft/>
+              <a href="#">voltar</a>
+            </ButtonBackContainer>
           </Section>
         </div>
       </main>

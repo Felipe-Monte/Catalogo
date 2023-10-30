@@ -54,14 +54,6 @@ export const Section = styled.section`
     align-items: center; 
 
     border-radius: 0;
-
-    > a {
-      position: absolute;
-      bottom: 20px;
-      left: 20px;
-
-      border: 1px solid red;
-    }
   }
 `
 export const ContainerImg = styled.div`
@@ -132,4 +124,29 @@ export const ContainerText = styled.div`
       font-size: 30px;
     }
   }
+`
+
+export const ButtonBackContainer = styled.div`
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 10px;
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    border: 1px solid blue;
+
+    > svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    > a {
+      font-size: 18px;
+      color: ${({ theme }) => theme.COLORS.WHITE};
+      margin-bottom: 2px;
+    }
 `
