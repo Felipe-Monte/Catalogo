@@ -53,9 +53,9 @@ export const Section = styled.section`
       justify-content: center;
       align-items: center;
       justify-items: center;
-      gap: 5px;
-
-      padding: 5px;
+      gap: 3px;
+      
+      padding: 5px 0px 0px 0px;
     }
 `
 
