@@ -138,6 +138,8 @@ export const ButtonBackContainer = styled.div`
     bottom: 20px;
     left: 20px;
 
+    cursor: pointer;
+
     border: 1px solid ${({theme}) => theme.COLORS.PURPLE};
 
     > svg {
