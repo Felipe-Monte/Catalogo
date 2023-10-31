@@ -10,11 +10,11 @@ import { useNavigate } from 'react-router-dom'
 export function Details() {
   const location = useLocation()
   const { imgUrl, title, code, price } = location.state || {}
-
+  
   const navigate = useNavigate()
 
   function handleClickBack(){
-    navigate("/")
+    navigate('/')
   }
 
   return (
@@ -30,7 +30,7 @@ export function Details() {
 
             <ContainerText>
               <h2>{title}</h2>
-              <p>{code}</p>
+              <p>Cód: {code}</p>
               <span>R$: {price}</span>
             </ContainerText>
 

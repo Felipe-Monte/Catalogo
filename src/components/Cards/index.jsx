@@ -16,7 +16,7 @@ export function Cards({ imgUrl, title, code, price }) {
 
       <CardText>
         <h2>{title}</h2>
-        <p>{code}</p>
+        <p>Cód: {code}</p>
         <span>{price}</span>
       </CardText>
     </Container>
