@@ -7,8 +7,6 @@ import { Footer } from '../../components/Footer'
 
 import { useNavigate } from 'react-router-dom'
 
-import api from '../../products.json'
-
 export function Details() {
   const location = useLocation()
   const { imgUrl, title, code, price } = location.state || {}
