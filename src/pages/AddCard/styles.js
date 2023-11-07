@@ -14,7 +14,7 @@ export const Container = styled.div`
 
     padding: 25px;
 
-    margin: 100px auto 0px auto;
+    margin: 50px auto 0px auto;
 
     border: 2px solid ${({ theme }) => theme.COLORS.PURPLE};
     border-radius: 10px;
@@ -48,6 +48,10 @@ export const Container = styled.div`
       
       border: none;
       border-radius: 5px;
+    }
+
+    > input#image {
+      height: 200px;
     }
 
   }

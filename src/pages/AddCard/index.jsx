@@ -11,7 +11,7 @@ export function AddCard() {
 
         <div className='container_input'>
           <label htmlFor="image">Imagem:</label>
-          <input type="file" id='image'/>
+          <input type="file" id='image'/> 
         </div>
 
         <div className='container_input'>
