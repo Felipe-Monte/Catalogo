@@ -7,26 +7,26 @@ export function AddCard() {
     <Container>
       <Header title="Adicionar novo produto" />
       
-      <form action="">
+      <form action="/cards" method='post' >
 
         <div className='container_input'>
           <label htmlFor="image">Imagem:</label>
-          <input type="file" id='image'/> 
+          <input type="file" id='image' accept='image/*'/> 
         </div>
 
         <div className='container_input'>
           <label htmlFor="title">Título:</label>
-          <input type="text" id='title' placeholder='Descrição do produto'/>
+          <input type="text" id='title' name='title' placeholder='Descrição do produto'/>
         </div>
 
         <div className='container_input'>
           <label htmlFor="code">Código:</label>
-          <input type="text" id='code' placeholder='Cód: 00000'/>
+          <input type="text" id='code' name='code' placeholder='Cód: 00000'/>
         </div>
 
         <div className='container_input'>
           <label htmlFor="price">Preço:</label>
-          <input type="text" id='price' placeholder='R$: 00,00'/>
+          <input type="text" id='price' name='price' placeholder='R$: 00,00'/>
         </div>
 
         <button>Enviar</button>
