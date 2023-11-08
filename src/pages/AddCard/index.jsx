@@ -1,15 +1,35 @@
 import { Container } from './styles'
 
+import { useNavigate } from 'react-router-dom'
+
 import { Header } from '../../components/Header'
 import { useState } from 'react'
+
+import { api } from '../../services/api'
 
 export function AddCard() {
   const [title, setTitle] = useState("")
   const [code, setCode] = useState("")
   const [price, setPrice] = useState("")
 
-  async function handleNewCard(){
+  const navigate = useNavigate()
 
+  async function handleNewCard(e) {
+    e.preventDefault()
+
+    try {
+      await api.post("/cards", {
+        title,
+        code,
+        price
+      })
+
+      alert("Produto adicionado com sucesso !")
+      navigate("/")
+          
+    } catch (error) {
+      console.error("Error ao adicionar um novo produto:", error)
+    }
   }
 
   return (
@@ -49,11 +69,16 @@ export function AddCard() {
           <input
             type="text"
             id='price'
-            placeholder='R$: 00,00' 
-            onChange={e => setPrice(e.target.value)}/>
+            placeholder='R$: 00,00'
+            onChange={e => setPrice(e.target.value)} />
         </div>
 
-        <button>Enviar</button>
+        <button
+          type='submit'
+          onClick={handleNewCard}
+        >
+          Enviar
+        </button>
       </form>
 
     </Container>
