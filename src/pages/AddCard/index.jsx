@@ -17,6 +17,10 @@ export function AddCard() {
   async function handleNewCard(e) {
     e.preventDefault()
 
+    if(!title || !code || !price){
+      return alert("Preencha os campos")
+    }
+
     try {
       await api.post("/cards", {
         title,
@@ -24,7 +28,7 @@ export function AddCard() {
         price
       })
 
-      alert("Produto adicionado com sucesso !")
+      alert("Produto cadastrado !")
       navigate("/")
           
     } catch (error) {
