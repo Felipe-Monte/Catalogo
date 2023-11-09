@@ -12,7 +12,7 @@ export function Sidebar({ active }) {
     <Container>
       <FaTimes onClick={closeSidebar}/>
       <Content>
-        <SidebarItem Icon={FaFileUpload} text="Adicionar"/>
+        <SidebarItem Icon={FaFileUpload} text="Adicionar produto"/>
       </Content>
     </Container>
   )

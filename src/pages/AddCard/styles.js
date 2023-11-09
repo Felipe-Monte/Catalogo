@@ -16,21 +16,24 @@ export const Container = styled.div`
 
     margin: 50px auto 0px auto;
 
-    border: 2px solid ${({ theme }) => theme.COLORS.PURPLE};
-    border-radius: 10px;
-
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+  
     .container_button {
       display: flex;
+      align-items: center;
       justify-content: space-between;
-
+      
       > a {
         display: flex;
         align-items: center;
         gap: 2px;
+        
+        padding: 8px;
+
+        border: 1px solid ${({theme}) => theme.COLORS.PURPLE};
       }
       
       > button {
-        margin: 10px 0 10px 0;
         padding: 5px;
       }
     }

@@ -5,12 +5,11 @@ import { Link } from "react-router-dom"
 export const Container = styled(Link)`
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   padding: 10px;
   cursor: pointer;
-  border: 1px solid purple;
-  border-radius: 10px;
+  border: 1px solid ${({theme}) => theme.COLORS.PURPLE};
   margin: 0 15px 20px; 
 
   > svg {
