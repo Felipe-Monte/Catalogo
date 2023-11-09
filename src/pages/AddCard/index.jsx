@@ -4,6 +4,7 @@ import { FiArrowLeft } from "react-icons/fi"
 import { useNavigate } from 'react-router-dom'
 
 import { Header } from '../../components/Header'
+import { Input } from '../../components/Input'
 
 import { useState } from 'react'
 
@@ -54,30 +55,33 @@ export function AddCard() {
         </div>
 
         <div className='container_input'>
-          <label htmlFor="title">Título:</label>
+          <Input placeholder="Título" />
+          {/* <label htmlFor="title">Título:</label>
           <input
             type="text"
             id='title'
             placeholder='Descrição do produto'
-            onChange={e => setTitle(e.target.value)} />
+            onChange={e => setTitle(e.target.value)} /> */}
         </div>
 
         <div className='container_input'>
-          <label htmlFor="code">Código:</label>
+          <Input placeholder="Código do produto" />
+          {/* <label htmlFor="code">Código:</label>
           <input
             type="text"
             id='code'
             placeholder='Cód: 00000'
-            onChange={e => setCode(e.target.value)} />
+            onChange={e => setCode(e.target.value)} /> */}
         </div>
 
         <div className='container_input'>
-          <label htmlFor="price">Preço:</label>
+          <Input placeholder="Preço"/>
+          {/* <label htmlFor="price">Preço:</label>
           <input
             type="text"
             id='price'
             placeholder='R$: 00,00'
-            onChange={e => setPrice(e.target.value)} />
+            onChange={e => setPrice(e.target.value)} /> */}
         </div>
 
         <div className='container_button'>
