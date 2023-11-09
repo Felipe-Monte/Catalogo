@@ -9,7 +9,8 @@ export const Container = styled(Link)`
   color: white;
   padding: 10px;
   cursor: pointer;
-  border: 1px solid ${({theme}) => theme.COLORS.PURPLE};
+  border-radius: 5px;
+  background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
   margin: 0 15px 20px; 
 
   > svg {
