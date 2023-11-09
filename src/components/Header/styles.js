@@ -18,10 +18,12 @@ export const Container = styled.header`
 
   > svg {
     position: fixed;
-    right: 20px;
+    right: 10px;
 
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
+
+    cursor: pointer;
   }
 
   h1 {

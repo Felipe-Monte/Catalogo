@@ -3,6 +3,8 @@ import { Container } from "./styles"
 
 import { FiAlignJustify } from 'react-icons/fi'
 
+import { Sidebar } from "../Sidebar"
+
 export function Header({ title }) {
   const [sidebar, setSidebar] = useState(false)
 
@@ -12,7 +14,8 @@ export function Header({ title }) {
     <Container>
       <h1>{title}</h1>
 
-      <FiAlignJustify onClick={showSidebar}/>
+      <FiAlignJustify onClick={showSidebar} />
+      {sidebar && <Sidebar active={setSidebar} />}
     </Container>
   )
 }
