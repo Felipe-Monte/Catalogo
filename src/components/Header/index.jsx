@@ -1,13 +1,18 @@
+import { useState } from "react"
 import { Container } from "./styles"
 
-import { HamburgerMenu } from '../HamburgerMenu'
+import { FiAlignJustify } from 'react-icons/fi'
 
 export function Header({ title }) {
+  const [sidebar, setSidebar] = useState(false)
+
+  const showSidebar = () => setSidebar(!sidebar)
+
   return (
     <Container>
       <h1>{title}</h1>
 
-      <HamburgerMenu />
+      <FiAlignJustify onClick={showSidebar}/>
     </Container>
   )
 }

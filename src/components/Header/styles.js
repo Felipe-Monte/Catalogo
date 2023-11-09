@@ -16,6 +16,14 @@ export const Container = styled.header`
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE};
 
+  > svg {
+    position: fixed;
+    right: 20px;
+
+    width: 35px;
+    height: 35px;
+  }
+
   h1 {
     font-size: 28px;
   }
