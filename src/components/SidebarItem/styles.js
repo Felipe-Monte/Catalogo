@@ -1,6 +1,8 @@
 import styled from "styled-components"
 
-export const Container = styled.div`
+import { Link } from "react-router-dom"
+
+export const Container = styled(Link)`
   display: flex;
   align-items: center;
   font-size: 20px;

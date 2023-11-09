@@ -1,9 +1,12 @@
 import { Container } from './styles'
+import { FiArrowLeft } from "react-icons/fi"
 
 import { useNavigate } from 'react-router-dom'
 
 import { Header } from '../../components/Header'
 import { useState } from 'react'
+
+import { Link } from 'react-router-dom'
 
 import { api } from '../../services/api'
 
@@ -17,7 +20,7 @@ export function AddCard() {
   async function handleNewCard(e) {
     e.preventDefault()
 
-    if(!title || !code || !price){
+    if (!title || !code || !price) {
       return alert("Preencha os campos")
     }
 
@@ -30,7 +33,7 @@ export function AddCard() {
 
       alert("Produto cadastrado !")
       navigate("/")
-          
+
     } catch (error) {
       console.error("Error ao adicionar um novo produto:", error)
     }
@@ -77,12 +80,20 @@ export function AddCard() {
             onChange={e => setPrice(e.target.value)} />
         </div>
 
-        <button
-          type='submit'
-          onClick={handleNewCard}
-        >
-          Enviar
-        </button>
+        <div className='container_button'>
+          <Link to="/">
+            <FiArrowLeft />
+            Voltar
+          </Link>
+
+          <button
+            type='submit'
+            onClick={handleNewCard}
+          >
+            Enviar
+          </button>
+        </div>
+
       </form>
 
     </Container>

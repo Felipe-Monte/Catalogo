@@ -19,12 +19,22 @@ export const Container = styled.div`
     border: 2px solid ${({ theme }) => theme.COLORS.PURPLE};
     border-radius: 10px;
 
-    > button {
-      margin: 10px 0 10px 0;
-      align-self: flex-end;
-      padding: 5px;
-    }
+    .container_button {
+      display: flex;
+      justify-content: space-between;
 
+      > a {
+        display: flex;
+        align-items: center;
+        gap: 2px;
+      }
+      
+      > button {
+        margin: 10px 0 10px 0;
+        padding: 5px;
+      }
+    }
+    
     @media screen and (max-width: 700px) {
       width: 100%;
     }
