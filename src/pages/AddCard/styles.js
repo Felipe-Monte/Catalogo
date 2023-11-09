@@ -22,6 +22,7 @@ export const Container = styled.div`
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-top: 10px;
       
       > a {
         display: flex;
@@ -53,7 +54,7 @@ export const Container = styled.div`
 
     > input {
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
 
       padding: 5px;
 

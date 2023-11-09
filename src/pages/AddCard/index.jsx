@@ -46,7 +46,6 @@ export function AddCard() {
       <form>
 
         <div className='container_input'>
-          <label htmlFor="image">Imagem:</label>
           <input
             type="file"
             id='image'
