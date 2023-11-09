@@ -29,13 +29,13 @@ export const Container = styled.div`
         align-items: center;
         gap: 2px;
         
-        padding: 8px;
+        padding: 10px;
 
         border: 1px solid ${({theme}) => theme.COLORS.PURPLE};
       }
       
       > button {
-        padding: 5px;
+        padding: 10px;
       }
     }
     
