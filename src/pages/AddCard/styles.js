@@ -46,6 +46,10 @@ export const Container = styled.div`
   }
 
   .container_input {
+    .input_img {
+     height: 200px;
+    }
+
     > label {
       display: block;
       margin-bottom: 5px;
