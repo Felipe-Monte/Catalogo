@@ -16,8 +16,6 @@ export function Home() {
         const response = await api.get("/cards")
         setCards(response.data)
 
-        console.log(response.data)
-
       } catch (error) {
         console.log("Error na requisição:", error)
       }
