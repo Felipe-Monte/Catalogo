@@ -46,6 +46,11 @@ export const Container = styled.div`
   }
 
   .container_input {
+    > img {
+      width: 300px;
+      height: 150px;
+    }
+
     .input_img {
      height: 200px;
     }

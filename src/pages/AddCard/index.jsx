@@ -1,88 +1,73 @@
 import React, { useState } from 'react';
 import { Container } from './styles';
 import { FiArrowLeft } from 'react-icons/fi';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
-
 import { api } from '../../services/api';
 
 export function AddCard() {
-  const [imgUrl, setImgUrl] = useState(null)
+  const [avatar, setAvatar] = useState(null);
+  const [avatarFile, setAvatarFile] = useState(null);
+  const [title, setTitle] = useState('');
+  const [code, setCode] = useState('');
+  const [price, setPrice] = useState('');
 
-  const [title, setTitle] = useState('')
-  const [code, setCode] = useState('')
-  const [price, setPrice] = useState('')
+  const handleAddImg = (event) => {
+    const file = event.target.files[0];
+    setAvatarFile(file);
+    setAvatar(URL.createObjectURL(file));
+  };
 
-  const navigate = useNavigate()
-
-  async function handleNewCard(e) {
+  const handleNewCard = async (e) => {
     e.preventDefault();
 
-    if (!imgUrl || !title || !code || !price) {
+    if (!avatarFile || !title || !code || !price) {
       return alert('Preencha todos os campos');
     }
 
+    const formData = new FormData();
+    formData.append('upload', avatarFile);
+    formData.append('title', title);
+    formData.append('code', code);
+    formData.append('price', price);
+
+  
     try {
-      await api.post('/cards', {
-        imgUrl,
-        title,
-        code,
-        price,
+      const response = await api.post("/cards/upload", formData, {
+        headers: { 'Content-Type': 'multipart/form-data' },
       });
 
-      alert('Produto cadastrado!');
-      // navigate('/');
+      console.log(response.data);
+      alert('Imagem enviada com sucesso!');
 
+      // Limpar o formulário ou redirecionar para outra página, se necessário
     } catch (error) {
-      console.error('Erro ao adicionar um novo produto:', error);
+      console.error('Erro ao enviar o formulário:', error);
+      alert('Erro ao enviar o formulário');
     }
-  }
+  };
 
   return (
     <Container>
       <Header title="Adicionar novo produto" />
-
-      <form>
+      <form encType="multipart/form-data">
         <div className="container_input">
-          <input
-            type="file"
-            name='image'
-            className="input_img"
-            onChange={(e) => setImgUrl(e.target.files[0])}
-          />
+          <input type="file" name='upload' className="input_img" onChange={handleAddImg} />
+          <img src={avatar} alt="Preview" />
         </div>
-
         <div className="container_input">
-          <Input
-            placeholder="Título"
-            onChange={(e) => setTitle(e.target.value)}
-          />
+          <Input placeholder="Título" onChange={(e) => setTitle(e.target.value)} />
         </div>
-
         <div className="container_input">
-          <Input
-            placeholder="Código do produto"
-            onChange={(e) => setCode(e.target.value)}
-          />
+          <Input placeholder="Código do produto" onChange={(e) => setCode(e.target.value)} />
         </div>
-
         <div className="container_input">
-          <Input
-            placeholder="Preço"
-            onChange={(e) => setPrice(e.target.value)}
-          />
+          <Input placeholder="Preço" onChange={(e) => setPrice(e.target.value)} />
         </div>
-
         <div className="container_button">
-          <Link to="/">
-            <FiArrowLeft />
-            Voltar
-          </Link>
-
-          <button type="submit" onClick={handleNewCard}>
-            Enviar
-          </button>
+          <Link to="/"><FiArrowLeft /> Voltar</Link>
+          <button type="submit" onClick={handleNewCard}>Enviar</button>
         </div>
       </form>
     </Container>
