@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+
 import { Container } from './styles';
 import { FiArrowLeft } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import { Header } from '../../components/Header';
 import { Input } from '../../components/Input';
+
 import { api } from '../../services/api';
 
 export function AddCard() {
@@ -32,7 +34,7 @@ export function AddCard() {
     formData.append('code', code);
     formData.append('price', price);
 
-  
+
     try {
       const response = await api.post("/cards/upload", formData, {
         headers: { 'Content-Type': 'multipart/form-data' },
@@ -41,7 +43,6 @@ export function AddCard() {
       console.log(response.data);
       alert('Imagem enviada com sucesso!');
 
-      // Limpar o formulário ou redirecionar para outra página, se necessário
     } catch (error) {
       console.error('Erro ao enviar o formulário:', error);
       alert('Erro ao enviar o formulário');
@@ -51,25 +52,58 @@ export function AddCard() {
   return (
     <Container>
       <Header title="Adicionar novo produto" />
+
       <form encType="multipart/form-data">
+
         <div className="container_input">
-          <input type="file" name='upload' className="input_img" onChange={handleAddImg} />
-          <img src={avatar} alt="Preview" />
+          <input
+            type="file"
+            name='upload'
+            className="input_img"
+            onChange={handleAddImg} />
+
+          <img
+            src={avatar}
+            alt="Preview"
+          />
         </div>
+
         <div className="container_input">
-          <Input placeholder="Título" onChange={(e) => setTitle(e.target.value)} />
+          <Input
+            placeholder="Título"
+            onChange={(e) => setTitle(e.target.value)}
+          />
         </div>
+
         <div className="container_input">
-          <Input placeholder="Código do produto" onChange={(e) => setCode(e.target.value)} />
+          <Input
+            placeholder="Código do produto"
+            onChange={(e) => setCode(e.target.value)}
+          />
         </div>
+
         <div className="container_input">
-          <Input placeholder="Preço" onChange={(e) => setPrice(e.target.value)} />
+          <Input
+            placeholder="Preço"
+            onChange={(e) => setPrice(e.target.value)}
+          />
         </div>
+
         <div className="container_button">
-          <Link to="/"><FiArrowLeft /> Voltar</Link>
-          <button type="submit" onClick={handleNewCard}>Enviar</button>
+          <Link to="/">
+            <FiArrowLeft />
+            Voltar
+          </Link>
+
+          <button
+            type="submit"
+            onClick={handleNewCard}
+          >
+            Enviar
+          </button>
         </div>
       </form>
+
     </Container>
   );
 }
