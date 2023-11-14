@@ -46,6 +46,8 @@ export function Home() {
         </Section>
       </main>
 
+      {/* `${api.defaults.baseURL}/files/${card.imgUrl}` */}
+
       {/* <Footer /> */}
     </Container>
   )
