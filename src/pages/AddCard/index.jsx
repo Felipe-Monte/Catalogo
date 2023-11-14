@@ -11,6 +11,7 @@ import { api } from '../../services/api';
 export function AddCard() {
   const [avatar, setAvatar] = useState(null);
   const [avatarFile, setAvatarFile] = useState(null);
+
   const [title, setTitle] = useState('');
   const [code, setCode] = useState('');
   const [price, setPrice] = useState('');
