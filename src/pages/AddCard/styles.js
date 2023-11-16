@@ -69,7 +69,7 @@ export const Container = styled.div`
     } 
 
     .input_img {
-     height: 200px;
+     height: 300px;
     }
 
     > label {
