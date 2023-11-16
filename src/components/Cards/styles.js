@@ -76,16 +76,17 @@ export const CardText = styled.div`
       padding: 5px;
 
       > h2 {
-        font-size: 18px;
+        font-size: 16px;
       }
 
       > p {
-        font-size: 12px;
+        font-size: 10px;
+        line-height: 16px;
         opacity: 0.4;
       }
 
       > span {
-        font-size: 12px;
+        font-size: 14px;
       }
     }
 `

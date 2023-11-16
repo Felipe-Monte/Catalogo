@@ -1,4 +1,5 @@
 import { Container, Section } from "./styles"
+import { FiSearch } from 'react-icons/fi'
 
 import { Header } from "../../components/Header"
 import { Cards } from "../../components/Cards"
@@ -6,6 +7,8 @@ import { Cards } from "../../components/Cards"
 import jsonData from "../../products.json"
 import { api } from "../../services/api"
 import { useState, useEffect } from "react"
+
+import { Input } from '../../components/Input'
 
 export function Home() {
   const [cards, setCards] = useState([])
@@ -30,16 +33,21 @@ export function Home() {
         title="Catálogo de produtos"
       />
 
+      <Input
+        icon={FiSearch}
+        placeholder="Pesquisar por nome"
+      />
+
       <main>
         <Section>
           {
-            cards.map((card) => (
+            jsonData.map((card) => (
               <Cards
                 key={card.id}
-                imgUrl={`${api.defaults.baseURL}/files/${card.imgUrl}`}
+                imgUrl={card.imgUrl}
                 title={card.title}
                 code={card.code}
-                price={card.price}
+                price={`R$: ${card.price}`}
               />
             ))
           }
