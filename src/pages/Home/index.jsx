@@ -33,10 +33,10 @@ export function Home() {
       <main>
         <Section>
           {
-            jsonData.map((card) => (
+            cards.map((card) => (
               <Cards
                 key={card.id}
-                imgUrl={card.imgUrl}
+                imgUrl={`${api.defaults.baseURL}/files/${card.imgUrl}`}
                 title={card.title}
                 code={card.code}
                 price={card.price}
