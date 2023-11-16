@@ -59,14 +59,18 @@ export function AddCard() {
         <div className="container_input">
           <input
             type="file"
+            id="upload"
             name='upload'
             className="input_img"
             onChange={handleAddImg} />
 
-          <img
-            src={avatar}
-            alt="Preview"
-          />
+          <label htmlFor="upload" className='label_img'>
+            <img
+              src={avatar}
+              alt="Preview"
+            />
+          </label>
+          
         </div>
 
         <div className="container_input">

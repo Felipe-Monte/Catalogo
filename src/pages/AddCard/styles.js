@@ -32,7 +32,7 @@ export const Container = styled.div`
         
         padding: 10px;
 
-        border: 1px solid ${({theme}) => theme.COLORS.PURPLE};
+        border: 1px solid ${({ theme }) => theme.COLORS.PURPLE};
       }
       
       > button {
@@ -46,10 +46,27 @@ export const Container = styled.div`
   }
 
   .container_input {
+    position: relative;
+
+    .label_img {
+      display: block;
+
+      width: 100%;
+      height: 100%; 
+
+      position: absolute;
+
+      top: 0;
+      left: 0;
+
+      cursor: pointer;
+
     > img {
-      width: 300px;
-      height: 150px;
-    }
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    } 
 
     .input_img {
      height: 200px;
