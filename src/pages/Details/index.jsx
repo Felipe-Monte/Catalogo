@@ -31,7 +31,7 @@ export function Details() {
             <ContainerText>
               <h2>{title}</h2>
               <p>Cód: {code}</p>
-              <span>R$: {price}</span>
+              <span>{price}</span>
             </ContainerText>
 
             <ButtonBackContainer onClick={handleClickBack}>

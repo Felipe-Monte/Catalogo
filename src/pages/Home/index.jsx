@@ -11,21 +11,35 @@ import { useState, useEffect } from "react"
 import { Input } from '../../components/Input'
 
 export function Home() {
-  const [cards, setCards] = useState([])
+  // const [cards, setCards] = useState([])
+
+  const [search, setSearch] = useState("")
+  const [filteredData, setFilteredData] = useState(jsonData)
+
+  // useEffect(() => {
+  //   async function fetchData() {
+  //     try {
+  //       const response = await api.get("/cards")
+  //       setCards(response.data)
+
+  //     } catch (error) {
+  //       console.log("Error na requisição:", error)
+  //     }
+  //   }
+
+  //   fetchData()
+  // }, [])
 
   useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await api.get("/cards")
-        setCards(response.data)
-
-      } catch (error) {
-        console.log("Error na requisição:", error)
+    const filteredData = () => {
+      const filtered = jsonData.filter(card => 
+        card.title.toLowerCase().includes(search.toLowerCase())
+      )
+      setFilteredData(filtered)
       }
-    }
-
-    fetchData()
-  }, [])
+   
+ filteredData()
+  }, [search])
 
   return (
     <Container>
@@ -36,12 +50,14 @@ export function Home() {
       <Input
         icon={FiSearch}
         placeholder="Pesquisar por nome"
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
       />
 
       <main>
         <Section>
           {
-            jsonData.map((card) => (
+            filteredData.map((card) => (
               <Cards
                 key={card.id}
                 imgUrl={card.imgUrl}
