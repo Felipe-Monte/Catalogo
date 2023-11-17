@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: auto;
-
+  height: 100vh;
+ 
   overflow: hidden;
   
   > form {
@@ -41,7 +42,10 @@ export const Container = styled.div`
     }
     
     @media screen and (max-width: 700px) {
+      height: 100%;
       width: 100%;
+
+      padding: 10px;
     }
   }
 
