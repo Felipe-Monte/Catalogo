@@ -20,7 +20,7 @@ export const Container = styled.div`
     width: 100%;
     height: 100%; 
 
-    margin-top: 100px;
+    margin-top: 50px;
 
     display: flex;
     justify-content: center;
@@ -60,8 +60,7 @@ export const ContainerImg = styled.div`
   width: 50%;
   height: 100%;
 
-  padding: 20px;
-
+  padding: 5px;
 
   > img {
     width: 100%;
