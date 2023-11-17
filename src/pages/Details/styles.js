@@ -39,12 +39,12 @@ export const Section = styled.section`
   display: flex;
 
   border-radius: 10px;
-
+  
   @media (max-width: 768px) {
     width: 100%;
     height: 550px;
 
-    margin-top: 70px;
+    margin-top: 50px;
     
     position: fixed;
     top: 0;
