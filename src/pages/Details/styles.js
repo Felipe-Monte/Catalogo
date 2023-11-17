@@ -42,7 +42,7 @@ export const Section = styled.section`
   
   @media (max-width: 768px) {
     width: 100%;
-    height: 550px;
+    height: calc(100% - 50px);
 
     margin-top: 50px;
     
