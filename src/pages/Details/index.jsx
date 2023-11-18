@@ -1,4 +1,5 @@
 import { FiArrowLeft } from 'react-icons/fi'
+import { FaWhatsapp } from "react-icons/fa";
 import { Container, Section, ContainerImg, ContainerText, ButtonBackContainer } from './styles'
 import { useLocation } from 'react-router-dom'
 
@@ -32,6 +33,9 @@ export function Details() {
               <h2>{title}</h2>
               <p>Cód: {code}</p>
               <span>{price}</span>
+
+              <FaWhatsapp />
+
             </ContainerText>
 
             <ButtonBackContainer onClick={handleClickBack}>

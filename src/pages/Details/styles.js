@@ -84,6 +84,8 @@ export const ContainerImg = styled.div`
 `
 
 export const ContainerText = styled.div`
+  position: relative;
+
   width: 50%;
   height: fit-content;
 
@@ -110,21 +112,30 @@ export const ContainerText = styled.div`
   @media (max-width: 450px) {
     width: 100%;
 
-    padding-top: 0;
-  
+    padding-top: 10px;
+
       > h2 {
       font-size: 28px;
-    }
+      }
 
-    > p {
-      font-size: 14px;
-      margin-top: -5px;
-      opacity: 0.4;
-    }
+      > p {
+        font-size: 14px;
+        margin-top: -5px;
+        opacity: 0.4;
+      }
 
-    > span {
-      font-size: 30px;
-    }
+      > span {
+        font-size: 30px;
+      }
+
+      > svg {
+        position: absolute;
+        bottom: 25px;
+        right: 20px;
+
+        width: 30px;
+        height: 30px;
+      }
   }
 `
 
@@ -141,7 +152,7 @@ export const ButtonBackContainer = styled.div`
 
     cursor: pointer;
 
-    border: 1px solid ${({theme}) => theme.COLORS.PURPLE};
+    border: 1px solid ${({ theme }) => theme.COLORS.PURPLE};
 
     > svg {
       width: 20px;
