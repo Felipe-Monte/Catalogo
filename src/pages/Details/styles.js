@@ -20,7 +20,7 @@ export const Container = styled.div`
     width: 100%;
     height: 100%; 
 
-    margin-top: 100px;
+    margin-top: 50px;
 
     display: flex;
     justify-content: center;
@@ -39,7 +39,7 @@ export const Section = styled.section`
   display: flex;
 
   border-radius: 10px;
-  
+ 
   @media (max-width: 768px) {
     width: 100%;
     height: calc(100% - 50px);
@@ -144,29 +144,28 @@ export const ContainerText = styled.div`
   }
 `
 
-export const ButtonBackContainer = styled.div`
+export const ButtonContainer = styled.div`
     display: flex;
-    align-items: center;
-    gap: 5px;
+    justify-content: space-between;
 
-    padding: 10px;
-
+    width: 90%;
+    height: 50px;
+  
     position: absolute;
     bottom: 20px;
     left: 20px;
 
-    cursor: pointer;
+    > button {
+      width: 100px;
 
-    border: 1px solid ${({ theme }) => theme.COLORS.PURPLE};
+      font-size: 16px;
 
-    > svg {
-      width: 20px;
-      height: 20px;
+      color: ${({theme}) => theme.COLORS.WHITE};
+      background: none;
+      border: 1px solid ${({theme}) => theme.COLORS.PURPLE};
     }
 
-    > a {
-      font-size: 18px;
-      color: ${({ theme }) => theme.COLORS.WHITE};
-      margin-bottom: 2px;
+    #button_delete {
+      border: 1px solid red;
     }
 `
