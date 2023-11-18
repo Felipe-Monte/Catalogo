@@ -28,13 +28,15 @@ export const Section = styled.section`
 
   display: flex;
 
+  margin-top: 50px;
+
   border-radius: 10px;
+
+  border: 2px solid white;
 
   @media (max-width: 768px) {
     width: 100%;
     height: calc(100% - 50px);
-
-    margin-top: 50px;
     
     position: fixed;
     top: 0;
