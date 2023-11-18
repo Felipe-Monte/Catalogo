@@ -1,6 +1,6 @@
 import { FiArrowLeft } from 'react-icons/fi'
 import { FaWhatsapp } from "react-icons/fa";
-import { Container, Section, ContainerImg, ContainerText, ButtonContainer } from './styles'
+import { Container, Section, ContainerImg, ContainerText } from './styles'
 import { useLocation } from 'react-router-dom'
 
 import { Header } from '../../components/Header'
@@ -30,16 +30,10 @@ export function Details() {
               <FaWhatsapp />
 
             </ContainerText>
-
-            <ButtonContainer>
-              <button>Voltar</button>
-              <button id='button_delete'>Deletar</button>
-            </ButtonContainer>
           </Section>
         </div>
       </main>
 
-      {/* <Footer /> */}
 
     </Container>
   )

@@ -12,14 +12,14 @@ export const Container = styled.div`
 
     display: flex;
     justify-content: center;
-
+    
     overflow-y: hidden;
   }
 
   > main {
     width: 100%;
     height: 100%; 
-
+    
     margin-top: 50px;
 
     display: flex;
@@ -39,7 +39,7 @@ export const Section = styled.section`
   display: flex;
 
   border-radius: 10px;
- 
+
   @media (max-width: 768px) {
     width: 100%;
     height: calc(100% - 50px);
@@ -142,30 +142,4 @@ export const ContainerText = styled.div`
         height: 30px;
       }
   }
-`
-
-export const ButtonContainer = styled.div`
-    display: flex;
-    justify-content: space-between;
-
-    width: 90%;
-    height: 50px;
-  
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-
-    > button {
-      width: 100px;
-
-      font-size: 16px;
-
-      color: ${({theme}) => theme.COLORS.WHITE};
-      background: none;
-      border: 1px solid ${({theme}) => theme.COLORS.PURPLE};
-    }
-
-    #button_delete {
-      border: 1px solid red;
-    }
 `
