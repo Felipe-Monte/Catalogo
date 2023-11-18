@@ -16,7 +16,6 @@ export function Details() {
       <Header title="Detalhes do produto" />
 
       <main>
-        <div className='container-section'>
           <Section>
             <ContainerImg>
               <img src={imgUrl} />
@@ -31,7 +30,6 @@ export function Details() {
 
             </ContainerText>
           </Section>
-        </div>
       </main>
 
 

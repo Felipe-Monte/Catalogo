@@ -6,16 +6,6 @@ export const Container = styled.div`
 
   overflow-y: hidden;
 
-  .container-section{
-    width: 100%;
-    height: 100%;
-
-    display: flex;
-    justify-content: center;
-    
-    overflow-y: hidden;
-  }
-
   > main {
     width: 100%;
     height: 100%; 
