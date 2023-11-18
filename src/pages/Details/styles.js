@@ -109,6 +109,11 @@ export const ContainerText = styled.div`
     font-size: 36px;
   }
 
+  > svg {
+    width: 30px;
+    height: 30px;
+  }
+
   @media (max-width: 450px) {
     width: 100%;
 
