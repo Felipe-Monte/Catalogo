@@ -138,9 +138,20 @@ export const ContainerText = styled.div`
 export const ContainerButton = styled.div`
   /* position: absolute;
   bottom: 0; */
+  display: flex;
+  justify-content: space-between;
 
-  width: 100%;
+  width: 100px;
   height: 50px;
 
+  padding: 10px;
+
   border: 2px solid blue;
+
+  @media (max-width: 450px) {
+    width: 100%;
+    height: 50px;
+
+ 
+  }
 `

@@ -31,7 +31,8 @@ export function Details() {
             </ContainerText>
 
             <ContainerButton>
-
+              <button>Voltar</button>
+              <button>Deletar</button>
             </ContainerButton>
           </Section>
       </main>

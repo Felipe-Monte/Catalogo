@@ -8,28 +8,29 @@ import { Cards } from "../../components/Cards"
 import { Input } from '../../components/Input'
 
 import { api } from "../../services/api"
+import jsonProducts from '../../products.json'
 
 export function Home() {
-  const [cards, setCards] = useState([])
-  const [search, setSearch] = useState('')
+  // const [cards, setCards] = useState([])
+  // const [search, setSearch] = useState('')
 
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const response = await api.get("/cards")
-        setCards(response.data)
-      } catch (error) {
-        console.log("Error na requisição:", error)
-      }
-    }
+  // useEffect(() => {
+  //   async function fetchData() {
+  //     try {
+  //       const response = await api.get("/cards")
+  //       setCards(response.data)
+  //     } catch (error) {
+  //       console.log("Error na requisição:", error)
+  //     }
+  //   }
 
-    fetchData()
-  }, [])
+  //   fetchData()
+  // }, [])
 
-  const filteredCards = cards.filter(card =>
-    card.title.toLowerCase().includes(search.toLowerCase()) ||
-    card.code.toLowerCase().includes(search.toLowerCase())
-  )
+  // const filteredCards = cards.filter(card =>
+  //   card.title.toLowerCase().includes(search.toLowerCase()) ||
+  //   card.code.toLowerCase().includes(search.toLowerCase())
+  // )
 
   return (
     <Container>
@@ -45,10 +46,13 @@ export function Home() {
 
       <main>
         <Section>
-          {filteredCards.map((card) => (
+
+        {/* filteredCards */}
+
+          {jsonProducts.map((card) => (
             <Cards
               key={card.id}
-              imgUrl={`${api.defaults.baseURL}/files/${card.imgUrl}`}
+              imgUrl={card.imgUrl}
               title={card.title}
               code={card.code}
               price={`R$: ${card.price}`}
@@ -56,6 +60,8 @@ export function Home() {
           ))}
         </Section>
       </main>
+
+      {/* ${api.defaults.baseURL}/files/${card.imgUrl} */}
 
       {/* <Footer /> */}
     </Container>
