@@ -22,6 +22,19 @@ export const Container = styled.div`
     }
   }
 `
+export const WrapperContainer = styled.div`
+
+  width: 50%;
+
+  padding-right: 20px;
+
+  @media (max-width: 450px) {
+    width: 100%;
+
+    padding-right: 0;
+  }
+`
+
 export const Section = styled.section`
   position: relative;
 
@@ -82,7 +95,7 @@ export const ContainerImg = styled.div`
 export const ContainerText = styled.div`
   position: relative;
 
-  width: 50%;
+  width: 100%;
   height: fit-content;
 
   display: flex;
@@ -143,7 +156,7 @@ export const ContainerButton = styled.div`
   display: flex;
   justify-content: space-between;
 
-  width: 45%;
+  width: 100%;
   height: 50px;
 
   padding: 10px;

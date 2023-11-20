@@ -1,6 +1,6 @@
 import { FiArrowLeft } from 'react-icons/fi'
 import { FaWhatsapp } from "react-icons/fa";
-import { Container, Section, ContainerImg, ContainerText,ContainerButton } from './styles'
+import { Container, Section, WrapperContainer, ContainerImg, ContainerText, ContainerButton } from './styles'
 import { useLocation } from 'react-router-dom'
 
 import { Header } from '../../components/Header'
@@ -16,11 +16,12 @@ export function Details() {
       <Header title="Detalhes do produto" />
 
       <main>
-          <Section>
-            <ContainerImg>
-              <img src={imgUrl} />
-            </ContainerImg>
+        <Section>
+          <ContainerImg>
+            <img src={imgUrl} />
+          </ContainerImg>
 
+          <WrapperContainer>
             <ContainerText>
               <h2>{title}</h2>
               <p>Cód: {code}</p>
@@ -34,7 +35,9 @@ export function Details() {
               <button>Voltar</button>
               <button>Deletar</button>
             </ContainerButton>
-          </Section>
+          </WrapperContainer>
+
+        </Section>
       </main>
 
 
