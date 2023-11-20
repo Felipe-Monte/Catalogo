@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
-  overflow-y: hidden;
+  overflow-y: auto;
 
   > main {
     width: 100%;
@@ -136,8 +136,8 @@ export const ContainerText = styled.div`
   }
 `
 export const ContainerButton = styled.div`
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
 
   width: 100%;
   height: 50px;
