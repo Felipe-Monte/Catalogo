@@ -1,6 +1,6 @@
 import { FiArrowLeft } from 'react-icons/fi'
 import { FaWhatsapp } from "react-icons/fa";
-import { Container, Section, ContainerImg, ContainerText } from './styles'
+import { Container, Section, ContainerImg, ContainerText,ContainerButton } from './styles'
 import { useLocation } from 'react-router-dom'
 
 import { Header } from '../../components/Header'
@@ -29,6 +29,10 @@ export function Details() {
               <FaWhatsapp />
 
             </ContainerText>
+
+            <ContainerButton>
+
+            </ContainerButton>
           </Section>
       </main>
 

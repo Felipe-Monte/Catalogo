@@ -135,3 +135,12 @@ export const ContainerText = styled.div`
       }
   }
 `
+export const ContainerButton = styled.div`
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 50px;
+
+  border: 2px solid blue;
+`
