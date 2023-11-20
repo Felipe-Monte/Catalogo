@@ -147,7 +147,7 @@ export const ContainerButton = styled.div`
   display: flex;
   justify-content: space-between;
 
-  width: 400px;
+  width: 45%;
   height: 50px;
 
   padding: 10px;
