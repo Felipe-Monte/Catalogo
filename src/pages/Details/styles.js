@@ -23,6 +23,9 @@ export const Container = styled.div`
   }
 `
 export const WrapperContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
   width: 50%;
 
