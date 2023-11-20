@@ -140,10 +140,6 @@ export const ContainerText = styled.div`
   }
 `
 export const ContainerButton = styled.div`
-  position: absolute;
-  bottom: 20px;
-  right: 35px;
-
   display: flex;
   justify-content: space-between;
 
@@ -155,8 +151,6 @@ export const ContainerButton = styled.div`
   border: 2px solid blue;
 
   @media (max-width: 450px) {
-    position: static;
-
     width: 100%;
     height: 50px;
   }
