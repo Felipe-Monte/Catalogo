@@ -41,7 +41,7 @@ export function Home() {
       <Input
         icon={FiSearch}
         placeholder="Pesquisar por nome ou código"
-        onChange={(e) => setSearch(e.target.value)}
+        // onChange={(e) => setSearch(e.target.value)}
       />
 
       <main>
