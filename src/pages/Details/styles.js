@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  overflow-y: hidden;
+  
   width: 100%;
   height: 100vh;
-
-  overflow-y: auto;
 
   > main {
     width: 100%;
@@ -23,7 +23,9 @@ export const Container = styled.div`
   }
 `
 export const Section = styled.section`
-  width: 800px;
+  position: relative;
+
+  width: 900px;
   height: 400px;
 
   display: flex;
@@ -35,6 +37,8 @@ export const Section = styled.section`
   border: 2px solid white;
 
   @media (max-width: 768px) {
+    overflow-y: auto;
+
     width: 100%;
     height: calc(100% - 50px);
     
@@ -136,12 +140,14 @@ export const ContainerText = styled.div`
   }
 `
 export const ContainerButton = styled.div`
-  /* position: absolute;
-  bottom: 0; */
+  position: absolute;
+  bottom: 20px;
+  right: 35px;
+
   display: flex;
   justify-content: space-between;
 
-  width: 100px;
+  width: 400px;
   height: 50px;
 
   padding: 10px;
@@ -149,9 +155,9 @@ export const ContainerButton = styled.div`
   border: 2px solid blue;
 
   @media (max-width: 450px) {
+    position: static;
+
     width: 100%;
     height: 50px;
-
- 
   }
 `
