@@ -181,6 +181,10 @@ export const ContainerButton = styled.div`
   }
 
   #btn_back {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+
     padding: 10px;
 
     border: 1px solid ${({ theme }) => theme.COLORS.PURPLE};

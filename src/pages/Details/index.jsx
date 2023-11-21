@@ -32,7 +32,10 @@ export function Details() {
             </ContainerText>
 
             <ContainerButton>
-              <button id='btn_back'>Voltar</button>
+              <button id='btn_back'>
+                <FiArrowLeft/>
+                Voltar
+              </button>
               <button id='btn_delete'>Deletar</button>
             </ContainerButton>
           </WrapperContainer>
