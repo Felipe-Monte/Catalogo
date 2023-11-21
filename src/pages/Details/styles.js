@@ -70,6 +70,7 @@ export const Section = styled.section`
     flex-direction: column;
     align-items: center; 
 
+    border: none;
     border-radius: 0;
   }
 `
@@ -170,14 +171,30 @@ export const ContainerButton = styled.div`
   justify-content: space-between;
 
   width: 100%;
-  height: 50px;
+  height: fit-content;
 
   padding: 10px;
 
-  border: 2px solid blue;
-
   @media (max-width: 450px) {
     width: 100%;
-    height: 50px;
+    
+  }
+
+  #btn_back {
+    padding: 10px;
+
+    border: 1px solid ${({ theme }) => theme.COLORS.PURPLE};
+
+    color: ${({theme}) => theme.COLORS.WHITE};
+    background: transparent;
+  }
+
+  #btn_delete {
+    padding: 10px;
+
+    border: 1px solid ${({ theme }) => theme.COLORS.RED};
+
+    color: ${({theme}) => theme.COLORS.WHITE};
+    background: transparent;
   }
 `

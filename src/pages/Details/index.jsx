@@ -32,8 +32,8 @@ export function Details() {
             </ContainerText>
 
             <ContainerButton>
-              <button>Voltar</button>
-              <button>Deletar</button>
+              <button id='btn_back'>Voltar</button>
+              <button id='btn_delete'>Deletar</button>
             </ContainerButton>
           </WrapperContainer>
 
