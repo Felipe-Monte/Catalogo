@@ -31,6 +31,11 @@ export const WrapperContainer = styled.div`
 
   padding-right: 20px;
 
+  @media (max-width: 768px) {
+    width: 100%;
+    padding-right: 0; 
+  }
+
   @media (max-width: 450px) {
     width: 100%;
 
@@ -80,6 +85,11 @@ export const ContainerImg = styled.div`
 
     object-fit: cover;
     border-radius: 10px;
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 600px;
   }
 
   @media (max-width: 450px) {
