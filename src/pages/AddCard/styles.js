@@ -20,7 +20,7 @@ export const Container = styled.div`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
     .wrapper_input {
-      height: 100%;
+      height: fit-content;
 
       display: flex;
       flex-direction: column;
@@ -31,7 +31,7 @@ export const Container = styled.div`
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-top: 10px;
+      margin-top: 20px;
       
       > a {
         display: flex;
