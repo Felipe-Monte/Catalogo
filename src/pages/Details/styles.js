@@ -71,7 +71,6 @@ export const Section = styled.section`
     flex-direction: column;
     align-items: center; 
 
-    border: 1px solid white;
     border-radius: 0;
   }
 `
