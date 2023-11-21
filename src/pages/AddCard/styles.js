@@ -15,11 +15,11 @@ export const Container = styled.div`
 
     padding: 25px;
 
-    margin: auto;
+    margin: 50px auto;
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
-    .container_input_2 {
+    .container_input_text {
       height: fit-content;
 
       display: flex;
@@ -51,6 +51,8 @@ export const Container = styled.div`
     @media screen and (max-width: 700px) {
       height: calc(100% - 50px);
       width: 100%;
+
+      margin: 0px auto;
 
       padding: 60px 10px 0px 10px;
     }
