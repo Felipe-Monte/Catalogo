@@ -38,6 +38,9 @@ export const WrapperContainer = styled.div`
 
   @media (max-width: 450px) {
     width: 100%;
+    height: 100%;
+
+    justify-content: space-between; 
 
     padding-right: 0;
   }
@@ -55,8 +58,6 @@ export const Section = styled.section`
 
   border-radius: 10px;
 
-  border: 2px solid white;
-
   @media (max-width: 768px) {
     overflow-y: auto;
 
@@ -70,7 +71,7 @@ export const Section = styled.section`
     flex-direction: column;
     align-items: center; 
 
-    border: none;
+    border: 1px solid white;
     border-radius: 0;
   }
 `
@@ -169,7 +170,7 @@ export const ContainerText = styled.div`
 export const ContainerButton = styled.div`
   display: flex;
   justify-content: space-between;
-
+  
   width: 100%;
   height: fit-content;
 
@@ -177,7 +178,6 @@ export const ContainerButton = styled.div`
 
   @media (max-width: 450px) {
     width: 100%;
-    
   }
 
   #btn_back {
