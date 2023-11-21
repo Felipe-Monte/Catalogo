@@ -15,7 +15,7 @@ export const Container = styled.div`
 
     padding: 25px;
 
-    margin: 50px auto;
+    margin: auto;
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
@@ -52,7 +52,7 @@ export const Container = styled.div`
       height: calc(100% - 50px);
       width: 100%;
 
-      padding: 10px;
+      padding: 60px 10px 0px 10px;
     }
   }
 
