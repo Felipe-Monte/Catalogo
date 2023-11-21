@@ -3,22 +3,29 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: auto;
   height: 100vh;
- 
-  overflow: hidden;
   
+  overflow: hidden;
+
   > form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-
+    
     max-width: 400px;
-    height: auto;
+    height: calc(100% - 50px);
 
     padding: 25px;
 
-    margin: 50px auto 0px auto;
+    margin: 50px auto;
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+
+    .wrapper_input {
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
   
     .container_button {
       display: flex;
@@ -42,7 +49,7 @@ export const Container = styled.div`
     }
     
     @media screen and (max-width: 700px) {
-      height: 100%;
+      height: calc(100% - 50px);
       width: 100%;
 
       padding: 10px;
