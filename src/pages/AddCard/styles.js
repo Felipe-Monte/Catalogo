@@ -18,6 +18,59 @@ export const Container = styled.div`
     margin: 50px auto;
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+    overflow: hidden;
+
+    .container_input {
+      position: relative;
+
+      .label_img {
+        display: block;
+
+        width: 100%;
+        height: 100%; 
+
+        position: absolute;
+
+        top: 0;
+        left: 0;
+
+        cursor: pointer;
+
+      > img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      } 
+
+      .input_img {
+      height: 300px;
+      }
+
+      > label {
+        display: block;
+        margin-bottom: 5px;
+
+        font-size: 18px;
+      }
+
+      > input {
+        width: 100%;
+        margin-bottom: 15px;
+
+        padding: 5px;
+
+        background-color: ${({ theme }) => theme.COLORS.WHITE};;
+        
+        border: none;
+        border-radius: 5px;
+      }
+
+      > input#image {
+        height: 200px;
+      }
+
+    }
 
     .container_input_text {
       height: fit-content;
@@ -58,56 +111,5 @@ export const Container = styled.div`
     }
   }
 
-  .container_input {
-    position: relative;
-
-    .label_img {
-      display: block;
-
-      width: 100%;
-      height: 100%; 
-
-      position: absolute;
-
-      top: 0;
-      left: 0;
-
-      cursor: pointer;
-
-    > img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-      }
-    } 
-
-    .input_img {
-     height: 300px;
-    }
-
-    > label {
-      display: block;
-      margin-bottom: 5px;
-
-      font-size: 18px;
-    }
-
-    > input {
-      width: 100%;
-      margin-bottom: 15px;
-
-      padding: 5px;
-
-      background-color: ${({ theme }) => theme.COLORS.WHITE};;
-      
-      border: none;
-      border-radius: 5px;
-    }
-
-    > input#image {
-      height: 200px;
-    }
-
-  }
-
+ 
 `
