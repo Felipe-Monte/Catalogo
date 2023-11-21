@@ -11,6 +11,16 @@ export function Details() {
   const location = useLocation()
   const { imgUrl, title, code, price } = location.state || {}
 
+  const navigate = useNavigate()
+
+  function handleClickBack() {
+    navigate("/")
+  }
+
+  function handleClickDelete() {
+    const isDelete = window.confirm("Deseja realmente deletar este produto ?")
+  }
+
   return (
     <Container>
       <Header title="Detalhes do produto" />
@@ -32,11 +42,19 @@ export function Details() {
             </ContainerText>
 
             <ContainerButton>
-              <button id='btn_back'>
-                <FiArrowLeft/>
+              <button
+                id='btn_back'
+                onClick={handleClickBack}
+              >
+                <FiArrowLeft />
                 Voltar
               </button>
-              <button id='btn_delete'>Deletar</button>
+              <button
+                id='btn_delete'
+                onClick={handleClickDelete}
+              >
+                Deletar
+              </button>
             </ContainerButton>
           </WrapperContainer>
 
