@@ -9,6 +9,8 @@ export const Container = styled.div`
   padding-bottom: 40px;
   position: relative;
 
+  scroll-behavior: smooth;
+
   > main {
     width: 100%;
     max-width: 1500px;
@@ -25,6 +27,8 @@ export const Container = styled.div`
     gap: 15px;
 
     padding: 0px;
+
+    scroll-behavior: smooth;
   }
 
   main::-webkit-scrollbar { 
@@ -45,6 +49,8 @@ export const Section = styled.section`
   gap: 15px;
 
   padding: 15px;
+
+  scroll-behavior: smooth;
 
   /* border: 2px solid white; */
 
