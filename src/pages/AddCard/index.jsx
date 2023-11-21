@@ -70,43 +70,40 @@ export function AddCard() {
               alt="Preview"
             />
           </label>
-          
+
         </div>
 
-        <div className="wrapper_input">
-          <div className="container_input">
+          <div className="container_input_2">
             <Input
               placeholder="Título"
               onChange={(e) => setTitle(e.target.value)}
             />
-          </div>
-          <div className="container_input">
+
             <Input
               placeholder="Código do produto"
               onChange={(e) => setCode(e.target.value)}
             />
-          </div>
-          <div className="container_input">
+
             <Input
               placeholder="Preço"
               onChange={(e) => setPrice(e.target.value)}
             />
           </div>
-          </div>
-          
-          <div className="container_button">
-            <Link to="/">
-              <FiArrowLeft />
-              Voltar
-            </Link>
-            <button
-              type="submit"
-              onClick={handleNewCard}
-            >
-              Enviar
-            </button>
-          </div>
-        
+
+
+        <div className="container_button">
+          <Link to="/">
+            <FiArrowLeft />
+            Voltar
+          </Link>
+          <button
+            type="submit"
+            onClick={handleNewCard}
+          >
+            Enviar
+          </button>
+        </div>
+
       </form>
 
     </Container>

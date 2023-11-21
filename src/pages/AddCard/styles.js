@@ -19,7 +19,7 @@ export const Container = styled.div`
 
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
 
-    .wrapper_input {
+    .container_input_2 {
       height: fit-content;
 
       display: flex;
