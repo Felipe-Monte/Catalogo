@@ -28,7 +28,7 @@ export const Container = styled.div`
       height: 275px;
       
       padding: 0;
-    }
+    } 
 `
 
 export const CardImg = styled.div`
