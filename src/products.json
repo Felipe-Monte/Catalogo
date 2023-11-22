@@ -2,14 +2,14 @@
   {
     "id": "1",
     "imgUrl": "/argan.jpeg",
-    "title": "Argan",
+    "title": "Oléo de argan c/12",
     "code": "00001",
     "price": "19,90"
   },
   {
     "id": "2",
     "imgUrl": "/bababell.jpeg",
-    "title": "Capilar bababell",
+    "title": "Kit capilar bababell c/12",
     "code": "00002",
     "price": "19,90"
   },
@@ -23,7 +23,7 @@
   {
     "id": "4",
     "imgUrl": "/colonia.jpeg",
-    "title": "Colônia",
+    "title": "Deo colônia frasco 120ml",
     "code": "00004",
     "price": "19,90"
   },
@@ -44,7 +44,7 @@
   {
     "id": "7",
     "imgUrl": "/gcareca.jpeg",
-    "title": "Camisa",
+    "title": "Camisa com abertura",
     "code": "00007",
     "price": "19,90"
   },
@@ -79,7 +79,7 @@
   {
     "id": "12",
     "imgUrl": "/tapete.jpeg",
-    "title": "Tapete",
+    "title": "Tapete porta estampado c/4",
     "code": "00012",
     "price": "19,90"
   }
