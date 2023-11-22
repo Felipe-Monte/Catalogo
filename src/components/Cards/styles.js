@@ -15,6 +15,10 @@ export const Container = styled.div`
 
   transition: all 0.3s ease-out;
 
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;  
+
   &:hover {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
   }
@@ -53,12 +57,17 @@ export const CardText = styled.div`
 
   padding: 10px;
 
-  /* white-space: nowrap; 
-  overflow: hidden; 
-  text-overflow: ellipsis;  */
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;  
+
 
   > h2 {
     font-size: 22px;
+    
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;  
   }
 
   > p {
