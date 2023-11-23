@@ -10,6 +10,7 @@ import { Input } from '../../components/Input'
 import { api } from "../../services/api"
 import jsonProducts from '../../products.json'
 
+
 export function Home() {
   // const [cards, setCards] = useState([])
   // const [search, setSearch] = useState('')
