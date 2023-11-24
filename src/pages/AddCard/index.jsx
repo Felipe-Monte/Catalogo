@@ -42,11 +42,11 @@ export function AddCard() {
       });
 
       console.log(response.data);
-      alert('Imagem enviada com sucesso!');
+      alert('Produto cadastrado com sucesso!');
 
-    } catch (error) {
+    } catch (error) { 
       console.error('Erro ao enviar o formulário:', error);
-      alert('Erro ao enviar o formulário');
+      alert('Erro ao enviar');
     }
   };
 
