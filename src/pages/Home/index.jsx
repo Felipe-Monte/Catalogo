@@ -8,29 +8,28 @@ import { Cards } from "../../components/Cards"
 import { Input } from '../../components/Input'
 
 import { api } from "../../services/api"
-import jsonData from "../../products.json"
 
 export function Home() {
-  // const [cards, setCards] = useState([])
-  // const [search, setSearch] = useState('')
+  const [cards, setCards] = useState([])
+  const [search, setSearch] = useState('')
 
-  // useEffect(() => {
-  //   async function fetchData() {
-  //     try {
-  //       const response = await api.get("/cards")
-  //       setCards(response.data)
-  //     } catch (error) {
-  //       console.log("Error na requisição:", error)
-  //     }
-  //   }
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await api.get("/cards")
+        setCards(response.data)
+      } catch (error) {
+        console.log("Error na requisição:", error)
+      }
+    }
 
-  //   fetchData()
-  // }, [])
+    fetchData()
+  }, [])
 
-  // const filteredCards = cards.filter(card =>
-  //   card.title.toLowerCase().includes(search.toLowerCase()) ||
-  //   card.code.toLowerCase().includes(search.toLowerCase())
-  // )
+  const filteredCards = cards.filter(card =>
+    card.title.toLowerCase().includes(search.toLowerCase()) ||
+    card.code.toLowerCase().includes(search.toLowerCase())
+  )
 
   return (
     <Container>
@@ -41,7 +40,7 @@ export function Home() {
       <Input
         icon={FiSearch}
         placeholder="Pesquisar por nome ou código"
-        // onChange={(e) => setSearch(e.target.value)}
+        onChange={(e) => setSearch(e.target.value)}
       />
 
       <main>
@@ -49,10 +48,10 @@ export function Home() {
 
         {/* filteredCards */}
 
-          {jsonData.map((card) => (
+          {filteredCards.map((card) => (
             <Cards
               key={card.id}
-              imgUrl={card.imgUrl}
+              imgUrl={`${api.defaults.baseURL}/files/${card.imgUrl}`}
               title={card.title}
               code={card.code}
               price={`R$: ${card.price}`}

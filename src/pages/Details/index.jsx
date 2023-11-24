@@ -18,7 +18,7 @@ export function Details() {
   }
 
   function handleClickDelete() {
-    const isDelete = window.confirm("Deseja realmente deletar este produto ?")
+    
   }
 
   return (
