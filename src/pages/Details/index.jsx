@@ -5,6 +5,8 @@ import { useLocation } from 'react-router-dom'
 
 import { Header } from '../../components/Header'
 
+import { api } from '../../services/api'
+
 import { useNavigate } from 'react-router-dom'
 
 export function Details() {
@@ -17,8 +19,12 @@ export function Details() {
     navigate("/")
   }
 
-  function handleClickDelete() {
-    
+  async function handleClickDelete() {
+    const confirm = window.confirm("Deseja deletar esse produto ?")
+
+    if(confirm){
+      await api.delete(`/cards/${code}`)
+    }
   }
 
   return (
