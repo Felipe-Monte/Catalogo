@@ -20,11 +20,14 @@ export function Details() {
   }
 
   async function handleClickDelete() {
-    const confirm = window.confirm("Deseja deletar esse produto ?")
+    const passwordDelete = window.prompt("Insira a senha para deletar")
 
-    if(confirm){
+    if(passwordDelete === "123"){
       await api.delete(`/cards/${code}`)
+      return alert("Produto excluído")
     }
+
+    return alert("Senha incorreta !")
   }
 
   return (
