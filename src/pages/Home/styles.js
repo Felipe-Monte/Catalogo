@@ -63,6 +63,11 @@ export const Section = styled.section`
       gap: 3px;
       
       padding: 5px 0px 0px 0px;
+
+      > svg {
+        position: absolute;
+        top: 50px;
+      }
     }
 `
 

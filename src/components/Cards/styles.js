@@ -32,6 +32,9 @@ export const Container = styled.div`
 `
 
 export const CardImg = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 200px;
 
