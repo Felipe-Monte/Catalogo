@@ -23,13 +23,17 @@ export function AddCard() {
     setAvatar(URL.createObjectURL(file))
   }
 
-  const handleNewCard = async (e) => {
-    e.preventDefault()
 
-    if (!avatarFile || !title || !code || !price || isSubmitting) {
-      return alert('Preencha todos os campos e aguarde o cadastro terminar')
-    }
+const handleNewCard = async (e) => {
+  e.preventDefault()
 
+  if (!avatarFile || !title || !code || !price || isSubmitting) {
+    return alert('Preencha todos os campos e aguarde o cadastro terminar')
+  }
+
+  const isAdmin = prompt("Digite a senha para adicionar")
+
+  if (isAdmin === "123") {
     setIsSubmitting(true)
 
     const formData = new FormData()
@@ -58,7 +62,10 @@ export function AddCard() {
     } finally {
       setIsSubmitting(false)
     }
+  } else {
+    alert('Senha incorreta. Apenas administradores podem adicionar produtos.')
   }
+}
 
   return (
     <Container>
