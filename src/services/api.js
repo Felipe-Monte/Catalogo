@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://api-catalogo-g7s6.onrender.com"
+  baseURL: "https://api-catalogo-a91h.onrender.com"
 })
