@@ -1,4 +1,3 @@
-
 import { Container, CardImg, CardText } from "./styles"
 import { useNavigate } from "react-router-dom"
 
@@ -12,7 +11,7 @@ export function Cards({ imgUrl, title, code, price }) {
   return (
     <Container onClick={handleCardClick}>
       <CardImg>
-        <img src={imgUrl} alt={`Imagem de ${title}`} />
+        <img src={imgUrl} alt={`Imagem de ${title}`} loading="lazy" />
       </CardImg>
 
       <CardText>
@@ -23,29 +22,3 @@ export function Cards({ imgUrl, title, code, price }) {
     </Container>
   )
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
