@@ -5,8 +5,6 @@ import { useLocation } from 'react-router-dom'
 
 import { Header } from '../../components/Header'
 
-import { api } from '../../services/api'
-
 import { useNavigate } from 'react-router-dom'
 
 export function Details() {
@@ -17,17 +15,6 @@ export function Details() {
 
   function handleClickBack() {
     navigate("/")
-  }
-
-  async function handleClickDelete() {
-    const passwordDelete = window.prompt("Insira a senha para deletar")
-
-    if(passwordDelete === "123"){
-      await api.delete(`/cards/${code}`)
-      return alert("Produto excluído")
-    }
-
-    return alert("Senha incorreta !")
   }
 
   return (
@@ -58,18 +45,17 @@ export function Details() {
                 <FiArrowLeft />
                 Voltar
               </button>
-              <button
+              {/* <button
                 id='btn_delete'
                 onClick={handleClickDelete}
               >
                 Deletar
-              </button>
+              </button> */}
             </ContainerButton>
           </WrapperContainer>
 
         </Section>
       </main>
-
 
     </Container>
   )
