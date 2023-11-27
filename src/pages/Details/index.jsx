@@ -17,8 +17,22 @@ export function Details() {
 
   function handleShareOnWhatsApp() {
     const message = `Confira este produto: ${title} - ${price}`;
-    const url = `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}&amp;image=${encodeURIComponent(imgUrl)}`;
-    window.open(url, '_blank');
+    const encodedMessage = encodeURIComponent(message);
+    const encodedUrl = encodeURIComponent(imgUrl);
+
+    if (navigator.share) {
+      // Se o navegador suportar a API de compartilhamento, use-a
+      navigator.share({
+        title: 'Detalhes do Produto',
+        text: message,
+        url: imgUrl,
+      })
+      .catch((error) => console.error('Error sharing:', error));
+    } else {
+      // Caso contrário, abrir uma nova janela com a URL do WhatsApp
+      const url = `whatsapp://send?text=${encodedMessage}%20${encodedUrl}`;
+      window.open(url, '_blank');
+    }
   }
 
   return (
@@ -53,6 +67,7 @@ export function Details() {
     </Container>
   );
 }
+
 
 
 
