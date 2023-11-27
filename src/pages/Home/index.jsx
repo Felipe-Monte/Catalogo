@@ -14,7 +14,8 @@ export function Home() {
   }
 
   const filteredData = jsonData.filter((card) => 
-    card.title.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
+    card.title.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase()) ||
+    card.code.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
   )
 
   return (
