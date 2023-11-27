@@ -78,6 +78,8 @@ export const ContainerImg = styled.div`
   width: 50%;
   height: 100%;
 
+  margin-top: 2px;
+
   padding: 20px;
 
   > img {
