@@ -13,7 +13,7 @@ export function Cards({ imgUrl, title, code, price }) {
   return (
     <Container onClick={handleCardClick}>
       <CardImg>
-        {!imageLoaded && <img id="loader" src="/public/spinner.svg" loading="lazy"/>}
+        {!imageLoaded && <img id="loader" src="/public/spinner.svg"/>}
         <img
           src={imgUrl}
           alt={`Imagem de ${title}`}
