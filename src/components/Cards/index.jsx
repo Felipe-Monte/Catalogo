@@ -13,7 +13,7 @@ export function Cards({ imgUrl, title, code, price }) {
   return (
     <Container onClick={handleCardClick}>
       <CardImg>
-        {!imageLoaded && <div className="loading-indicator">Carregando...</div>}
+        {!imageLoaded && <p className="loading-indicator">Carregando...</p>}
         <img
           src={imgUrl}
           alt={`Imagem de ${title}`}

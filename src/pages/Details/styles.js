@@ -95,10 +95,10 @@ export const ContainerImg = styled.div`
 
   @media (max-width: 450px) {
     width: 100%;
-    height: 350px;
+    height: 500px;
 
-    padding: 5px;
-
+    padding: 0;
+  
     > img {
       width: 100%;
       height: 100%;

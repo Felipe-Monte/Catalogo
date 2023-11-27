@@ -39,6 +39,13 @@ export const CardImg = styled.div`
   height: 200px;
 
   border-radius: 5px;
+  position: relative;
+  
+  > p {
+    position: absolute;
+    color: red;
+    z-index: 1;
+  }
   
   > img {
     width: 100%;
