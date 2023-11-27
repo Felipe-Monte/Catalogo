@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
+  width: 50%;
   display: flex;
   align-items: center;
 
@@ -32,5 +32,10 @@ export const Container = styled.div`
   > svg {
     margin-left: 12px;
     color: ${({ theme }) => theme.COLORS.GRAY_100};
+  }
+
+ 
+  @media (max-width:450px) {
+    width: 50%;
   }
 `;

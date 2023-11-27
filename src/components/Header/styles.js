@@ -11,20 +11,10 @@ export const Container = styled.header`
   z-index: 1;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE};
-
-  > svg {
-    position: fixed;
-    right: 10px;
-
-    width: 45px;
-    height: 45px;
-
-    cursor: pointer;
-  }
 
   h1 {
     font-size: 28px;
@@ -32,7 +22,7 @@ export const Container = styled.header`
 
   @media (max-width:450px) {
     > h1 {
-      font-size: 19px;
+      font-size: 15px;
     }
   }
 `

@@ -1,13 +1,13 @@
 import { Container } from "./styles"
 
-import { FiAlignJustify } from 'react-icons/fi'
+import { Input } from "../Input"
 
 export function Header({ title }) {
   return (
     <Container>
       <h1>{title}</h1>
 
-      <FiAlignJustify/>
+      <Input placeholder="Pesquisar"/>
     </Container>
   )
 }
