@@ -41,9 +41,11 @@ export const CardImg = styled.div`
   border-radius: 5px;
   position: relative;
   
-  > p {
+    #loader {
+    width: 30px;
+    height: 30px;
+
     position: absolute;
-    color: ${({theme}) => theme.COLORS.PURPLE};
   }
   
   > img {
