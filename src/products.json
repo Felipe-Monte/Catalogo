@@ -1,86 +1,122 @@
 [
   {
     "id": "1",
-    "imgUrl": "/argan.jpeg",
-    "title": "Oléo de argan c/12",
-    "code": "00001",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "/baby dool 45.JPG",
+    "title": "Baby dool 100% algodão c/6",
+    "code": "03339",
+    "price": "45,00"
   },
   {
     "id": "2",
-    "imgUrl": "/bababell.jpeg",
-    "title": "Kit capilar bababell c/12",
-    "code": "00002",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "/capilar cordial.JPG",
+    "title": "Kit capilar cordial 1kg/1lt",
+    "code": "03396",
+    "price": "120,00"
   },
   {
     "id": "3",
-    "imgUrl": "/blond.jpeg",
-    "title": "Blond platinum",
-    "code": "00003",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "/deo 50ml.JPG",
+    "title": "Deo colônia cordial 50ml c/6",
+    "code": "03398",
+    "price": "60,00"
   },
   {
     "id": "4",
-    "imgUrl": "/colonia.jpeg",
-    "title": "Deo colônia frasco 120ml",
-    "code": "00004",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "/deo 100ml.JPG",
+    "title": "Deo colônia cordial 100ml c/6",
+    "code": "03399",
+    "price": "120,00"
   },
   {
     "id": "5",
-    "imgUrl": "/doce.jpeg",
-    "title": "Doce",
-    "code": "00005",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
   },
   {
     "id": "6",
-    "imgUrl": "/garrafa.jpeg",
-    "title": "Garrafa",
-    "code": "00006",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
   },
   {
     "id": "7",
-    "imgUrl": "/gcareca.jpeg",
-    "title": "Camisa com abertura",
-    "code": "00007",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
   },
   {
     "id": "8",
-    "imgUrl": "/gel.jpeg",
-    "title": "Natgel",
-    "code": "00008",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
   },
   {
     "id": "9",
-    "imgUrl": "/maquinadecorte.jpeg",
-    "title": "Maquina de corte",
-    "code": "00009",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
   },
   {
     "id": "10",
-    "imgUrl": "/massageador.jpeg",
-    "title": "Massageador",
-    "code": "00010",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
   },
   {
     "id": "11",
-    "imgUrl": "/redejaguarana.jpeg",
-    "title": "Rede jaguarana",
-    "code": "00011",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
   },
   {
     "id": "12",
-    "imgUrl": "/tapete.jpeg",
-    "title": "Tapete porta estampado c/4",
-    "code": "00012",
-    "price": "19,90"
+    "category": "novidades",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "13",
+    "category": "novidades",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "14",
+    "category": "novidades",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "15",
+    "category": "novidades",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
   }
 ]
