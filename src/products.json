@@ -66,57 +66,41 @@
   {
     "id": "9",
     "category": "novidades",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
+    "imgUrl": "/massageador.JPG",
+    "title": "Massageador imp",
+    "code": "03344",
+    "price": "58,00"
   },
   {
     "id": "10",
     "category": "novidades",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
+    "imgUrl": "/rede bucho top.JPG",
+    "title": "Rede bucho de boy top",
+    "code": "03386",
+    "price": "330,00"
   },
   {
     "id": "11",
     "category": "novidades",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
+    "imgUrl": "/sebo de carneiro.JPG",
+    "title": "Sebo de carneiro",
+    "code": "03397",
+    "price": "24,00"
   },
   {
     "id": "12",
     "category": "novidades",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
+    "imgUrl": "/rede jaguaruana.JPG",
+    "title": "Rede jaguaruana top",
+    "code": "03387",
+    "price": "300,00"
   },
   {
     "id": "13",
     "category": "novidades",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
-  },
-  {
-    "id": "14",
-    "category": "novidades",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
-  },
-  {
-    "id": "15",
-    "category": "novidades",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
+    "imgUrl": "/triturador.JPG",
+    "title": "Triturador",
+    "code": "03352",
+    "price": "50,00"
   }
 ]
