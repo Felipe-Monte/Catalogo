@@ -43,8 +43,7 @@ export const CardImg = styled.div`
   
   > p {
     position: absolute;
-    color: red;
-    z-index: 1;
+    color: ${({theme}) => theme.COLORS.PURPLE};
   }
   
   > img {
