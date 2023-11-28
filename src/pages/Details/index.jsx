@@ -16,23 +16,12 @@ export function Details() {
   }
 
   function handleShareOnWhatsApp() {
-    const message = `Confira este produto: ${title} - ${price}`;
+    const message = `${title} - ${price}\n${imgUrl}`;
     const encodedMessage = encodeURIComponent(message);
-    const encodedUrl = encodeURIComponent(imgUrl);
 
-    if (navigator.share) {
-      // Se o navegador suportar a API de compartilhamento, use-a
-      navigator.share({
-        title: 'Detalhes do Produto',
-        text: message,
-        url: imgUrl,
-      })
-      .catch((error) => console.error('Error sharing:', error));
-    } else {
-      // Caso contrário, abrir uma nova janela com a URL do WhatsApp
-      const url = `whatsapp://send?text=${encodedMessage}%20${encodedUrl}`;
-      window.open(url, '_blank');
-    }
+    // Abre a janela do WhatsApp com a mensagem
+    const url = `whatsapp://send?text=${encodedMessage}`;
+    window.open(url, '_blank');
   }
 
   return (
