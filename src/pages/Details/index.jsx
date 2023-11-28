@@ -1,27 +1,24 @@
 import React from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
 import { Container, Section, WrapperContainer, ContainerImg, ContainerText, ContainerButton } from './styles';
-import { useLocation } from 'react-router-dom';
 import { Header } from '../../components/Header';
-import { useNavigate } from 'react-router-dom';
 
 export function Details() {
   const location = useLocation();
   const { imgUrl, title, code, price } = location.state || {};
   const navigate = useNavigate();
 
-  function handleClickBack() {
+  const handleClickBack = () => {
     navigate('/');
-  }
+  };
 
-  function handleShareOnWhatsApp() {
-    const encodedImageUrl = encodeURIComponent(imgUrl);
-
-    // Abre a janela do WhatsApp com a mensagem
-    const url = `whatsapp://send?text=${encodedImageUrl}`;
-    window.open(url, '_blank');
-  }
+  const enviarWhatsApp = () => {
+    const mensagem = `Confira esta imagem do produto ${title} (Cód: ${code}, Preço: ${price}).`;
+    const whatsappURL = `https://wa.me/?text=${encodeURIComponent(mensagem)}&attachment=${encodeURIComponent(imgUrl)}`;
+    window.open(whatsappURL);
+  };
 
   return (
     <Container>
@@ -39,12 +36,11 @@ export function Details() {
               <p>Cód: {code}</p>
               <span>{price}</span>
 
-              {/* Adicionando o ícone do WhatsApp com a função de compartilhamento */}
-              <FaWhatsapp onClick={handleShareOnWhatsApp} style={{ cursor: 'pointer' }} />
+              <FaWhatsapp onClick={enviarWhatsApp} />
             </ContainerText>
 
             <ContainerButton>
-              <button id="btn_back" onClick={handleClickBack}>
+              <button id='btn_back' onClick={handleClickBack}>
                 <FiArrowLeft />
                 Voltar
               </button>
