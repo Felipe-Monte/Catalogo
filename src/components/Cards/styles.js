@@ -90,6 +90,10 @@ export const CardText = styled.div`
     font-size: 24px;
   }
 
+  #share {
+    display: none;
+  }
+
   @media screen and (max-width: 700px) {
       height: 100px;
 
