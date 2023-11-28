@@ -30,6 +30,7 @@ export function Home() {
           {filteredData.map((card) => (
             <Cards
               key={card.id}
+              share={card.share}
               imgUrl={card.imgUrl}
               title={card.title}
               code={card.code}

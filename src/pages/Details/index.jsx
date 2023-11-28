@@ -7,8 +7,10 @@ import { Header } from '../../components/Header';
 
 export function Details() {
   const location = useLocation();
-  const { imgUrl, title, code, price } = location.state || {};
- 
+  const {share, imgUrl, title, code, price } = location.state || {};
+  
+  console.log(share)
+
   const navigate = useNavigate();
 
   const handleClickBack = () => {
@@ -16,7 +18,7 @@ export function Details() {
   };
 
   const enviarWhatsApp = () => {
-    const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent("https://photos.app.goo.gl/NfVKzdY3sjcmsjXMA")} 
+    const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent(share)} 
     Confira esta imagem do produto ${title} (Cód: ${code}, Preço: ${price}).`;
     window.open(whatsappURL)
   };
