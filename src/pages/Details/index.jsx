@@ -16,11 +16,10 @@ export function Details() {
   }
 
   function handleShareOnWhatsApp() {
-    const message = `${title} - ${price}\n${imgUrl}`;
-    const encodedMessage = encodeURIComponent(message);
+    const encodedImageUrl = encodeURIComponent(imgUrl);
 
     // Abre a janela do WhatsApp com a mensagem
-    const url = `whatsapp://send?text=${encodedMessage}`;
+    const url = `whatsapp://send?text=${encodedImageUrl}`;
     window.open(url, '_blank');
   }
 
@@ -56,6 +55,7 @@ export function Details() {
     </Container>
   );
 }
+
 
 
 // import { FiArrowLeft } from 'react-icons/fi'
