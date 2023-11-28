@@ -8,7 +8,7 @@ import { Header } from '../../components/Header';
 export function Details() {
   const location = useLocation();
   const { imgUrl, title, code, price } = location.state || {};
-
+ 
   const navigate = useNavigate();
 
   const handleClickBack = () => {
