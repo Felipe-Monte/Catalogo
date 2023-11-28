@@ -16,10 +16,9 @@ export function Details() {
   };
 
   const enviarWhatsApp = () => {
-
-    const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent("https://photos.app.goo.gl/NfVKzdY3sjcmsjXMA")}`;
+    const mensagem = `Confira esta imagem do produto ${title} (Cód: ${code}, Preço: ${price}).`;
+    const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent(mensagem)}&amp;image=${encodeURIComponent("https://photos.app.goo.gl/NfVKzdY3sjcmsjXMA")}`;
     window.open(whatsappURL)
-    
   };
 
   return (
