@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "category": "novidades",  
+    "category": "novidades",
     "share": "https://photos.app.goo.gl/W9jjK8kspBYaW6vt7",
     "imgUrl": "/baby dool 45.JPG",
     "title": "Baby dool 100% algodão c/6",
@@ -178,5 +178,122 @@
     "title": "Tapete porta estampando",
     "code": "02559",
     "price": "16,00"
+  },
+  {
+    "id": "21",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/assadeira.JPG",
+    "title": "Assadeira 3pçs",
+    "code": "00025",
+    "price": "185,00"
+  },
+  {
+    "id": "22",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/cafeteira.JPG",
+    "title": "Cafeteira destak",
+    "code": "00218",
+    "price": "99,00"
+  },
+  {
+    "id": "23",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/cuscuzeira 16.JPG",
+    "title": "Cuscuzeira 16 ducertão",
+    "code": "00366",
+    "price": "58,00"
+  },
+  {
+    "id": "24",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/cuscuzeira 18.JPG",
+    "title": "Cuscuzeira 18 ducertão",
+    "code": "00043",
+    "price": "69,00"
+  },
+  {
+    "id": "25",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/cuscuzeira 20.JPG",
+    "title": "Cuscuzeira 20 ducertão",
+    "code": "00343",
+    "price": "82,00"
+  },
+  {
+    "id": "26",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/cuscuzeira 76.JPG",
+    "title": "Cuscuzeria expresso c/cabo",
+    "code": "03178",
+    "price": "76,00"
+  },
+  {
+    "id": "27",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/frigideira com tampa.JPG",
+    "title": "Frigideira anti aderente n24",
+    "code": "00424",
+    "price": "115,00"
+  },
+  {
+    "id": "28",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "",
+    "title": "Frigidera com espátula",
+    "code": "00537",
+    "price": "110,00"
+  },
+  {
+    "id": "29",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/panela 300.JPG",
+    "title": "Jogo de panela destak",
+    "code": "00304",
+    "price": "299,00"
+  },
+  {
+    "id": "30",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/panela 10l.JPG",
+    "title": "Panela de pressão 10l",
+    "code": "00533",
+    "price": "210,00"
+  },
+  {
+    "id": "31",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/panela 2,5l.JPG",
+    "title": "Panela de pressão 2,5l",
+    "code": "00362",
+    "price": "98,00"
+  },
+  {
+    "id": "32",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/panela 4,5l.JPG",
+    "title": "Panela de pressão 4,5l",
+    "code": "00200",
+    "price": "115,00"
+  },
+  {
+    "id": "33",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/panela 10l.JPG",
+    "title": "Panela de pressão 7,0l",
+    "code": "00182",
+    "price": "150,00"
   }
 ]
