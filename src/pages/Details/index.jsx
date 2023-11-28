@@ -18,7 +18,7 @@ export function Details() {
   const enviarWhatsApp = () => {
 
     const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent("https://photos.app.goo.gl/NfVKzdY3sjcmsjXMA")}`;
-    console.log(whatsappURL)
+    window.open(whatsappURL)
     
   };
 
