@@ -18,7 +18,7 @@ export function Details() {
   const enviarWhatsApp = () => {
     const whatsappURL = `
     https://api.whatsapp.com/send?text=${encodeURIComponent(share)} 
-    Produto ${title} (Cód: ${code}, Preço: ${price}).`
+    ${title} Cód: ${code}, ${price}.`
     window.open(whatsappURL)
   }
 
