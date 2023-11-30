@@ -15,7 +15,7 @@ export function Details() {
     navigate(-1)
   }
 
-  const enviarWhatsApp = () => {
+  const sendWhatsApp = () => {
     const whatsappURL = `
     https://api.whatsapp.com/send?text=${encodeURIComponent(share)} 
     ${title} Cód: ${code}, ${price}.`
@@ -29,7 +29,7 @@ export function Details() {
       <main>
         <Section>
           <ContainerImg>
-            <img src={imgUrl} alt={title} />
+            <img src={imgUrl} alt={`Imagem de ${title}`} />
           </ContainerImg>
 
           <WrapperContainer>
@@ -38,7 +38,7 @@ export function Details() {
               <p>Cód: {code}</p>
               <span>{price}</span>
 
-              <FaWhatsapp onClick={enviarWhatsApp} />
+              <FaWhatsapp onClick={sendWhatsApp} />
             </ContainerText>
 
             <ContainerButton>
