@@ -295,6 +295,105 @@
     "title": "Panela de pressão 7,0l",
     "code": "00182",
     "price": "150,00"
+  },
+  {
+    "id": "34",
+    "category": "banheiro",
+    "share": "",
+    "imgUrl": "/banheiro.JPG",
+    "title": "Kit banheiro gandhi 3pçs",
+    "code": "03296",
+    "price": "65,00"
+  },
+  {
+    "id": "35",
+    "category": "blusa",
+    "share": "",
+    "imgUrl": "/blusa canelada lunender.JPG",
+    "title": "Blusa canelada lunender c/3",
+    "code": "01930",
+    "price": "78,00"
+  },
+  {
+    "id": "36",
+    "category": "blusa",
+    "share": "",
+    "imgUrl": "/blusa canelada lz.JPG",
+    "title": "Blusa canelda lz14 c/4",
+    "code": "03112",
+    "price": "50,00"
+  },
+  {
+    "id": "37",
+    "category": "blusa",
+    "share": "",
+    "imgUrl": "/blusa exclusiva batinha.JPG",
+    "title": "Blusa exclusiva c/6",
+    "code": "01045",
+    "price": "39,00"
+  },
+  {
+    "id": "38",
+    "category": "blusa",
+    "share": "",
+    "imgUrl": "/blusa lunender basica.JPG",
+    "title": "Blusa lunender basica c/3",
+    "code": "00549",
+    "price": "75,00"
+  },
+  {
+    "id": "39",
+    "category": "blusa",
+    "share": "",
+    "imgUrl": "/blusa plus.JPG",
+    "title": "Blusa plus deluxe c/4",
+    "code": "01111",
+    "price": "50,00"
+  },
+  {
+    "id": "40",
+    "category": "blusa",
+    "share": "",
+    "imgUrl": "/blusa semi croped.JPG",
+    "title": "Blusa semi cropped c/6",
+    "code": "02614",
+    "price": "35,00"
+  },
+  {
+    "id": "41",
+    "category": "calça",
+    "share": "",
+    "imgUrl": "/calça linda bell.JPG",
+    "title": "Calça jeans fem linda bell",
+    "code": "01935",
+    "price": "120,00"
+  },
+  {
+    "id": "42",
+    "category": "calça",
+    "share": "",
+    "imgUrl": "/calça masc rox.JPG",
+    "title": "Calça jeans masc new boy rox c/4",
+    "code": "02365",
+    "price": "120,00"
+  },
+  {
+    "id": "43",
+    "category": "calça",
+    "share": "",
+    "imgUrl": "/calça valiante masc.JPG",
+    "title": "Calça jeans masc valiant c/5",
+    "code": "03210",
+    "price": "175,00"
+  },
+  {
+    "id": "44",
+    "category": "calça",
+    "share": "",
+    "imgUrl": "/calça valiant fem.JPG",
+    "title": "Calça jeans valiant fem",
+    "code": "01878",
+    "price": "170,00"
   }
 ]
 
