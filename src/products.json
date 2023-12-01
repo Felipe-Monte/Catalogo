@@ -541,15 +541,6 @@
   },
   {
     "id": "61",
-    "category": "",
-    "share": "",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
-  },
-  {
-    "id": "62",
     "category": "camisa",
     "share": "",
     "imgUrl": "/camisa polo piquet.JPG",
@@ -558,7 +549,7 @@
     "price": "49,00"
   },
   {
-    "id": "63",
+    "id": "62",
     "category": "CAMISA",
     "share": "",
     "imgUrl": "/camisa gp.JPG",
