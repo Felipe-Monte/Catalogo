@@ -514,30 +514,30 @@
   },
   {
     "id": "58",
-    "category": "",
+    "category": "camisa",
     "share": "",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
+    "imgUrl": "/camisa jait boy normal.JPG",
+    "title": "Camisa jait boy careca",
+    "code": "02075",
+    "price": "86,00"
   },
   {
     "id": "59",
-    "category": "",
+    "category": "camisa",
     "share": "",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
+    "imgUrl": "/camisa careca abertura.JPG",
+    "title": "Camisa c/ abertura c/4",
+    "code": "02280",
+    "price": "44,00"
   },
   {
     "id": "60",
-    "category": "",
+    "category": "camisa",
     "share": "",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
+    "imgUrl": "/camisa jait boy polo.JPG",
+    "title": "Camisa jait boy polo",
+    "code": "02028",
+    "price": "115,00"
   },
   {
     "id": "61",
@@ -550,66 +550,21 @@
   },
   {
     "id": "62",
-    "category": "",
+    "category": "camisa",
     "share": "",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
+    "imgUrl": "/camisa polo piquet.JPG",
+    "title": "Camisa polo piquet",
+    "code": "01942",
+    "price": "49,00"
   },
   {
     "id": "63",
-    "category": "",
+    "category": "CAMISA",
     "share": "",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
-  },
-  {
-    "id": "64",
-    "category": "",
-    "share": "",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
-  },
-  {
-    "id": "65",
-    "category": "",
-    "share": "",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
-  },
-  {
-    "id": "66",
-    "category": "",
-    "share": "",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
-  },
-  {
-    "id": "67",
-    "category": "",
-    "share": "",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
-  },
-  {
-    "id": "68",
-    "category": "",
-    "share": "",
-    "imgUrl": "",
-    "title": "",
-    "code": "",
-    "price": ""
+    "imgUrl": "/camisa gp.JPG",
+    "title": "Camisa GP estampada",
+    "code": "03199",
+    "price": "66,00"
   }
 ]
 
