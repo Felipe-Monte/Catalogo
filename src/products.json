@@ -465,7 +465,151 @@
     "imgUrl": "/calcinha short renda.JPG",
     "title": "Calcinha short renda c/12",
     "code": "00901",
-    "price": "15,00"
+    "price": "15,00"  
+  },
+  {
+    "id": "53",
+    "category": "cama",
+    "share": "",
+    "imgUrl": "/cobreleito 220x240.JPG",
+    "title": "Cobreleito casal 3pçs 220x240",
+    "code": "03260",
+    "price": "236,00"
+  },
+  {
+    "id": "54",
+    "category": "cama",
+    "share": "",
+    "imgUrl": "/cobreleito 266.JPG",
+    "title": "Cobreleito casal queen 3pçs",
+    "code": "03261",
+    "price": "266,00"
+  },
+  {
+    "id": "55",
+    "category": "cama",
+    "share": "",
+    "imgUrl": "/colcha box 03009.JPG",
+    "title": "Colcha casal bord box",
+    "code": "03009",
+    "price": "160,00"
+  },
+  {
+    "id": "56",
+    "category": "cama",
+    "share": "",
+    "imgUrl": "/colcha box king.JPG",
+    "title": "Colcha casal bord box king",
+    "code": "03014",
+    "price": "185,00"
+  },
+  {
+    "id": "57",
+    "category": "cama",
+    "share": "",
+    "imgUrl": "/colcha bordada.JPG",
+    "title": "Colcha casal bordada",
+    "code": "01048",
+    "price": "115,00"
+  },
+  {
+    "id": "58",
+    "category": "",
+    "share": "",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "59",
+    "category": "",
+    "share": "",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "60",
+    "category": "",
+    "share": "",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "61",
+    "category": "",
+    "share": "",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "62",
+    "category": "",
+    "share": "",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "63",
+    "category": "",
+    "share": "",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "64",
+    "category": "",
+    "share": "",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "65",
+    "category": "",
+    "share": "",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "66",
+    "category": "",
+    "share": "",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "67",
+    "category": "",
+    "share": "",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
+  },
+  {
+    "id": "68",
+    "category": "",
+    "share": "",
+    "imgUrl": "",
+    "title": "",
+    "code": "",
+    "price": ""
   }
 ]
 
