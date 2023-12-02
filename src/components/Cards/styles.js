@@ -23,6 +23,26 @@ export const Container = styled.div`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
   }
 
+  .unavailable {
+    position: relative;
+  }
+
+  .unavailable-banner {
+    position: absolute;
+    top: 37%;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(255, 0, 0, 0.7); 
+    color: #fff; 
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-35deg); 
+    pointer-events: none; 
+  }
+
   @media screen and (max-width: 700px) {
       width: 100%;
       height: 275px;

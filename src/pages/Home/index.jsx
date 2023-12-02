@@ -35,6 +35,7 @@ export function Home() {
               title={card.title}
               code={card.code}
               price={`R$: ${card.price}`}
+              isAvaliable={card.isAvaliable}
             />
           ))}
         </Section>

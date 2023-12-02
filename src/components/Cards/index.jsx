@@ -2,24 +2,27 @@ import { Container, CardImg, CardText } from "./styles"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 
-export function Cards({share, imgUrl, title, code, price }) {
+export function Cards({ share, imgUrl, title, code, price, isAvaliable }) {
   const navigate = useNavigate()
   const [imageLoaded, setImageLoaded] = useState(false)
 
   function handleCardClick() {
-    navigate(`/details/${code}`, { state: { share, imgUrl, title, code, price } })
+    if (isAvaliable) {
+      navigate(`/details/${code}`, { state: { share, imgUrl, title, code, price } })
+    }
   }
 
   return (
-    <Container onClick={handleCardClick}>
+    <Container onClick={handleCardClick} className={isAvaliable ? "" : "unavailable" }>
       <CardImg>
-        {!imageLoaded && <img id="loader" src="/spinner.svg" alt="loading spinner" loading="lazy"/>}
+        {!imageLoaded && <img id="loader" src="/spinner.svg" alt="loading spinner" loading="lazy" />}
         <img
           src={imgUrl}
           alt={`Imagem de ${title}`}
           loading="lazy"
           onLoad={() => setImageLoaded(true)}
         />
+        {!isAvaliable && <div className="unavailable-banner">Indisponível</div>}
       </CardImg>
 
       <CardText>

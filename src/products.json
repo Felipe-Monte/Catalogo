@@ -6,7 +6,8 @@
     "imgUrl": "/baby dool 45.JPG",
     "title": "Baby dool 100% algodão c/6",
     "code": "03339",
-    "price": "45,00"
+    "price": "45,00",
+    "isAvaliable": true
   },
   {
     "id": "2",
@@ -15,7 +16,8 @@
     "imgUrl": "/capilar cordial.JPG",
     "title": "Kit capilar cordial 1kg/1lt",
     "code": "03396",
-    "price": "120,00"
+    "price": "120,00",
+    "isAvaliable": true
   },
   {
     "id": "3",
@@ -24,7 +26,8 @@
     "imgUrl": "/deo 50ml.JPG",
     "title": "Deo colônia cordial 50ml c/6",
     "code": "03398",
-    "price": "60,00"
+    "price": "60,00",
+    "isAvaliable": true
   },
   {
     "id": "4",
@@ -33,7 +36,8 @@
     "imgUrl": "/deo colonia cordial 120.JPG",
     "title": "Deo colônia cordial 100ml c/6",
     "code": "03399",
-    "price": "120,00"
+    "price": "120,00",
+    "isAvaliable": true
   },
   {
     "id": "5",
@@ -42,7 +46,8 @@
     "imgUrl": "/garrafa digital.JPG",
     "title": "Garrafa digital",
     "code": "03355",
-    "price": "60,00"
+    "price": "60,00",
+    "isAvaliable": false
   },
   {
     "id": "6",
@@ -51,7 +56,8 @@
     "imgUrl": "/garrafa motivacional.JPG",
     "title": "Garrafa motivacional 3pçs",
     "code": "03390",
-    "price": "70,00"
+    "price": "70,00",
+    "isAvaliable": false
   },
   {
     "id": "7",
@@ -60,7 +66,8 @@
     "imgUrl": "/kit bababell.JPG",
     "title": "kit capilar bababell",
     "code": "018622",
-    "price": "60,00"
+    "price": "60,00",
+    "isAvaliable": true
   },
   {
     "id": "8",
@@ -69,7 +76,8 @@
     "imgUrl": "/maquina de corte.JPG",
     "title": "Maquina de corte cabelo",
     "code": "03354",
-    "price": "78,00"
+    "price": "78,00",
+    "isAvaliable": false
   },
   {
     "id": "9",
@@ -78,7 +86,8 @@
     "imgUrl": "/massageador.JPG",
     "title": "Massageador imp",
     "code": "03344",
-    "price": "58,00"
+    "price": "58,00",
+    "isAvaliable": true
   },
   {
     "id": "10",
@@ -87,7 +96,8 @@
     "imgUrl": "/rede bucho top.JPG",
     "title": "Rede bucho de boi top",
     "code": "03386",
-    "price": "330,00"
+    "price": "330,00",
+    "isAvaliable": true
   },
   {
     "id": "11",
@@ -96,7 +106,8 @@
     "imgUrl": "/sebo de carneiro.JPG",
     "title": "Sebo de carneiro",
     "code": "03397",
-    "price": "24,00"
+    "price": "24,00",
+    "isAvaliable": false
   },
   {
     "id": "12",
@@ -105,7 +116,8 @@
     "imgUrl": "/rede jaguaruana.JPG",
     "title": "Rede jaguaruana top",
     "code": "03387",
-    "price": "300,00"
+    "price": "300,00",
+    "isAvaliable": true
   },
   {
     "id": "13",
@@ -114,7 +126,8 @@
     "imgUrl": "/triturador.JPG",
     "title": "Triturador",
     "code": "03352",
-    "price": "50,00"
+    "price": "50,00",
+    "isAvaliable": true
   },
   {
     "id": "14",
@@ -123,7 +136,8 @@
     "imgUrl": "/cortina janela.JPG",
     "title": "Cortina de janela confetex",
     "code": "02645",
-    "price": "120,00"
+    "price": "120,00",
+    "isAvaliable": true
   },
   {
     "id": "15",
@@ -132,7 +146,8 @@
     "imgUrl": "/cortina sala.JPG",
     "title": "Cortina de sala confetex",
     "code": "02646",
-    "price": "180,00"
+    "price": "180,00",
+    "isAvaliable": true
   },
   {
     "id": "16",
@@ -141,7 +156,8 @@
     "imgUrl": "/passadeira.JPG",
     "title": "Kit passadeira 3pçs",
     "code": "02615",
-    "price": "65,00"
+    "price": "65,00",
+    "isAvaliable": true
   },
   {
     "id": "17",
@@ -150,7 +166,8 @@
     "imgUrl": "/manta ind king.JPG",
     "title": "Manta king",
     "code": "03275",
-    "price": "130,00"
+    "price": "130,00",
+    "isAvaliable": true
   },
   {
     "id": "18",
@@ -159,7 +176,8 @@
     "imgUrl": "/rede bordada.JPG",
     "title": "Rede bordada sol a sol",
     "code": "02673",
-    "price": "240,00"
+    "price": "240,00",
+    "isAvaliable": true
   },
   {
     "id": "19",
@@ -168,7 +186,8 @@
     "imgUrl": "/rede bucho boi normal.JPG",
     "title": "Rede bucho de boi",
     "code": "03230",
-    "price": "195,00"
+    "price": "195,00",
+    "isAvaliable": true
   },
   {
     "id": "20",
@@ -177,7 +196,8 @@
     "imgUrl": "/tapete porta.JPG",
     "title": "Tapete porta estampando",
     "code": "02559",
-    "price": "16,00"
+    "price": "16,00",
+    "isAvaliable": true
   },
   {
     "id": "21",
@@ -186,7 +206,8 @@
     "imgUrl": "/assadeira.JPG",
     "title": "Assadeira 3pçs",
     "code": "00025",
-    "price": "185,00"
+    "price": "185,00",
+    "isAvaliable": true
   },
   {
     "id": "22",
@@ -195,7 +216,8 @@
     "imgUrl": "/cafeteira.JPG",
     "title": "Cafeteira destak",
     "code": "00218",
-    "price": "99,00"
+    "price": "99,00",
+    "isAvaliable": true
   },
   {
     "id": "23",
@@ -204,7 +226,8 @@
     "imgUrl": "/cuscuzeira 16.JPG",
     "title": "Cuscuzeira 16 ducertão",
     "code": "00366",
-    "price": "58,00"
+    "price": "58,00",
+    "isAvaliable": true
   },
   {
     "id": "24",
@@ -213,7 +236,8 @@
     "imgUrl": "/cuscuzeira 18.JPG",
     "title": "Cuscuzeira 18 ducertão",
     "code": "00043",
-    "price": "69,00"
+    "price": "69,00",
+    "isAvaliable": true
   },
   {
     "id": "25",
@@ -222,7 +246,8 @@
     "imgUrl": "/cuscuzeira 20.JPG",
     "title": "Cuscuzeira 20 ducertão",
     "code": "00343",
-    "price": "82,00"
+    "price": "82,00",
+    "isAvaliable": true
   },
   {
     "id": "26",
@@ -231,7 +256,8 @@
     "imgUrl": "/cuscuzeira 76.JPG",
     "title": "Cuscuzeria expresso c/cabo",
     "code": "03178",
-    "price": "76,00"
+    "price": "76,00",
+    "isAvaliable": true
   },
   {
     "id": "27",
@@ -240,7 +266,8 @@
     "imgUrl": "/frigideira com tampa.JPG",
     "title": "Frigideira anti aderente n24",
     "code": "00424",
-    "price": "115,00"
+    "price": "115,00",
+    "isAvaliable": true
   },
   {
     "id": "28",
@@ -249,7 +276,8 @@
     "imgUrl": "/frigideira com espatula.JPG",
     "title": "Frigidera com espátula",
     "code": "00537",
-    "price": "110,00"
+    "price": "110,00",
+    "isAvaliable": true
   },
   {
     "id": "29",
@@ -258,7 +286,8 @@
     "imgUrl": "/panela 300.JPG",
     "title": "Jogo de panela destak",
     "code": "00304",
-    "price": "299,00"
+    "price": "299,00",
+    "isAvaliable": true
   },
   {
     "id": "30",
@@ -267,7 +296,8 @@
     "imgUrl": "/panela 10l.JPG",
     "title": "Panela de pressão 10l",
     "code": "00533",
-    "price": "210,00"
+    "price": "210,00",
+    "isAvaliable": true
   },
   {
     "id": "31",
@@ -276,7 +306,8 @@
     "imgUrl": "/panela 2,5l.JPG",
     "title": "Panela de pressão 2,5l",
     "code": "00362",
-    "price": "98,00"
+    "price": "98,00",
+    "isAvaliable": true
   },
   {
     "id": "32",
@@ -285,7 +316,8 @@
     "imgUrl": "/panela 4,5l.JPG",
     "title": "Panela de pressão 4,5l",
     "code": "00200",
-    "price": "115,00"
+    "price": "115,00",
+    "isAvaliable": true
   },
   {
     "id": "33",
@@ -294,7 +326,8 @@
     "imgUrl": "/panela 10l.JPG",
     "title": "Panela de pressão 7,0l",
     "code": "00182",
-    "price": "150,00"
+    "price": "150,00",
+    "isAvaliable": true
   },
   {
     "id": "34",
@@ -303,7 +336,8 @@
     "imgUrl": "/banheiro.JPG",
     "title": "Kit banheiro gandhi 3pçs",
     "code": "03296",
-    "price": "65,00"
+    "price": "65,00",
+    "isAvaliable": true
   },
   {
     "id": "35",
@@ -312,7 +346,8 @@
     "imgUrl": "/blusa canelada lunender.JPG",
     "title": "Blusa canelada lunender c/3",
     "code": "01930",
-    "price": "78,00"
+    "price": "78,00",
+    "isAvaliable": true
   },
   {
     "id": "36",
@@ -321,7 +356,8 @@
     "imgUrl": "/blusa canelada lz.JPG",
     "title": "Blusa canelda lz14 c/4",
     "code": "03112",
-    "price": "50,00"
+    "price": "50,00",
+    "isAvaliable": true
   },
   {
     "id": "37",
@@ -330,7 +366,8 @@
     "imgUrl": "/blusa exclusiva batinha.JPG",
     "title": "Blusa exclusiva c/6",
     "code": "01045",
-    "price": "39,00"
+    "price": "39,00",
+    "isAvaliable": true
   },
   {
     "id": "38",
@@ -339,7 +376,8 @@
     "imgUrl": "/blusa lunender basica.JPG",
     "title": "Blusa lunender basica c/3",
     "code": "00549",
-    "price": "75,00"
+    "price": "75,00",
+    "isAvaliable": true
   },
   {
     "id": "39",
@@ -348,7 +386,8 @@
     "imgUrl": "/blusa plus.JPG",
     "title": "Blusa plus deluxe c/4",
     "code": "01111",
-    "price": "50,00"
+    "price": "50,00",
+    "isAvaliable": false
   },
   {
     "id": "40",
@@ -357,7 +396,8 @@
     "imgUrl": "/blusa semi croped.JPG",
     "title": "Blusa semi cropped c/6",
     "code": "02614",
-    "price": "35,00"
+    "price": "35,00",
+    "isAvaliable": false
   },
   {
     "id": "41",
@@ -366,7 +406,8 @@
     "imgUrl": "/calça linda bell.JPG",
     "title": "Calça jeans fem linda bell",
     "code": "01935",
-    "price": "120,00"
+    "price": "120,00",
+    "isAvaliable": true
   },
   {
     "id": "42",
@@ -375,7 +416,8 @@
     "imgUrl": "/calça masc rox.JPG",
     "title": "Calça jeans masc new boy rox c/4",
     "code": "02365",
-    "price": "120,00"
+    "price": "120,00",
+    "isAvaliable": false
   },
   {
     "id": "43",
@@ -384,7 +426,8 @@
     "imgUrl": "/calça valiante masc.JPG",
     "title": "Calça jeans masc valiant c/5",
     "code": "03210",
-    "price": "175,00"
+    "price": "175,00",
+    "isAvaliable": false
   },
   {
     "id": "44",
@@ -393,7 +436,8 @@
     "imgUrl": "/calça valiant fem.JPG",
     "title": "Calça jeans valiant fem",
     "code": "01878",
-    "price": "170,00"
+    "price": "170,00",
+    "isAvaliable": true
   },
   {
     "id": "45",
@@ -402,7 +446,8 @@
     "imgUrl": "/calcinha av.JPG",
     "title": "Calcinha av",
     "code": "00227",
-    "price": "9,00"
+    "price": "9,00",
+    "isAvaliable": true
   },
   {
     "id": "46",
@@ -411,7 +456,8 @@
     "imgUrl": "/calcinha borda.JPG",
     "title": "Calcinha borda sedução c/12",
     "code": "03331",
-    "price": "15,00"
+    "price": "15,00",
+    "isAvaliable": true
   },
   {
     "id": "47",
@@ -420,7 +466,8 @@
     "imgUrl": "/calcinha fio.JPG",
     "title": "Calcinha fio dental c/12",
     "code": "00535",
-    "price": "12,00"
+    "price": "12,00",
+    "isAvaliable": true
   },
   {
     "id": "48",
@@ -429,7 +476,8 @@
     "imgUrl": "/calcinha g.JPG",
     "title": "Calcinha g cotton c/10",
     "code": "01217",
-    "price": "20,00"
+    "price": "20,00",
+    "isAvaliable": false
   },
   {
     "id": "49",
@@ -438,7 +486,8 @@
     "imgUrl": "/calcinha micro renda.JPG",
     "title": "Calcinha micro renda c/12",
     "code": "01035",
-    "price": "16,00"
+    "price": "16,00",
+    "isAvaliable": true
   },
   {
     "id": "50",
@@ -447,7 +496,8 @@
     "imgUrl": "/calcinha mix.JPG",
     "title": "Calcinha mix bord classe a c/10",
     "code": "00477",
-    "price": "10,00"
+    "price": "10,00",
+    "isAvaliable": true
   },
   {
     "id": "51",
@@ -456,7 +506,8 @@
     "imgUrl": "/calcinha sensuale.JPG",
     "title": "Calcinha sensuale mf c/12",
     "code": "02236",
-    "price": "12,00"
+    "price": "12,00",
+    "isAvaliable": true
   },
   {
     "id": "52",
@@ -465,7 +516,8 @@
     "imgUrl": "/calcinha short renda.JPG",
     "title": "Calcinha short renda c/12",
     "code": "00901",
-    "price": "15,00"  
+    "price": "15,00"  ,
+    "isAvaliable": true
   },
   {
     "id": "53",
@@ -474,7 +526,8 @@
     "imgUrl": "/cobreleito 220x240.JPG",
     "title": "Cobreleito casal 3pçs 220x240",
     "code": "03260",
-    "price": "236,00"
+    "price": "236,00",
+    "isAvaliable": true
   },
   {
     "id": "54",
@@ -483,7 +536,8 @@
     "imgUrl": "/cobreleito 266.JPG",
     "title": "Cobreleito casal queen 3pçs",
     "code": "03261",
-    "price": "266,00"
+    "price": "266,00",
+    "isAvaliable": true
   },
   {
     "id": "55",
@@ -492,7 +546,8 @@
     "imgUrl": "/colcha box 03009.JPG",
     "title": "Colcha casal bord box",
     "code": "03009",
-    "price": "160,00"
+    "price": "160,00",
+    "isAvaliable": true
   },
   {
     "id": "56",
@@ -501,7 +556,8 @@
     "imgUrl": "/colcha box king.JPG",
     "title": "Colcha casal bord box king",
     "code": "03014",
-    "price": "185,00"
+    "price": "185,00",
+    "isAvaliable": true
   },
   {
     "id": "57",
@@ -510,7 +566,8 @@
     "imgUrl": "/colcha bordada.JPG",
     "title": "Colcha casal bordada",
     "code": "01048",
-    "price": "115,00"
+    "price": "115,00",
+    "isAvaliable": true
   },
   {
     "id": "58",
@@ -519,7 +576,8 @@
     "imgUrl": "/camisa jait boy normal.JPG",
     "title": "Camisa jait boy careca",
     "code": "02075",
-    "price": "86,00"
+    "price": "86,00",
+    "isAvaliable": true
   },
   {
     "id": "59",
@@ -528,7 +586,8 @@
     "imgUrl": "/camisa careca abertura.JPG",
     "title": "Camisa c/ abertura c/4",
     "code": "02280",
-    "price": "44,00"
+    "price": "44,00",
+    "isAvaliable": true
   },
   {
     "id": "60",
@@ -537,7 +596,8 @@
     "imgUrl": "/camisa jait boy polo.JPG",
     "title": "Camisa jait boy polo",
     "code": "02028",
-    "price": "115,00"
+    "price": "115,00",
+    "isAvaliable": true
   },
   {
     "id": "61",
@@ -546,7 +606,8 @@
     "imgUrl": "/camisa polo piquet.JPG",
     "title": "Camisa polo piquet",
     "code": "01942",
-    "price": "49,00"
+    "price": "49,00",
+    "isAvaliable": false
   },
   {
     "id": "62",
@@ -555,7 +616,8 @@
     "imgUrl": "/camisa gp.JPG",
     "title": "Camisa GP estampada",
     "code": "03199",
-    "price": "66,00"
+    "price": "66,00",
+    "isAvaliable": true
   }
 ]
 
