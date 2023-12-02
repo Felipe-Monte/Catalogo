@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react"
 import { Container, Section } from "./styles"
 
@@ -18,6 +19,8 @@ export function Home() {
     card.code.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
   )
 
+  const MemoizedCards = React.memo(Cards);
+
   return (
     <Container>
       <Header
@@ -28,7 +31,7 @@ export function Home() {
       <main>
         <Section>
           {filteredData.map((card) => (
-            <Cards
+            <MemoizedCards
               key={card.id}
               share={card.share}
               imgUrl={card.imgUrl}
