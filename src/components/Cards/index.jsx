@@ -22,7 +22,7 @@ export function Cards({ share, imgUrl, title, code, price, isAvaliable }) {
           loading="lazy"
           onLoad={() => setImageLoaded(true)}
         />
-        {!isAvaliable && <div className="unavailable-banner">Indisponível</div>}
+        {!isAvaliable && <div className="unavailable-banner">Esgotado</div>}
       </CardImg>
 
       <CardText>
