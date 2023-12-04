@@ -611,12 +611,132 @@
   },
   {
     "id": "62",
-    "category": "CAMISA",
+    "category": "camisa",
     "share": "",
     "imgUrl": "/camisa gp.JPG",
     "title": "Camisa GP estampada",
     "code": "03199",
     "price": "66,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "63",
+    "category": "conjunto",
+    "share": "",
+    "imgUrl": "/lara flor.JPG",
+    "title": "Conj inf lara flor c/6",
+    "code": "01129",
+    "price": "45,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "64",
+    "category": "conjunto",
+    "share": "",
+    "imgUrl": "/molekada.JPG",
+    "title": "Conj inf turma da molekada c/6",
+    "code": "03268",
+    "price": "44,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "65",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/peixe eletrico.JPG",
+    "title": "Gel peixe elétrico",
+    "code": "00073",
+    "price": "24,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "66",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/natgel.JPG",
+    "title": "Gel natgel c/12",
+    "code": "01863",
+    "price": "20,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "67",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/kit capilar.JPG",
+    "title": "Kit capilar botox",
+    "code": "01862",
+    "price": "66,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "68",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/peixe eletrico amarelo.JPG",
+    "title": "Oléo de peixe elétrico",
+    "code": "03218",
+    "price": "15,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "69",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/fortgel.JPG",
+    "title": "Pomada fortgel.JPG",
+    "code": "03219",
+    "price": "12,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "70",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/sabonete 01879.JPG",
+    "title": "Sabonete ítimo bell corpus c/12",
+    "code": "01879",
+    "price": "12,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "71",
+    "category": "cozinha",
+    "share": "",
+    "imgUrl": "/jogo cozinha.JPG",
+    "title": "Jogo de cozinha",
+    "code": "00410",
+    "price": "45,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "72",
+    "category": "cozinha",
+    "share": "",
+    "imgUrl": "/pano cobre tudo.JPG",
+    "title": "Pano de prato cobre tudo",
+    "code": "03083",
+    "price": "13,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "73",
+    "category": "cozinha",
+    "share": "",
+    "imgUrl": "/pano xadrez.JPG",
+    "title": "Pano de prato xadrez.JPG",
+    "code": "01105",
+    "price": "8,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "74",
+    "category": "cozinha",
+    "share": "",
+    "imgUrl": "/toalha termica.JPG",
+    "title": "Toalha de mesa térmica",
+    "code": "02942",
+    "price": "50,00",
     "isAvaliable": true
   }
 ]
