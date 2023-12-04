@@ -347,7 +347,7 @@
     "title": "Blusa canelada lunender c/3",
     "code": "01930",
     "price": "78,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "36",
@@ -627,7 +627,7 @@
     "title": "Conj inf lara flor c/6",
     "code": "01129",
     "price": "45,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "64",
@@ -637,7 +637,7 @@
     "title": "Conj inf turma da molekada c/6",
     "code": "03268",
     "price": "44,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "65",
@@ -657,7 +657,7 @@
     "title": "Gel natgel c/12",
     "code": "01863",
     "price": "20,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "67",
