@@ -12,7 +12,7 @@
   {
     "id": "2",
     "category": "novidades",
-    "share": "https://photos.app.goo.gl/STw8HkymEtX2hYH18",
+    "share": "https://photos.app.65goo.gl/STw8HkymEtX2hYH18",
     "imgUrl": "/capilar cordial.JPG",
     "title": "Kit capilar cordial 1kg/1lt",
     "code": "03396",
@@ -737,6 +737,76 @@
     "title": "Toalha de mesa térmica",
     "code": "02942",
     "price": "50,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "75",
+    "category": "cueca",  
+    "share": "",
+    "imgUrl": "/cueca box cos.JPG",
+    "title": "Cueca box classe a c/12",
+    "code": "00785",
+    "price": "20,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "76",
+    "category": "cueca",
+    "share": "",
+    "imgUrl": "/cueca box normal.JPG",
+    "title": "Cueca box luxo c/12",
+    "code": "02384",
+    "price": "20,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "77",
+    "category": "cueca",
+    "share": "",
+    "imgUrl": "/cueca box infantil.JPG",
+    "title": "Cueca box infantil mf c/12",
+    "code": "00910",
+    "price": "15,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "78",
+    "category": "cueca",
+    "share": "",
+    "imgUrl": "/cueca sleep.JPG",
+    "title": "Cueca sleep c/12",
+    "code": "00848",
+    "price": "20,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "79",
+    "category": "alimentício",
+    "share": "",
+    "imgUrl": "/biscoito.JPG",
+    "title": "Biscoito",
+    "code": "03184",
+    "price": "21,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "80",
+    "category": "alimentício",
+    "share": "",
+    "imgUrl": "/cocada.JPG",
+    "title": "cocada moreninha c/12",
+    "code": "03244",
+    "price": "28,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "81",
+    "category": "alimentício",
+    "share": "",
+    "imgUrl": "/doce.JPG",
+    "title": "Doce goulart c/12",
+    "code": "00479",
+    "price": "20,00",
     "isAvaliable": true
   }
 ]
