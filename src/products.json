@@ -767,7 +767,7 @@
     "title": "Cueca box infantil mf c/12",
     "code": "00910",
     "price": "15,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "78",
@@ -797,7 +797,7 @@
     "title": "cocada moreninha c/12",
     "code": "03244",
     "price": "28,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "81",
