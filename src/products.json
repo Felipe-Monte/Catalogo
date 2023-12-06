@@ -157,7 +157,7 @@
     "title": "Kit passadeira 3pçs",
     "code": "02615",
     "price": "65,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "17",
@@ -167,7 +167,7 @@
     "title": "Manta king",
     "code": "03275",
     "price": "130,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "18",
@@ -217,7 +217,7 @@
     "title": "Cafeteira destak",
     "code": "00218",
     "price": "99,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "23",
@@ -977,7 +977,7 @@
     "title": "Short ribstop c/elastano c/6",
     "code": "01207",
     "price": "45,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "99",
