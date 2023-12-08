@@ -157,7 +157,7 @@
     "title": "Kit passadeira 3pçs",
     "code": "02615",
     "price": "65,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "17",
@@ -197,7 +197,7 @@
     "title": "Tapete porta estampando",
     "code": "02559",
     "price": "16,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "21",
@@ -347,7 +347,7 @@
     "title": "Blusa canelada lunender c/3",
     "code": "01930",
     "price": "78,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "36",
@@ -527,7 +527,7 @@
     "title": "Cobreleito casal 3pçs 220x240",
     "code": "03260",
     "price": "236,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "54",
@@ -537,7 +537,7 @@
     "title": "Cobreleito casal queen 3pçs",
     "code": "03261",
     "price": "266,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "55",
