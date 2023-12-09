@@ -1,34 +1,37 @@
-import React from "react";
-import { useState } from "react"
-import { Container, Section } from "./styles"
-
-import { Header } from "../../components/Header"
-import { Cards } from "../../components/Cards"
-
-import jsonData from '../../products.json'
+import React, { useState, useEffect } from "react";
+import { Container, Section } from "./styles";
+import { Header } from "../../components/Header";
+import { Cards } from "../../components/Cards";
+import jsonData from "../../products.json";
 
 export function Home() {
-  const [searchTerm, setSearchTerm] = useState("")
+  const [searchTerm, setSearchTerm] = useState("");
+  const [sortedData, setSortedData] = useState([]);
 
   const handleSearch = (term) => {
-    setSearchTerm(term)
-  }
+    setSearchTerm(term);
+  };
 
-  const filteredData = jsonData.filter((card) => 
-    card.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    card.code.toLowerCase().includes(searchTerm.toLowerCase())
-  )
+  useEffect(() => {
+    const sortData = () => {
+      const sorted = [...jsonData]
+        .filter((card) =>
+          card.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          card.code.toLowerCase().includes(searchTerm.toLowerCase())
+        )
+        .sort((a, b) => a.title.localeCompare(b.title));
 
-  const sortedData = [...filteredData].sort((a, b) => a.title.localeCompare(b.title));
+      setSortedData(sorted);
+    };
+
+    sortData();
+  }, [searchTerm]);
 
   const MemoizedCards = React.memo(Cards);
 
   return (
     <Container>
-      <Header
-        title="Catálogo de produtos"  
-        onSearch={handleSearch}
-      />
+      <Header title="Catálogo de produtos" onSearch={handleSearch} />
 
       <main>
         <Section>
@@ -47,5 +50,5 @@ export function Home() {
         </Section>
       </main>
     </Container>
-  )
+  );
 }
