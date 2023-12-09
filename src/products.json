@@ -1048,5 +1048,35 @@
     "code": "00765",
     "price": "105,00",
     "isAvaliable": true
+  },
+  {
+    "id": "106",
+    "category": "saia",
+    "share": "",
+    "imgUrl": "/saia jeans.JPG",
+    "title": "Saia jeans miss bell c/4",
+    "code": "00377",
+    "price": "98,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "107",
+    "category": "infantil",
+    "share": "",
+    "imgUrl": "/caev kids.JPG",
+    "title": "Conj caeve kids e bonequinha c/6",
+    "code": "02565",
+    "price": "49,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "108",
+    "category": "infantil",
+    "share": "",
+    "imgUrl": "/camisa uv.JPG",
+    "title": "Camisa uv infantil c/5",
+    "code": "01442",
+    "price": "36,00",
+    "isAvaliable": true
   }
 ]
