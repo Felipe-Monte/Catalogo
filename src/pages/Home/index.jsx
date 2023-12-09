@@ -15,9 +15,11 @@ export function Home() {
   }
 
   const filteredData = jsonData.filter((card) => 
-    card.title.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase()) ||
-    card.code.toLocaleLowerCase().includes(searchTerm.toLocaleLowerCase())
+    card.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    card.code.toLowerCase().includes(searchTerm.toLowerCase())
   )
+
+  const sortedData = [...filteredData].sort((a, b) => a.title.localeCompare(b.title));
 
   const MemoizedCards = React.memo(Cards);
 
@@ -30,7 +32,7 @@ export function Home() {
 
       <main>
         <Section>
-          {filteredData.map((card) => (
+          {sortedData.map((card) => (
             <MemoizedCards
               key={card.id}
               share={card.share}
