@@ -1078,5 +1078,15 @@
     "code": "01442",
     "price": "36,00",
     "isAvaliable": true
+  },
+  {
+    "id": "109",
+    "category": "banho",
+    "share": "https://photos.app.goo.gl/M2GQWfCoVAsytyN78",
+    "imgUrl": "/toalha esmeralda.JPG",
+    "title": "Toalha de banho esmeralda vtx c/5",
+    "code": "02907",
+    "price": "49,00",
+    "isAvaliable": true
   }
 ]
