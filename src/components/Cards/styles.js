@@ -103,6 +103,7 @@ export const CardText = styled.div`
 
   .container-category {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     gap: 5px;
     padding: 2px 0px 2px 0px;
@@ -139,11 +140,18 @@ export const CardText = styled.div`
         font-size: 16px;
       }
 
-      > p {
-        font-size: 10px;
-        line-height: 16px;
-        opacity: 0.4;
-      }
+      .container-category {
+        
+        > p {
+          font-size: 11px;
+          opacity: 0.4;
+        }
+
+        .p-category {
+          font-size: 12px;
+          opacity: 0.4;
+        }
+    }
 
       > span {
         font-size: 14px;
