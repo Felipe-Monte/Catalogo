@@ -1088,5 +1088,15 @@
     "code": "02907",
     "price": "49,00",
     "isAvaliable": true
+  },
+  {
+    "id": "110",
+    "category": "cozinha",
+    "share": "https://photos.app.goo.gl/zKif8HWz2nqCChb66",
+    "imgUrl": "/pano tela.JPG",
+    "title": "Pano de prato tela roma c/12",
+    "code": "03068",
+    "price": "7,00",
+    "isAvaliable": true
   }
 ]
