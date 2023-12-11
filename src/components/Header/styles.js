@@ -16,13 +16,36 @@ export const Container = styled.header`
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE};
 
-  h1 {
-    font-size: 28px;
+  .container-title {
+
+    > h1 {
+     font-size: 28px;
+    }
   }
 
-  @media (max-width:450px) {
-    > h1 {
-      font-size: 15px;
+ 
+
+  .container-icon-filter {
+    padding: 20px;
+
+     > svg {
+      width: 25px;
+      height: 25px;
     }
+  }
+
+ 
+
+  @media (max-width:450px) {
+
+
+    .container-title {
+      text-align: center;
+      
+      > h1 {
+        font-size: 15px;
+      }
+    }
+
   }
 `

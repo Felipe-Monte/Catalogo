@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { FiSearch } from 'react-icons/fi'
+import { FiSearch, FiFilter } from 'react-icons/fi'
 import { Container } from "./styles"
 
 import { Input } from "../Input"
@@ -15,14 +15,20 @@ export function Header({ title, onSearch }) {
 
   return (
     <Container>
-      <h1>{title}</h1>
+      <div className="container-title">
+        <h1>{title}</h1>
+      </div>
 
       <Input
         icon={FiSearch}
-        placeholder="Buscar itens"
+        placeholder="Buscador"
         value={searchTerm}
         onChange={handleChange}
       />
+
+      <div className="container-icon-filter">
+        <FiFilter />
+      </div>
     </Container>
   )
 }
