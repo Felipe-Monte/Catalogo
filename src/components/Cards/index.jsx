@@ -2,13 +2,13 @@ import { Container, CardImg, CardText } from "./styles"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 
-export function Cards({ share, imgUrl, title, code, price, isAvaliable }) {
+export function Cards({category, share, imgUrl, title, code, price, isAvaliable }) {
   const navigate = useNavigate()
   const [imageLoaded, setImageLoaded] = useState(false)
 
   function handleCardClick() {
     if (isAvaliable) {
-      navigate(`/details/${code}`, { state: { share, imgUrl, title, code, price } })
+      navigate(`/details/${code}`, { state: {category, share, imgUrl, title, code, price } })
     }
   }
 
@@ -27,7 +27,12 @@ export function Cards({ share, imgUrl, title, code, price, isAvaliable }) {
 
       <CardText>
         <h2>{title}</h2>
-        <p>Cód: {code}</p>
+
+        <div className="container-category">
+          <p>Cód: {code}</p>
+          <p className="p-category">{category}</p>
+        </div>
+
         <span>{price}</span>
         <p id="share">{share}</p>
       </CardText>

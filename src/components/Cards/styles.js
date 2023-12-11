@@ -101,15 +101,31 @@ export const CardText = styled.div`
     overflow: hidden;  
   }
 
-  > p {
-    font-size: 14px;
-    opacity: 0.4;
+  .container-category {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 2px 0px 2px 0px;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;  
+
+    > p {
+      font-size: 14px;
+      opacity: 0.4;
+    }
+
+    .p-category {
+      font-size: 12px;
+      opacity: 0.4;
+    }
   }
 
   > span {
-    font-size: 24px;
+      font-size: 24px;
   }
-
+  
   #share {
     display: none;
   }

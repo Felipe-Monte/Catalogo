@@ -38,6 +38,7 @@ export function Home() {
           {sortedData.map((card) => (
             <MemoizedCards
               key={card.id}
+              category={card.category}
               share={card.share}
               imgUrl={card.imgUrl}
               title={card.title}

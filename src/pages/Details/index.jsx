@@ -7,7 +7,7 @@ import { Header } from '../../components/Header'
 
 export function Details() {
   const location = useLocation()
-  const {share, imgUrl, title, code, price } = location.state || {}
+  const {category,share, imgUrl, title, code, price } = location.state || {}
   
   const navigate = useNavigate()
 
@@ -35,8 +35,9 @@ export function Details() {
             <ContainerText>
               <h2>{title}</h2>
               <p>Cód: {code}</p>
+              <p>{category}</p>
               <span>{price}</span>
-
+            
               <FaWhatsapp onClick={sendWhatsApp} />
             </ContainerText>
 
