@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { FiSearch, FiFilter } from 'react-icons/fi'
+import { LuFilterX } from "react-icons/lu"
 import { Container } from "./styles"
 
 import { Input } from "../Input"
@@ -27,7 +28,7 @@ export function Header({ title, onSearch }) {
       />
 
       <div className="container-icon-filter">
-        <FiFilter />
+        <LuFilterX />
       </div>
     </Container>
   )
