@@ -20,10 +20,9 @@ export const Container = styled.header`
 
     > h1 {
      font-size: 28px;
+     cursor: pointer;
     }
   }
-
- 
 
   .container-icon-filter {
     padding: 20px;
@@ -31,13 +30,11 @@ export const Container = styled.header`
      > svg {
       width: 25px;
       height: 25px;
+      cursor: pointer;
     }
   }
 
- 
-
   @media (max-width:450px) {
-
 
     .container-title {
       text-align: center;
