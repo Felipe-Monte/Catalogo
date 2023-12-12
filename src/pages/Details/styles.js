@@ -137,6 +137,8 @@ export const ContainerText = styled.div`
   > svg {
     width: 30px;
     height: 30px;
+
+    cursor: pointer;
   }
 
   @media (max-width: 450px) {
