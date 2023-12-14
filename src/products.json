@@ -217,7 +217,7 @@
     "title": "Cafeteira destak",
     "code": "00218",
     "price": "99,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "23",
@@ -447,7 +447,7 @@
     "title": "Calcinha av",
     "code": "00227",
     "price": "9,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "46",
@@ -517,7 +517,7 @@
     "title": "Calcinha short renda c/12",
     "code": "00901",
     "price": "15,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "53",
@@ -697,7 +697,7 @@
     "title": "Sabonete ítimo bell corpus c/12",
     "code": "01879",
     "price": "12,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "71",
@@ -837,7 +837,7 @@
     "title": "Deo colônia intensse c/5",
     "code": "02180",
     "price": "50,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "85",
@@ -927,7 +927,7 @@
     "title": "Short jeans d luxo c/5",
     "code": "03264",
     "price": "115,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "94",
@@ -1067,7 +1067,7 @@
     "title": "Conj caeve kids e bonequinha c/6",
     "code": "02565",
     "price": "49,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "108",
@@ -1087,7 +1087,7 @@
     "title": "Toalha de banho esmeralda vtx c/5",
     "code": "02907",
     "price": "49,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "110",
