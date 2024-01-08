@@ -427,7 +427,7 @@
     "title": "Calça jeans masc valiant c/5",
     "code": "03210",
     "price": "175,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "44",
@@ -447,7 +447,7 @@
     "title": "Calcinha av",
     "code": "00227",
     "price": "9,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "46",
@@ -627,7 +627,7 @@
     "title": "Conj inf lara flor c/6",
     "code": "01129",
     "price": "45,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "64",
@@ -697,7 +697,7 @@
     "title": "Sabonete ítimo bell corpus c/12",
     "code": "01879",
     "price": "12,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "71",
@@ -837,7 +837,7 @@
     "title": "Deo colônia intensse c/5",
     "code": "02180",
     "price": "50,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "85",
@@ -1047,7 +1047,7 @@
     "title": "Short jeans masculino c/4",
     "code": "00765",
     "price": "105,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "106",
