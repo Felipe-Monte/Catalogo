@@ -27,7 +27,7 @@
     "title": "Deo colônia cordial 50ml c/6",
     "code": "03398",
     "price": "60,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "4",
@@ -147,7 +147,7 @@
     "title": "Cortina de sala confetex",
     "code": "02646",
     "price": "180,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "16",
@@ -157,7 +157,7 @@
     "title": "Kit passadeira 3pçs",
     "code": "02615",
     "price": "65,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "17",
@@ -197,7 +197,7 @@
     "title": "Tapete porta estampando",
     "code": "02559",
     "price": "16,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "21",
@@ -377,7 +377,7 @@
     "title": "Blusa lunender basica c/3",
     "code": "00549",
     "price": "75,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "39",
@@ -387,7 +387,7 @@
     "title": "Blusa plus deluxe c/4",
     "code": "01111",
     "price": "50,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "40",
@@ -577,7 +577,7 @@
     "title": "Camisa jait boy careca",
     "code": "02075",
     "price": "86,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "59",
@@ -807,7 +807,7 @@
     "title": "Doce goulart c/12",
     "code": "00479",
     "price": "20,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "82",
@@ -1027,7 +1027,7 @@
     "title": "Vestido lunender malha canelado c/3",
     "code": "02610",
     "price": "138,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "104",
@@ -1037,7 +1037,7 @@
     "title": "Vestido suplex",
     "code": "03017",
     "price": "50,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "105",
