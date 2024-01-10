@@ -38,7 +38,7 @@ export function Details() {
               <p>{category}</p>
               <span>{price}</span>
             
-              <FaWhatsapp onClick={sendWhatsApp} />
+              <FaWhatsapp className='icon-whatsapp' onClick={sendWhatsApp} />
             </ContainerText>
 
             <ContainerButton>

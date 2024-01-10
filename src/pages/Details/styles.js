@@ -31,6 +31,10 @@ export const WrapperContainer = styled.div`
 
   padding-right: 20px;
 
+  .icon-whatsapp {
+    color: #2EA043;
+  }
+
   @media (max-width: 768px) {
     width: 100%;
     padding-right: 0; 
