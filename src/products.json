@@ -1098,5 +1098,25 @@
     "code": "03068",
     "price": "7,00",
     "isAvaliable": true
+  },
+  {
+    "id": "111",
+    "category": "cama",
+    "share": "https://photos.app.goo.gl/eEJcNDXquxi6fKp5A",
+    "imgUrl": "/lencol casal lz.jpeg",
+    "title": "Lençol casal com fronha 220x240 c/5",
+    "code": "01050",
+    "price": "68,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "112",
+    "category": "cosméticos",
+    "share": "https://photos.app.goo.gl/arvRiBe2XmuAQLTi9",
+    "imgUrl": "spray icerelief.jpeg",
+    "title": "Spray massageador icerelief c/12",
+    "code": "02957",
+    "price": "20,00",
+    "isAvaliable": true
   }
 ]
