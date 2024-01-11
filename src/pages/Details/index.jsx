@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { FiArrowLeft } from 'react-icons/fi'
 import { FaWhatsapp } from 'react-icons/fa'
@@ -18,9 +18,32 @@ export function Details() {
 
   const sendWhatsApp = () => {
     const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent(share)} ${title} Cód: ${code} ${price}.`
-
     window.open(whatsappURL)
   }
+
+  const handleCopyToClipboard = () => {
+    const whatsappURL = `${share} ${title} Cód: ${code} ${price}.`
+
+    // Criar um elemento de input temporário
+    const inputElement = document.createElement('input');
+    inputElement.value = whatsappURL;
+
+    // Adicionar o elemento ao DOM
+    document.body.appendChild(inputElement);
+
+    // Selecionar o texto no campo de input
+    inputElement.select();
+    inputElement.setSelectionRange(0, 99999); // Para dispositivos móveis
+
+    // Copiar o texto para a área de transferência
+    document.execCommand('copy');
+
+    // Remover o elemento temporário
+    document.body.removeChild(inputElement);
+
+    // Alerta ou feedback para o usuário
+    alert('Link copiado para a área de transferência!');
+  };
 
   return (
     <Container>
@@ -41,7 +64,7 @@ export function Details() {
 
               <div className='wrapper-icons'>
                 <FaWhatsapp className='icon-whatsapp' onClick={sendWhatsApp} />
-                <FaRegCopy />
+                <FaRegCopy onClick={handleCopyToClipboard} />
               </div>
             </ContainerText>
 
@@ -57,4 +80,3 @@ export function Details() {
     </Container>
   )
 }
-
