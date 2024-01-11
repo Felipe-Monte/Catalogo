@@ -117,7 +117,7 @@
     "title": "Rede jaguaruana top",
     "code": "03387",
     "price": "300,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "13",
@@ -187,7 +187,7 @@
     "title": "Rede bucho de boi",
     "code": "03230",
     "price": "195,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "20",
@@ -347,7 +347,7 @@
     "title": "Blusa canelada lunender c/3",
     "code": "01930",
     "price": "78,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "36",
@@ -437,7 +437,7 @@
     "title": "Calça jeans valiant fem",
     "code": "01878",
     "price": "170,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "45",
@@ -447,7 +447,7 @@
     "title": "Calcinha av",
     "code": "00227",
     "price": "9,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "46",
@@ -717,7 +717,7 @@
     "title": "Pano de prato cobre tudo",
     "code": "03083",
     "price": "13,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "73",
@@ -787,7 +787,7 @@
     "title": "Biscoito carvalho c/12",
     "code": "03184",
     "price": "21,00",
-    "isAvaliable": true
+    "isAvaliable": false
   },
   {
     "id": "80",
