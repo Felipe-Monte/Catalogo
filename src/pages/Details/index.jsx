@@ -2,13 +2,14 @@ import React from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 import { FiArrowLeft } from 'react-icons/fi'
 import { FaWhatsapp } from 'react-icons/fa'
+import { FaRegCopy } from "react-icons/fa6";
 import { Container, Section, WrapperContainer, ContainerImg, ContainerText, ContainerButton } from './styles'
 import { Header } from '../../components/Header'
 
 export function Details() {
   const location = useLocation()
-  const {category,share, imgUrl, title, code, price } = location.state || {}
-  
+  const { category, share, imgUrl, title, code, price } = location.state || {}
+
   const navigate = useNavigate()
 
   const handleClickBack = () => {
@@ -37,8 +38,11 @@ export function Details() {
               <p>Cód: {code}</p>
               <p>{category}</p>
               <span>{price}</span>
-            
-              <FaWhatsapp className='icon-whatsapp' onClick={sendWhatsApp} />
+
+              <div className='wrapper-icons'>
+                <FaWhatsapp className='icon-whatsapp' onClick={sendWhatsApp} />
+                <FaRegCopy />
+              </div>
             </ContainerText>
 
             <ContainerButton>

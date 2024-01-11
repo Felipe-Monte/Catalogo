@@ -31,10 +31,29 @@ export const WrapperContainer = styled.div`
 
   padding-right: 20px;
 
-  .icon-whatsapp {
-    color: #2EA043;
+  position: relative;
+
+  .wrapper-icons {
+    position: absolute;
+    right: 25px;
+    bottom: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+
+    > svg {
+      width: 28px;
+      height: 28px;
+    }
+
+    .icon-whatsapp {
+      color: #2EA043;
+    }
   }
 
+  
   @media (max-width: 768px) {
     width: 100%;
     padding-right: 0; 
@@ -196,7 +215,7 @@ export const ContainerButton = styled.div`
 
     border: 1px solid ${({ theme }) => theme.COLORS.PURPLE};
 
-    color: ${({theme}) => theme.COLORS.WHITE};
+    color: ${({ theme }) => theme.COLORS.WHITE};
     background: transparent;
   }
 
@@ -205,7 +224,7 @@ export const ContainerButton = styled.div`
 
     border: 1px solid ${({ theme }) => theme.COLORS.RED};
 
-    color: ${({theme}) => theme.COLORS.WHITE};
+    color: ${({ theme }) => theme.COLORS.WHITE};
     background: transparent;
   }
 `
