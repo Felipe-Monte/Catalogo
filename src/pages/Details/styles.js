@@ -46,6 +46,7 @@ export const WrapperContainer = styled.div`
     > svg {
       width: 28px;
       height: 28px;
+      cursor: pointer;
     }
 
     .icon-whatsapp {
