@@ -50,7 +50,7 @@ export function Home() {
               />
             ))
           ) : (
-            <p>Nenhum produto encontrado para "{searchTerm}"</p>
+            <p className="alert_not_found">Nenhum produto encontrado para "{searchTerm}"</p>
           )}
         </Section>
       </main>

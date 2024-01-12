@@ -41,7 +41,7 @@ export const Section = styled.section`
   gap: 15px;
   padding: 15px;
   scroll-behavior: smooth;
-
+  
   @media screen and (max-width: 700px) {
     display: grid;
     grid-template-columns: repeat(2, 1fr);  
@@ -50,6 +50,12 @@ export const Section = styled.section`
     justify-items: center;
     gap: 3px;
     padding: 5px 0 0 0;
+
+    .alert_not_found {
+      position: relative;
+      left: 50%;
+      text-align: center;
+    }
 
     > svg {
       position: absolute;
