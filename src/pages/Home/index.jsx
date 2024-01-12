@@ -35,19 +35,23 @@ export function Home() {
 
       <main>
         <Section>
-          {sortedData.map((card) => (
-            <MemoizedCards
-              key={card.id}
-              category={card.category}
-              share={card.share}
-              imgUrl={card.imgUrl}
-              title={card.title}
-              code={card.code}
-              price={`R$: ${card.price}`}
-              isAvaliable={card.isAvaliable}
-              loading="lazy"
-            />
-          ))}
+          {sortedData.length > 0 ? (
+            sortedData.map((card) => (
+              <MemoizedCards
+                key={card.id}
+                category={card.category}
+                share={card.share}
+                imgUrl={card.imgUrl}
+                title={card.title}
+                code={card.code}
+                price={`R$: ${card.price}`}
+                isAvaliable={card.isAvaliable}
+                loading="lazy"
+              />
+            ))
+          ) : (
+            <p>Nenhum produto encontrado para "{searchTerm}"</p>
+          )}
         </Section>
       </main>
     </Container>
