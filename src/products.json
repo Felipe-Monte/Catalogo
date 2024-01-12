@@ -1118,5 +1118,15 @@
     "code": "02957",
     "price": "20,00",
     "isAvaliable": true
+  },
+  {
+    "id": "113",
+    "category": "banho",
+    "share": "https://photos.app.goo.gl/dEzBJGSZw1AffUa86",
+    "imgUrl": "/toalha gg.jpeg",
+    "title": "Toalha gg master 1,78 x 78 c/3",
+    "code": "03376",
+    "price": "63,00",
+    "isAvaliable": true
   }
 ]
