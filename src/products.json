@@ -1128,5 +1128,25 @@
     "code": "03376",
     "price": "63,00",
     "isAvaliable": true
+  },
+  {
+    "id": "114",
+    "category": "cosméticos",
+    "share": "https://photos.app.goo.gl/QiV9FYd92kxo16516",
+    "imgUrl": "/spray peixe.JPG",
+    "title": "Spray massageador peixe elétrico c/12",
+    "code": "02958",
+    "price": "20,00",
+    "isAvaliable": true
+  },
+  {
+    "id": "115",
+    "category": "perfumaria",
+    "share": "https://photos.app.goo.gl/p23YBECGEYS522Mf6",
+    "imgUrl": "/deo wisk.JPG",
+    "title": "Deo colônia essen wisk c/6",
+    "code": "02960",
+    "price": "39,00",
+    "isAvaliable": true
   }
 ]
