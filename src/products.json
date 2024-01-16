@@ -117,7 +117,7 @@
     "title": "Rede jaguaruana top",
     "code": "03387",
     "price": "300,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "13",
@@ -167,7 +167,7 @@
     "title": "Manta king",
     "code": "03275",
     "price": "130,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "18",
@@ -187,7 +187,7 @@
     "title": "Rede bucho de boi",
     "code": "03230",
     "price": "195,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "20",
@@ -477,7 +477,7 @@
     "title": "Calcinha g cotton c/10",
     "code": "01217",
     "price": "20,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "49",
@@ -717,7 +717,7 @@
     "title": "Pano de prato cobre tudo",
     "code": "03083",
     "price": "13,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "73",
@@ -977,7 +977,7 @@
     "title": "Short ribstop c/elastano c/6",
     "code": "01207",
     "price": "45,00",
-    "isAvaliable": false
+    "isAvaliable": true
   },
   {
     "id": "99",
