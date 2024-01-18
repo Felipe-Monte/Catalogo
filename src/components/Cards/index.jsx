@@ -1,19 +1,22 @@
 import { Container, CardImg, CardText } from "./styles"
+import { MdOutlineFiberNew } from "react-icons/md";
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 
-export function Cards({category, share, imgUrl, title, code, price, isAvailable }) {
+export function Cards({ category, share, imgUrl, title, code, price, isAvailable, isNew }) {
   const navigate = useNavigate()
   const [imageLoaded, setImageLoaded] = useState(false)
 
   function handleCardClick() {
     if (isAvailable) {
-      navigate(`/details/${code}`, { state: {category, share, imgUrl, title, code, price } })
+      navigate(`/details/${code}`, { state: { category, share, imgUrl, title, code, price } })
     }
   }
 
   return (
-    <Container onClick={handleCardClick} className={isAvailable ? "" : "unavailable" }>
+    <Container onClick={handleCardClick}
+      className={`${isAvailable ? "" : "unavailable"} ${isNew ? "new_item" : ""}`}>
+      <MdOutlineFiberNew className="icon-new"/>
       <CardImg>
         {!imageLoaded && <img id="loader" src="/spinner.svg" alt="loading spinner" loading="lazy" />}
         <img

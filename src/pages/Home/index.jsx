@@ -46,6 +46,7 @@ export function Home() {
                 code={card.code}
                 price={`R$: ${card.price}`}
                 isAvailable={card.isAvailable}
+                isNew={card.isNew}
                 loading="lazy"
               />
             ))

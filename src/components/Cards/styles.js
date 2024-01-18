@@ -19,12 +19,38 @@ export const Container = styled.div`
   white-space: nowrap;
   overflow: hidden;  
 
+  position: relative;
+
   &:hover {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
   }
 
   .unavailable {
     position: relative;
+  }
+
+  .icon-new {
+    display: none;
+  }
+
+  &.new_item {
+    border: 2px solid yellow;
+
+    .icon-new {
+      display: block;
+
+      width: 35px;
+      height: 35px;
+
+      position: absolute;
+
+      top: -1px;
+      left: 5px;
+
+      z-index: 1;
+
+      color: yellow;
+    }
   }
 
   .unavailable-banner {
