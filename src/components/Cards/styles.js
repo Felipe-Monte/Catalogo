@@ -19,8 +19,10 @@ export const Container = styled.div`
   white-space: nowrap;
   overflow: hidden;  
 
-  position: relative;
+  cursor: pointer;
 
+  position: relative;
+  
   &:hover {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
   }
