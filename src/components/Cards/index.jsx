@@ -2,18 +2,18 @@ import { Container, CardImg, CardText } from "./styles"
 import { useNavigate } from "react-router-dom"
 import { useState } from "react"
 
-export function Cards({category, share, imgUrl, title, code, price, isAvaliable }) {
+export function Cards({category, share, imgUrl, title, code, price, isAvailable }) {
   const navigate = useNavigate()
   const [imageLoaded, setImageLoaded] = useState(false)
 
   function handleCardClick() {
-    if (isAvaliable) {
+    if (isAvailable) {
       navigate(`/details/${code}`, { state: {category, share, imgUrl, title, code, price } })
     }
   }
 
   return (
-    <Container onClick={handleCardClick} className={isAvaliable ? "" : "unavailable" }>
+    <Container onClick={handleCardClick} className={isAvailable ? "" : "unavailable" }>
       <CardImg>
         {!imageLoaded && <img id="loader" src="/spinner.svg" alt="loading spinner" loading="lazy" />}
         <img
@@ -22,7 +22,7 @@ export function Cards({category, share, imgUrl, title, code, price, isAvaliable 
           loading="lazy"
           onLoad={() => setImageLoaded(true)}
         />
-        {!isAvaliable && <div className="unavailable-banner">Esgotado</div>}
+        {!isAvailable && <div className="unavailable-banner">Esgotado</div>}
       </CardImg>
 
       <CardText>
