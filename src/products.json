@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "category": "novidades",
+    "category": "roupas de dormir",
     "share": "https://photos.app.goo.gl/n6JbcUy1A4qfQctD6",
     "imgUrl": "/baby dool 45.JPG",
     "title": "Baby dool 100% algodão c/6",
@@ -12,7 +12,7 @@
   },
   {
     "id": "2",
-    "category": "novidades",
+    "category": "cosméticos",
     "share": "https://photos.app.goo.gl/uYkCP3XkPjuVnJtn9",
     "imgUrl": "/capilar cordial.JPG",
     "title": "Kit capilar cordial 1kg/1lt",
@@ -23,7 +23,7 @@
   },
   {
     "id": "3",
-    "category": "novidades",
+    "category": "perfumaria",
     "share": "https://photos.app.goo.gl/BoDVsdLRCm4ZnfZ59",
     "imgUrl": "/deo 50ml.JPG",
     "title": "Deo colônia cordial 50ml c/6",
@@ -33,7 +33,7 @@
     "isNew": false  },
   {
     "id": "4",
-    "category": "novidades",
+    "category": "perfumaria",
     "share": "https://photos.app.goo.gl/9MpGuBZzJcM5dSon9",
     "imgUrl": "/deo colonia cordial 120.JPG",
     "title": "Deo colônia cordial 100ml c/6",
@@ -44,7 +44,7 @@
   },
   {
     "id": "5",
-    "category": "novidades",
+    "category": "acessórios",
     "share": "https://photos.app.goo.gl/BoaHX9JppyReBhXVA",
     "imgUrl": "/garrafa digital.JPG",
     "title": "Garrafa digital",
@@ -54,7 +54,7 @@
     "isNew": false  },
   {
     "id": "6",
-    "category": "novidades",
+    "category": "acessórios",
     "share": "https://photos.app.goo.gl/AHzTXfzh2bqfd5BaA",
     "imgUrl": "/garrafa motivacional.JPG",
     "title": "Garrafa motivacional 3pçs",
@@ -65,7 +65,7 @@
   },
   {
     "id": "7",
-    "category": "novidades",
+    "category": "cosméticos",
     "share": "https://photos.app.goo.gl/3JRoBTybJHLu7das6",
     "imgUrl": "/kit bababell.JPG",
     "title": "kit capilar bababell",
@@ -75,7 +75,7 @@
     "isNew": false  },
   {
     "id": "8",
-    "category": "novidades",
+    "category": "acessórios",
     "share": "https://photos.app.goo.gl/j7nYMKeo3KdcErnHA",
     "imgUrl": "/maquina de corte.JPG",
     "title": "Maquina de corte cabelo",
@@ -86,7 +86,7 @@
   },
   {
     "id": "9",
-    "category": "novidades",
+    "category": "acessórios",
     "share": "https://photos.app.goo.gl/ncjPwLwgmChtTUq4A",
     "imgUrl": "/massageador.JPG",
     "title": "Massageador imp",
@@ -97,7 +97,7 @@
   },
   {
     "id": "10",
-    "category": "novidades",
+    "category": "rede",
     "share": "https://photos.app.goo.gl/7y9sCrQVzRydjpjr9",
     "imgUrl": "/rede bucho top.JPG",
     "title": "Rede bucho de boi top",
@@ -108,7 +108,7 @@
   },
   {
     "id": "11",
-    "category": "novidades",
+    "category": "cosméticos",
     "share": "https://photos.app.goo.gl/w44vEXmiCtkQMuKD7",
     "imgUrl": "/sebo de carneiro.JPG",
     "title": "Sebo de carneiro",
@@ -119,7 +119,7 @@
   },
   {
     "id": "12",
-    "category": "novidades",
+    "category": "rede",
     "share": "https://photos.app.goo.gl/raWQuCw2vFxd9QSa8",
     "imgUrl": "/rede jaguaruana.JPG",
     "title": "Rede jaguaruana top",
@@ -130,7 +130,7 @@
   },
   {
     "id": "13",
-    "category": "novidades",
+    "category": "acessórios",
     "share": "https://photos.app.goo.gl/YSekM1QbD8uDcP7o9",
     "imgUrl": "/triturador.JPG",
     "title": "Triturador",
