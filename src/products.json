@@ -861,7 +861,7 @@
     "title": "Biscoito carvalho c/12",
     "code": "03184",
     "price": "21,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -883,7 +883,7 @@
     "title": "Doce goulart c/12",
     "code": "00479",
     "price": "20,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
