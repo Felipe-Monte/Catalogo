@@ -400,7 +400,7 @@
     "title": "Blusa exclusiva c/6",
     "code": "01045",
     "price": "39,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -686,7 +686,7 @@
     "title": "Conj inf lara flor c/6",
     "code": "01129",
     "price": "45,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1157,7 +1157,7 @@
     "title": "Saia jeans miss bell c/4",
     "code": "00377",
     "price": "98,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1300,7 +1300,7 @@
     "title": "Hidratante corporal var c/12",
     "code": "03384",
     "price": "18,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
