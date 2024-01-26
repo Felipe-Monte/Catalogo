@@ -41,13 +41,13 @@ export const Container = styled.div`
     .icon-new {
       display: block;
 
-      width: 35px;
-      height: 35px;
+      width: 30px;
+      height: 30px;
 
       position: absolute;
 
-      top: -1px;
-      left: 5px;
+      top: 4px;
+      right: 4px;
 
       z-index: 1;
 
