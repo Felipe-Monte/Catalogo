@@ -70,9 +70,10 @@
     "imgUrl": "/kit bababell.JPG",
     "title": "kit capilar bababell",
     "code": "018622",
-    "price": "60,00",
+    "price": "66,00",
     "isAvailable": true,
-    "isNew": false  },
+    "isNew": false  
+  },
   {
     "id": "8",
     "category": "acessórios",
@@ -499,7 +500,7 @@
     "title": "Calcinha borda sedução c/12",
     "code": "03331",
     "price": "15,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
