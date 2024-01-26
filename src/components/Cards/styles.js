@@ -6,7 +6,7 @@ export const Container = styled.div`
   gap: 0px;
 
   width: 300px;
-  height: fit-content;
+  height: 345px;
 
   padding: 15px;
 
@@ -75,7 +75,7 @@ export const Container = styled.div`
       border-radius: 0px;
 
       width: 100%;
-      height: 275px;
+      height: 290px;
       
       padding: 0;
     } 
@@ -118,10 +118,14 @@ export const CardText = styled.div`
 
   padding: 10px;
 
-  text-overflow: ellipsis;
+  /* text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;  
+  overflow: hidden;   */
 
+    #in_stock {
+     color: #22c55e;
+     font-size: 14px;
+    }
 
   > h2 {
     font-size: 22px;
@@ -154,9 +158,10 @@ export const CardText = styled.div`
   }
 
   > span {
+      display: block;
       font-size: 24px;
   }
-  
+
   #share {
     display: none;
   }
@@ -167,7 +172,13 @@ export const CardText = styled.div`
       padding: 5px;
 
       > h2 {
-        font-size: 16px;
+        font-size: 14px;
+      }
+
+      #in_stock {
+        margin-top: 2px;
+        color: #22c55e;
+        font-size: 12px;
       }
 
       .container-category {
@@ -184,7 +195,7 @@ export const CardText = styled.div`
     }
 
       > span {
-        font-size: 14px;
+        font-size: 16px;
       }
     }
 `

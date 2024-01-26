@@ -38,6 +38,9 @@ export function Cards({ category, share, imgUrl, title, code, price, isAvailable
 
         <span>{price}</span>
         <p id="share">{share}</p>
+
+        {isAvailable && <p id="in_stock">Em estoque</p>}
+        
       </CardText>
     </Container>
   )
