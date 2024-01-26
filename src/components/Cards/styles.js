@@ -123,8 +123,9 @@ export const CardText = styled.div`
   overflow: hidden;   */
 
     #in_stock {
-     color: #22c55e;
-     font-size: 14px;
+      margin-top: 2px;
+      color: #22c55e;
+      font-size: 14px;
     }
 
   > h2 {
@@ -176,7 +177,6 @@ export const CardText = styled.div`
       }
 
       #in_stock {
-        margin-top: 2px;
         color: #22c55e;
         font-size: 12px;
       }
