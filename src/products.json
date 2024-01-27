@@ -1314,5 +1314,16 @@
     "price": "39,00",
     "isAvailable": true,
     "isNew": false
+  },
+  {
+    "id": "121",
+    "category": "infantil",
+    "share": "https://photos.app.goo.gl/SuyzNYT89i4yhGyf6",
+    "imgUrl": "/infanto juvenil.webp",
+    "title": "Conj infanto juvenil 10 a 14 c/6",
+    "code": "01110",
+    "price": "60,00",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
