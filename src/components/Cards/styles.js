@@ -17,12 +17,12 @@ export const Container = styled.div`
 
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;  
+  overflow: hidden;
 
   cursor: pointer;
 
   position: relative;
-  
+
   &:hover {
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
   }
@@ -61,25 +61,25 @@ export const Container = styled.div`
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: rgba(255, 0, 0, 0.7); 
-    color: #fff; 
+    background-color: rgba(255, 0, 0, 0.7);
+    color: #fff;
     font-size: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: rotate(-35deg); 
-    pointer-events: none; 
+    transform: rotate(-35deg);
+    pointer-events: none;
   }
 
   @media screen and (max-width: 700px) {
-      border-radius: 0px;
+    border-radius: 0px;
 
-      width: 100%;
-      height: 290px;
-      
-      padding: 0;
-    } 
-`
+    width: 100%;
+    height: 290px;
+
+    padding: 0;
+  }
+`;
 
 export const CardImg = styled.div`
   display: flex;
@@ -90,8 +90,8 @@ export const CardImg = styled.div`
 
   border-radius: 5px;
   position: relative;
-  
-    #loader {
+
+  #loader {
     width: 30px;
     height: 30px;
 
@@ -101,16 +101,16 @@ export const CardImg = styled.div`
   > img {
     width: 100%;
     height: 100%;
-    
+
     object-fit: cover;
     border-radius: 5px;
   }
 
   @media screen and (max-width: 425px) {
-      max-height: 200px;
-      height: 100%;
-    }
-`
+    max-height: 200px;
+    height: 100%;
+  }
+`;
 
 export const CardText = styled.div`
   width: 100%;
@@ -122,18 +122,18 @@ export const CardText = styled.div`
   white-space: nowrap;
   overflow: hidden;   */
 
-    #in_stock {
-      margin-top: 2px;
-      color: #22c55e;
-      font-size: 14px;
-    }
+  #in_stock {
+    margin-top: 2px;
+    color: #22c55e;
+    font-size: 14px;
+  }
 
   > h2 {
     font-size: 22px;
-    
+
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;  
+    overflow: hidden;
   }
 
   .container-category {
@@ -145,7 +145,7 @@ export const CardText = styled.div`
 
     text-overflow: ellipsis;
     white-space: nowrap;
-    overflow: hidden;  
+    overflow: hidden;
 
     > p {
       font-size: 14px;
@@ -159,8 +159,8 @@ export const CardText = styled.div`
   }
 
   > span {
-      display: block;
-      font-size: 24px;
+    display: block;
+    font-size: 24px;
   }
 
   #share {
@@ -168,35 +168,33 @@ export const CardText = styled.div`
   }
 
   @media screen and (max-width: 700px) {
-      height: 100px;
+    height: 100px;
 
-      padding: 5px;
+    padding: 5px;
 
-      > h2 {
-        font-size: 14px;
-      }
+    > h2 {
+      font-size: 14px;
+    }
 
-      #in_stock {
-        color: #22c55e;
+    #in_stock {
+      color: #22c55e;
+      font-size: 12px;
+    }
+
+    .container-category {
+      > p {
         font-size: 12px;
+        opacity: 0.4;
       }
 
-      .container-category {
-        
-        > p {
-          font-size: 12px;
-          opacity: 0.4;
-        }
-
-        .p-category {
-          font-size: 12px;
-          opacity: 0.4;
-        }
-    }
-
-      > span {
-        font-size: 16px;
+      .p-category {
+        font-size: 12px;
+        opacity: 0.4;
       }
     }
-`
 
+    > span {
+      font-size: 16px;
+    }
+  }
+`;

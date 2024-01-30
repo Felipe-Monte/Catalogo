@@ -17,32 +17,29 @@ export const Container = styled.header`
   background-color: ${({ theme }) => theme.COLORS.PURPLE};
 
   .container-title {
-
     > h1 {
-     font-size: 28px;
-     cursor: pointer;
+      font-size: 28px;
+      cursor: pointer;
     }
   }
 
   .container-icon-filter {
     padding: 20px;
 
-     > svg {
+    > svg {
       width: 25px;
       height: 25px;
       cursor: pointer;
     }
   }
 
-  @media (max-width:450px) {
-
+  @media (max-width: 450px) {
     .container-title {
       text-align: center;
-      
+
       > h1 {
         font-size: 15px;
       }
     }
-
   }
-`
+`;

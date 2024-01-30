@@ -1,18 +1,18 @@
-import { useState } from "react"
-import { FiSearch, FiFilter } from 'react-icons/fi'
-import { LuFilterX } from "react-icons/lu"
-import { Container } from "./styles"
+import { useState } from "react";
+import { FiSearch, FiFilter } from "react-icons/fi";
+import { LuFilterX } from "react-icons/lu";
+import { Container } from "./styles";
 
-import { Input } from "../Input"
+import { Input } from "../Input";
 
 export function Header({ title, onSearch }) {
-  const [searchTerm, setSearchTerm] = useState("")
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleChange = (event) => {
-    const term = event.target.value
-    setSearchTerm(term)
-    onSearch(term)
-  }
+    const term = event.target.value;
+    setSearchTerm(term);
+    onSearch(term);
+  };
 
   return (
     <Container>
@@ -31,5 +31,5 @@ export function Header({ title, onSearch }) {
         <LuFilterX />
       </div>
     </Container>
-  )
+  );
 }

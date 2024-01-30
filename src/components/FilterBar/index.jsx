@@ -1,9 +1,5 @@
-import { Container } from "./styles"
+import { Container } from "./styles";
 
 export function FilterBar() {
-  return (
-    <Container>
-      
-    </Container>
-  )
+  return <Container></Container>;
 }

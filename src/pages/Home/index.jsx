@@ -1,33 +1,34 @@
-import React, { useState, useEffect } from "react"
-import { Container, Section } from "./styles"
-import { Header } from "../../components/Header"
-import { Cards } from "../../components/Cards"
-import jsonData from "../../products.json"
+import React, { useState, useEffect } from "react";
+import { Container, Section } from "./styles";
+import { Header } from "../../components/Header";
+import { Cards } from "../../components/Cards";
+import jsonData from "../../products.json";
 
 export function Home() {
-  const [searchTerm, setSearchTerm] = useState("")
-  const [sortedData, setSortedData] = useState([])
+  const [searchTerm, setSearchTerm] = useState("");
+  const [sortedData, setSortedData] = useState([]);
 
   const handleSearch = (term) => {
-    setSearchTerm(term)
-  }
+    setSearchTerm(term);
+  };
 
   useEffect(() => {
     const sortData = () => {
       const sorted = [...jsonData]
-        .filter((card) =>
-          card.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          card.code.toLowerCase().includes(searchTerm.toLowerCase())
+        .filter(
+          (card) =>
+            card.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            card.code.toLowerCase().includes(searchTerm.toLowerCase())
         )
-        .sort((a, b) => a.title.localeCompare(b.title))
+        .sort((a, b) => a.title.localeCompare(b.title));
 
-      setSortedData(sorted)
-    }
+      setSortedData(sorted);
+    };
 
-    sortData()
-  }, [searchTerm])
+    sortData();
+  }, [searchTerm]);
 
-  const MemoizedCards = React.memo(Cards)
+  const MemoizedCards = React.memo(Cards);
 
   return (
     <Container>
@@ -51,10 +52,12 @@ export function Home() {
               />
             ))
           ) : (
-            <p className="alert_not_found">Nenhum produto encontrado para "{searchTerm}"</p>
+            <p className="alert_not_found">
+              Nenhum produto encontrado para "{searchTerm}"
+            </p>
           )}
         </Section>
       </main>
     </Container>
-  )
+  );
 }

@@ -24,7 +24,7 @@ export const Container = styled.div`
     scroll-behavior: smooth;
   }
 
-  main::-webkit-scrollbar { 
+  main::-webkit-scrollbar {
     display: none;
   }
 
@@ -41,10 +41,10 @@ export const Section = styled.section`
   gap: 15px;
   padding: 15px;
   scroll-behavior: smooth;
-  
+
   @media screen and (max-width: 700px) {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);  
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     align-items: center;
     justify-items: center;
@@ -63,5 +63,3 @@ export const Section = styled.section`
     }
   }
 `;
-
-

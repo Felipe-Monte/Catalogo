@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   overflow-y: auto;
-  
+
   width: 100%;
-  height: calc(100vh -50px) ;
+  height: calc(100vh -50px);
 
   > main {
     width: 100%;
-    height: 100%; 
-    
+    height: 100%;
+
     margin-top: 50px;
 
     display: flex;
@@ -18,10 +18,10 @@ export const Container = styled.div`
 
   @media (max-width: 450px) {
     > main {
-      height: 100%; 
+      height: 100%;
     }
   }
-`
+`;
 export const WrapperContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@ export const WrapperContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px; 
+    gap: 10px;
 
     > svg {
       width: 28px;
@@ -50,25 +50,24 @@ export const WrapperContainer = styled.div`
     }
 
     .icon-whatsapp {
-      color: #2EA043;
+      color: #2ea043;
     }
   }
 
-  
   @media (max-width: 768px) {
     width: 100%;
-    padding-right: 0; 
+    padding-right: 0;
   }
 
   @media (max-width: 450px) {
     width: 100%;
     height: 100%;
 
-    justify-content: space-between; 
+    justify-content: space-between;
 
     padding-right: 0;
   }
-`
+`;
 
 export const Section = styled.section`
   position: relative;
@@ -87,17 +86,17 @@ export const Section = styled.section`
 
     width: 100%;
     height: calc(100% - 50px);
-    
+
     position: fixed;
     top: 0;
 
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
 
     border-radius: 0;
   }
-`
+`;
 export const ContainerImg = styled.div`
   width: 50%;
   height: 100%;
@@ -124,13 +123,13 @@ export const ContainerImg = styled.div`
     height: 350px;
 
     padding: 0;
-  
+
     > img {
       width: 100%;
       height: 100%;
     }
   }
-`
+`;
 
 export const ContainerText = styled.div`
   position: relative;
@@ -170,34 +169,34 @@ export const ContainerText = styled.div`
 
     padding-top: 10px;
 
-      > h2 {
+    > h2 {
       font-size: 28px;
-      }
+    }
 
-      > p {
-        font-size: 14px;
-        margin-top: -5px;
-        opacity: 0.4;
-      }
+    > p {
+      font-size: 14px;
+      margin-top: -5px;
+      opacity: 0.4;
+    }
 
-      > span {
-        font-size: 30px;
-      }
+    > span {
+      font-size: 30px;
+    }
 
-      > svg {
-        position: absolute;
-        bottom: 25px;
-        right: 20px;
+    > svg {
+      position: absolute;
+      bottom: 25px;
+      right: 20px;
 
-        width: 30px;
-        height: 30px;
-      }
+      width: 30px;
+      height: 30px;
+    }
   }
-`
+`;
 export const ContainerButton = styled.div`
   display: flex;
   justify-content: space-between;
-  
+
   width: 100%;
   height: fit-content;
 
@@ -228,4 +227,4 @@ export const ContainerButton = styled.div`
     color: ${({ theme }) => theme.COLORS.WHITE};
     background: transparent;
   }
-`
+`;

@@ -1,24 +1,46 @@
-import { Container, CardImg, CardText } from "./styles"
+import { Container, CardImg, CardText } from "./styles";
 import { MdAddCircle } from "react-icons/md";
-import { useNavigate } from "react-router-dom"
-import { useState } from "react"
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
-export function Cards({ category, share, imgUrl, title, code, price, isAvailable, isNew }) {
-  const navigate = useNavigate()
-  const [imageLoaded, setImageLoaded] = useState(false)
+export function Cards({
+  category,
+  share,
+  imgUrl,
+  title,
+  code,
+  price,
+  isAvailable,
+  isNew,
+}) {
+  const navigate = useNavigate();
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   function handleCardClick() {
     if (isAvailable) {
-      navigate(`/details/${code}`, { state: { category, share, imgUrl, title, code, price } })
+      navigate(`/details/${code}`, {
+        state: { category, share, imgUrl, title, code, price },
+      });
     }
   }
 
   return (
-    <Container onClick={handleCardClick}
-      className={`${isAvailable ? "" : "unavailable"} ${isNew ? "new_item" : ""}`}>
-      <MdAddCircle className="icon-new"/>
+    <Container
+      onClick={handleCardClick}
+      className={`${isAvailable ? "" : "unavailable"} ${
+        isNew ? "new_item" : ""
+      }`}
+    >
+      <MdAddCircle className="icon-new" />
       <CardImg>
-        {!imageLoaded && <img id="loader" src="/spinner.svg" alt="loading spinner" loading="lazy" />}
+        {!imageLoaded && (
+          <img
+            id="loader"
+            src="/spinner.svg"
+            alt="loading spinner"
+            loading="lazy"
+          />
+        )}
         <img
           src={imgUrl}
           alt={`Imagem de ${title}`}
@@ -40,8 +62,7 @@ export function Cards({ category, share, imgUrl, title, code, price, isAvailable
         <p id="share">{share}</p>
 
         {isAvailable && <p id="in_stock">Em estoque</p>}
-        
       </CardText>
     </Container>
-  )
+  );
 }

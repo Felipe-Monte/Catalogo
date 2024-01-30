@@ -24,7 +24,7 @@ export default createGlobalStyle`
   }
 
   a {
-    color: ${({theme}) => theme.COLORS.WHITE};
+    color: ${({ theme }) => theme.COLORS.WHITE};
     text-decoration: none;
   }
 
@@ -36,5 +36,4 @@ export default createGlobalStyle`
   button:hover, a:hover {
     filter: brightness(0.9);
   }
-
-`
+`;
