@@ -148,7 +148,7 @@
     "title": "Cortina de janela confetex",
     "code": "02645",
     "price": "120,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -159,7 +159,7 @@
     "title": "Cortina de sala confetex",
     "code": "02646",
     "price": "180,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -489,7 +489,7 @@
     "title": "Calcinha av",
     "code": "00227",
     "price": "9,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1136,7 +1136,7 @@
     "title": "Vestido suplex",
     "code": "03017",
     "price": "50,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
