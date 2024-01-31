@@ -401,7 +401,7 @@
     "title": "Blusa exclusiva c/6",
     "code": "01045",
     "price": "39,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -423,7 +423,7 @@
     "title": "Blusa plus deluxe c/4",
     "code": "01111",
     "price": "50,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -434,7 +434,7 @@
     "title": "Blusa semi cropped c/6",
     "code": "02614",
     "price": "35,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -632,7 +632,7 @@
     "title": "Camisa jait boy careca",
     "code": "02075",
     "price": "86,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -654,7 +654,7 @@
     "title": "Camisa jait boy polo",
     "code": "02028",
     "price": "115,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -687,7 +687,7 @@
     "title": "Conj inf lara flor c/6",
     "code": "01129",
     "price": "45,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -698,7 +698,7 @@
     "title": "Conj inf turma da molekada c/6",
     "code": "03268",
     "price": "44,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
