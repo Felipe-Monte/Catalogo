@@ -1325,5 +1325,16 @@
     "price": "60,00",
     "isAvailable": true,
     "isNew": true
+  },
+  {
+    "id": "122",
+    "category": "conjunto",
+    "share": "https://photos.app.goo.gl/VRzpjXxySpNf1UdD8",
+    "imgUrl": "/macaquinho.jpg",
+    "title": "Macaquinho suplex d lara c/4",
+    "code": "03358",
+    "price": "52,00",
+    "isAvailable": true,
+    "isNew": false
   }
 ]
