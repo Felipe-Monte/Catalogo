@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FiSearch, FiFilter } from "react-icons/fi";
-import { LuFilterX } from "react-icons/lu";
+import { FaFileDownload } from "react-icons/fa";
 import { Container } from "./styles";
 
 import { Input } from "../Input";
@@ -13,6 +13,16 @@ export function Header({ title, onSearch }) {
     setSearchTerm(term);
     onSearch(term);
   };
+
+  const handleDownload = () => {
+    const pdfUrl = "../../../public/lista de mercadoria.pdf"
+
+    const link = document.createElement("a")
+    link.href = pdfUrl
+
+    link.download = "lista de mercadoria"
+    link.click()
+  }
 
   return (
     <Container>
@@ -28,7 +38,7 @@ export function Header({ title, onSearch }) {
       />
 
       <div className="container-icon-filter">
-        <LuFilterX />
+        <FaFileDownload onClick={handleDownload}/>
       </div>
     </Container>
   );
