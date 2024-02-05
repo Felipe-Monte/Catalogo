@@ -15,7 +15,7 @@ export function Header({ title, onSearch }) {
   };
 
   const handleDownload = () => {
-    const pdfUrl = "../../../public/lista de mercadoria.pdf"
+    const pdfUrl = "/lista de mercadoria.pdf"
 
     const link = document.createElement("a")
     link.href = pdfUrl
