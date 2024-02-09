@@ -40,7 +40,7 @@
     "code": "03399",
     "price": "120,00",
     "isAvailable": true,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "5",
@@ -523,7 +523,7 @@
     "code": "01217",
     "price": "20,00",
     "isAvailable": true,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "49",
@@ -1236,7 +1236,7 @@
     "code": "03376",
     "price": "63,00",
     "isAvailable": true,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "114",
@@ -1346,6 +1346,6 @@
     "code": "03431",
     "price": "40,00",
     "isAvailable": true,
-    "isNew": true
+    "isNew": false
   }
 ]
