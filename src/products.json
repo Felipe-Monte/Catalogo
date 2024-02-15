@@ -1347,5 +1347,16 @@
     "price": "40,00",
     "isAvailable": true,
     "isNew": false
+  },
+  {
+    "id": "124",
+    "category": "rede",
+    "share": "https://photos.app.goo.gl/GdwWbu1Bh6VBZDbJ8",
+    "imgUrl": "/rede indiana.jpeg",
+    "title": "Rede indiana normal",
+    "code": "03274",
+    "price": "130,00",
+    "isAvailable": true,
+    "isNew": false
   }
 ]
