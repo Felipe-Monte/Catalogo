@@ -1358,5 +1358,27 @@
     "price": "130,00",
     "isAvailable": true,
     "isNew": false
+  },
+  {
+    "id": "125",
+    "category": "cozinha",
+    "share": "https://photos.app.goo.gl/PXBYsxTfo7uzrfvH8",
+    "imgUrl": "/pano de chao.png",
+    "title": "Pano de chão franelado c/6",
+    "code": "03023",
+    "price": "10,00",
+    "isAvailable": true,
+    "isNew": false
+  },
+  {
+    "id": "126",
+    "category": "cozinha",
+    "share": "https://photos.app.goo.gl/3TTZbGcDe8HyRJYM9",
+    "imgUrl": "/pano liso.jpeg",
+    "title": "Pano de prato liso g c/12",
+    "code": "03222",
+    "price": "8,00",
+    "isAvailable": true,
+    "isNew": false
   }
 ]
