@@ -786,7 +786,7 @@
     "title": "Pano de prato cobre tudo",
     "code": "03083",
     "price": "13,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
