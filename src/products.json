@@ -1071,7 +1071,7 @@
     "title": "Short ribstop c/elastano c/6",
     "code": "01207",
     "price": "45,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1136,7 +1136,7 @@
     "title": "Vestido suplex",
     "code": "03017",
     "price": "50,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
