@@ -489,7 +489,7 @@
     "title": "Calcinha av",
     "code": "00227",
     "price": "9,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -786,7 +786,7 @@
     "title": "Pano de prato cobre tudo",
     "code": "03083",
     "price": "13,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1235,7 +1235,7 @@
     "title": "Toalha gg master 1,78 x 78 c/3",
     "code": "03376",
     "price": "63,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1334,7 +1334,7 @@
     "title": "Macaquinho suplex d lara c/4",
     "code": "03358",
     "price": "52,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
