@@ -1391,5 +1391,27 @@
     "price": "58,00",
     "isAvailable": true,
     "isNew": false
+  },
+  {
+    "id": "128",
+    "category": "acessórios",
+    "share": "",
+    "imgUrl": "/vasilha redonda.jpeg",
+    "title": "Kit vasilha rubi esmeralda 5pçs",
+    "code": "03434",
+    "price": "144,00",
+    "isAvailable": true,
+    "isNew": false
+  },
+  {
+    "id": "129",
+    "category": "acessórios",
+    "share": "",
+    "imgUrl": "/vasilha retangular.jpeg",
+    "title": "Kit vasilha diamante ret 4pçs",
+    "code": "03433",
+    "price": "80,00",
+    "isAvailable": true,
+    "isNew": false
   }
 ]
