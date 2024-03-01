@@ -577,7 +577,7 @@
     "title": "Cobreleito casal 3pçs 220x240",
     "code": "03260",
     "price": "236,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -588,7 +588,7 @@
     "title": "Cobreleito casal queen 3pçs",
     "code": "03261",
     "price": "266,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
