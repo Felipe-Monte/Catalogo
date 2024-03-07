@@ -467,7 +467,7 @@
     "title": "Calça jeans masc valiant c/5",
     "code": "03210",
     "price": "175,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -632,7 +632,7 @@
     "title": "Camisa jait boy careca",
     "code": "02075",
     "price": "86,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
