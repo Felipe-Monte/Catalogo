@@ -445,7 +445,7 @@
     "title": "Calça jeans fem linda bell",
     "code": "01935",
     "price": "120,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -478,7 +478,7 @@
     "title": "Calça jeans valiant fem",
     "code": "01878",
     "price": "170,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -720,7 +720,7 @@
     "title": "Gel natgel c/12",
     "code": "01863",
     "price": "20,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -895,7 +895,7 @@
     "title": "Deo colônia eco natureza",
     "code": "02959",
     "price": "33,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -917,7 +917,7 @@
     "title": "Deo colônia intensse c/5",
     "code": "02180",
     "price": "50,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
