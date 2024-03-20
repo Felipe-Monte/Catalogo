@@ -840,7 +840,7 @@
     "title": "Cueca box infantil mf c/12",
     "code": "00910",
     "price": "15,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1071,7 +1071,7 @@
     "title": "Short ribstop c/elastano c/6",
     "code": "01207",
     "price": "45,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1169,7 +1169,7 @@
     "title": "Conj caeve kids e bonequinha c/6",
     "code": "02565",
     "price": "54,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1323,7 +1323,7 @@
     "title": "Conj infanto juvenil 10 a 14 c/6",
     "code": "01110",
     "price": "60,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
