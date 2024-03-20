@@ -1424,5 +1424,27 @@
     "price": "75,00",
     "isAvailable": true,
     "isNew": false
+  },
+  {
+    "id": "131",
+    "category": "camisa",
+    "share": "",
+    "imgUrl": "/jait boy infantil.JPG",
+    "title": "Camisa basica infatil jait boy",
+    "code": "03349",
+    "price": "58,00",
+    "isAvailable": true,
+    "isNew": false
+  },
+  {
+    "id": "132",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/natgel spray.JPG",
+    "title": "Spray natgel p/massagem 120ml c/12",
+    "code": "03069",
+    "price": "21,00",
+    "isAvailable": true,
+    "isNew": false
   }
 ]
