@@ -1413,5 +1413,16 @@
     "price": "80,00",
     "isAvailable": true,
     "isNew": false
+  },
+  {
+    "id": "130",
+    "category": "acessórios",
+    "share": "",
+    "imgUrl": "/vasilha quadrada.JPG",
+    "title": "Kit vasilha esmeralda 4pçs",
+    "code": "03432",
+    "price": "75,00",
+    "isAvailable": true,
+    "isNew": false
   }
 ]
