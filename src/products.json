@@ -607,7 +607,7 @@
     "category": "cama",
     "share": "https://photos.app.goo.gl/a3epNpucDZNoWcwE9",
     "imgUrl": "/colcha box king.JPG",
-    "title": "Colcha casal bord box king",
+    "title": "Colcha casal bord box king 3,10m x 2,70m",
     "code": "03014",
     "price": "185,00",
     "isAvailable": true,
@@ -618,7 +618,7 @@
     "category": "cama",
     "share": "https://photos.app.goo.gl/sPu1jwWEwtmDhi3b6",
     "imgUrl": "/colcha bordada.JPG",
-    "title": "Colcha casal bordada",
+    "title": "Colcha casal bordada 2,10m x 2,30m",
     "code": "01048",
     "price": "115,00",
     "isAvailable": true,
@@ -1446,5 +1446,16 @@
     "price": "21,00",
     "isAvailable": true,
     "isNew": false
+  },
+  {
+    "id": "133",
+    "category": "cama",
+    "share": "",
+    "imgUrl": "/colcha babado.JPG",
+    "title": "Colcha casal com babado 2,20m x 2,25m",
+    "code": "03436",
+    "price": "125,00",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
