@@ -11,7 +11,7 @@ import {
   ContainerText,
   ContainerButton,
 } from "./styles";
-import { Header } from "../../components/Header";
+import { HeaderDetails } from "../../components/HeaderDetails";
 
 export function Details() {
   const location = useLocation();
@@ -56,7 +56,7 @@ export function Details() {
 
   return (
     <Container>
-      <Header title="Detalhes do produto" />
+      <HeaderDetails title="Detalhes do produto" />
 
       <main>
         <Section>
