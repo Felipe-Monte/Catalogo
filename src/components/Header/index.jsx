@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FiSearch, FiFilter } from "react-icons/fi";
+import { RxHamburgerMenu } from "react-icons/rx";
 import { FaFilterCircleXmark } from "react-icons/fa6";
 import { Container } from "./styles";
 
@@ -16,8 +17,18 @@ export function Header({ title, onSearch }) {
 
   return (
     <Container>
-      <div className="container-title">
-        <h1>{title}</h1>
+      <div className="container_header">
+        <div className="container-icon-filter">
+          <RxHamburgerMenu />
+        </div>
+
+        <div className="container-title">
+          <h1>{title}</h1>
+        </div>
+
+        <div className="container-icon-filter">
+          <FaFilterCircleXmark />
+        </div>
       </div>
 
       <Input
@@ -26,10 +37,6 @@ export function Header({ title, onSearch }) {
         value={searchTerm}
         onChange={handleChange}
       />
-
-      <div className="container-icon-filter">
-        <FaFilterCircleXmark/>
-      </div>
     </Container>
   );
 }

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  margin-top: 50px;
+  margin-top: 100px;
   padding-bottom: 40px;
   position: relative;
   scroll-behavior: smooth;
@@ -29,7 +29,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 1300px) {
-    margin: 50px auto;
+    margin: 100px auto;
   }
 `;
 

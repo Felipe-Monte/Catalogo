@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   width: 100%;
-  height: 50px;
+  height: 110px;
+
+  padding: 0px 20px;
 
   position: fixed;
   top: 0;
@@ -11,10 +13,19 @@ export const Container = styled.header`
   z-index: 2;
 
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE};
+
+  .container_header {
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
   .container-title {
     > h1 {
@@ -24,7 +35,7 @@ export const Container = styled.header`
   }
 
   .container-icon-filter {
-    padding: 20px;
+    padding: 0px;
 
     > svg {
       width: 25px;
@@ -34,11 +45,14 @@ export const Container = styled.header`
   }
 
   @media (max-width: 450px) {
+    height: 100px;
+    padding: 0px 10px;
+
     .container-title {
       text-align: center;
 
       > h1 {
-        font-size: 15px;
+        font-size: 19px;
       }
     }
   }
