@@ -21,7 +21,7 @@ export const Container = styled.header`
 
   .container_header {
     width: 100%;
-  
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,8 +38,8 @@ export const Container = styled.header`
     padding: 0px;
 
     > svg {
-      width: 25px;
-      height: 25px;
+      width: 30px;
+      height: 30px;
       cursor: pointer;
     }
   }
@@ -53,6 +53,16 @@ export const Container = styled.header`
 
       > h1 {
         font-size: 19px;
+      }
+    }
+
+    .container-icon-filter {
+      padding: 0px;
+
+      > svg {
+        width: 25px;
+        height: 25px;
+        cursor: pointer;
       }
     }
   }

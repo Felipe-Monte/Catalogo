@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
-  margin-top: 100px;
+  margin-top: 110px;
   padding-bottom: 40px;
   position: relative;
   scroll-behavior: smooth;
