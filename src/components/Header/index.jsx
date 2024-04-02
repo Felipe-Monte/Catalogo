@@ -33,7 +33,7 @@ export function Header({ title, onSearch }) {
 
       <Input
         icon={FiSearch}
-        placeholder="Buscador"
+        placeholder="Pesquise por código ou descrição"
         value={searchTerm}
         onChange={handleChange}
       />
