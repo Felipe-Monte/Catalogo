@@ -126,7 +126,7 @@
     "title": "Rede jaguaruana top",
     "code": "03387",
     "price": "300,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -687,7 +687,7 @@
     "title": "Conj inf lara flor c/6",
     "code": "01129",
     "price": "45,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
