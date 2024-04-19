@@ -1461,5 +1461,27 @@
     "price": "125,00",
     "isAvailable": true,
     "isNew": true
+  },
+  {
+    "id": "134",
+    "category": "short",
+    "share": "",
+    "imgUrl": "",
+    "title": "Short elastano réplica hibrido c/6",
+    "code": "03448",
+    "price": "45,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "135",
+    "category": "short",
+    "share": "",
+    "imgUrl": "/short infantil e juvenil.jpeg",
+    "title": "Short juvenil hibrido c/4",
+    "code": "03449",
+    "price": "32,00",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
