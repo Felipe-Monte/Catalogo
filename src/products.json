@@ -8,7 +8,7 @@
     "code": "03339",
     "price": "45,00",
     "isAvailable": true,
-    "isNew": false    
+    "isNew": false
   },
   {
     "id": "2",
@@ -30,7 +30,8 @@
     "code": "03398",
     "price": "60,00",
     "isAvailable": false,
-    "isNew": false  },
+    "isNew": false
+  },
   {
     "id": "4",
     "category": "perfumaria",
@@ -51,7 +52,8 @@
     "code": "03355",
     "price": "60,00",
     "isAvailable": false,
-    "isNew": false  },
+    "isNew": false
+  },
   {
     "id": "6",
     "category": "acessórios",
@@ -72,7 +74,7 @@
     "code": "018622",
     "price": "66,00",
     "isAvailable": true,
-    "isNew": false  
+    "isNew": false
   },
   {
     "id": "8",
@@ -116,7 +118,7 @@
     "code": "03397",
     "price": "24,00",
     "isAvailable": true,
-    "isNew": false 
+    "isNew": false
   },
   {
     "id": "12",
@@ -809,7 +811,8 @@
     "code": "02943",
     "price": "50,00",
     "isAvailable": true,
-    "isNew": false  },
+    "isNew": false
+  },
   {
     "id": "75",
     "category": "cueca",
@@ -1105,7 +1108,8 @@
     "code": "03328",
     "price": "59,00",
     "isAvailable": true,
-    "isNew": false  },
+    "isNew": false
+  },
   {
     "id": "102",
     "category": "banho",
