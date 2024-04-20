@@ -41,11 +41,11 @@ export const WrapperContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
 
     > svg {
-      width: 28px;
-      height: 28px;
+      width: 32px;
+      height: 32px;
       cursor: pointer;
     }
 
@@ -218,6 +218,14 @@ export const ContainerButton = styled.div`
 
     color: ${({ theme }) => theme.COLORS.WHITE};
     background: transparent;
+  }
+
+  #btn_back:hover{
+    background-color: ${({ theme }) => theme.COLORS.PURPLE_HOVER};
+  }
+
+  #btn_back:active{
+    background-color: transparent;
   }
 
   #btn_delete {

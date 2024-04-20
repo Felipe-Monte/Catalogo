@@ -13,8 +13,9 @@ export const Container = styled.header`
   z-index: 2;
 
   display: flex;
+  gap: 10px;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE};

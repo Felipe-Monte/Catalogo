@@ -27,6 +27,10 @@ export const Container = styled.div`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
   }
 
+  &:active {
+    background-color: ${({ theme }) => theme.COLORS.PURPLE_HOVER};
+  }
+
   .unavailable {
     position: relative;
   }

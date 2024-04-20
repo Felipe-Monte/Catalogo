@@ -7,6 +7,7 @@ export default {
 
     WHITE: "#F4EDE8",
     PURPLE: "#483D8B",
+    PURPLE_HOVER: "#4f458a",
 
     GRAY_100: "#999591",
     GRAY_300: "#666360",
