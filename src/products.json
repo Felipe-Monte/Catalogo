@@ -1494,5 +1494,27 @@
     "price": "40,00",
     "isAvailable": true,
     "isNew": true
+  },
+  {
+    "id": "137",
+    "category": "calça",
+    "share": "",
+    "imgUrl": "/calça jogger duna.JPG",
+    "title": "Calça jogger duna c/4",
+    "code": "03323",
+    "price": "80,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "138",
+    "category": "conjunto",
+    "share": "",
+    "imgUrl": "/macaquinho duna.JPG",
+    "title": "Macaquinho duna c/4",
+    "code": "03321",
+    "price": "99,00",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
