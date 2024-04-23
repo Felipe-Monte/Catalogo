@@ -38,7 +38,7 @@ export function Home() {
         <Section>
           {sortedData.length > 0 ? (
             sortedData.map((card) => (
-              <MemoizedCards
+              <Cards
                 key={card.id}
                 category={card.category}
                 share={card.share}
