@@ -1,27 +1,16 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Section } from "./styles";
 import { Header } from "../../components/Header";
 import { Cards } from "../../components/Cards";
-import { Footer } from "../../components/Footer";
+import { Footer } from "../../components/Footer"
 import jsonData from "../../products.json";
-import { useLocation } from "react-router-dom";
 
 export function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [sortedData, setSortedData] = useState([]);
-  const [scrollPosition, setScrollPosition] = useState(0);
   
   const handleSearch = (term) => {
     setSearchTerm(term);
-  };
-
-  const listRef = useRef(null);
-  const location = useLocation();
-
-  const handleScroll = () => {
-    if (listRef.current) {
-      setScrollPosition(listRef.current.scrollTop);
-    }
   };
 
   useEffect(() => {
@@ -40,21 +29,16 @@ export function Home() {
     sortData();
   }, [searchTerm]);
 
-  useEffect(() => {
-    if (listRef.current && location.state && location.state.fromDetails) {
-      listRef.current.scrollTop = scrollPosition;
-    }
-  }, [location, scrollPosition]);
 
   return (
     <Container>
       <Header title="Catálogo AM Monte" onSearch={handleSearch} />
 
       <main>
-        <Section ref={listRef} onScroll={handleScroll}>
+        <Section>
           {sortedData.length > 0 ? (
             sortedData.map((card) => (
-              <Cards
+              <MemoizedCards
                 key={card.id}
                 category={card.category}
                 share={card.share}
