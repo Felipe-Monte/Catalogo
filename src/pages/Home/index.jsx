@@ -8,7 +8,8 @@ import jsonData from "../../products.json";
 export function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [sortedData, setSortedData] = useState([]);
-
+  
+  const MemoizedCards = React.memo(Cards);
   const handleSearch = (term) => {
     setSearchTerm(term);
   };
@@ -29,7 +30,6 @@ export function Home() {
     sortData();
   }, [searchTerm]);
 
-  const MemoizedCards = React.memo(Cards);
 
   return (
     <Container>
