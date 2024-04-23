@@ -20,7 +20,7 @@ export function Details() {
   const navigate = useNavigate();
 
   const handleClickBack = () => {
-    window.history.back();
+    navigate(-1);
   };
 
   const sendWhatsApp = () => {
