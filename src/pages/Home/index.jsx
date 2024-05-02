@@ -9,7 +9,6 @@ export function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [sortedData, setSortedData] = useState([]);
   
-  const MemoizedCards = React.memo(Cards);
   const handleSearch = (term) => {
     setSearchTerm(term);
   };
@@ -39,7 +38,7 @@ export function Home() {
         <Section>
           {sortedData.length > 0 ? (
             sortedData.map((card) => (
-              <MemoizedCards
+              <Cards
                 key={card.id}
                 category={card.category}
                 share={card.share}
