@@ -469,7 +469,7 @@
     "title": "Calça jeans masc valiant c/5",
     "code": "03210",
     "price": "175,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -689,7 +689,7 @@
     "title": "Conj inf lara flor c/6",
     "code": "01129",
     "price": "45,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -766,7 +766,7 @@
     "title": "Sabonete ítimo bell corpus c/12",
     "code": "01879",
     "price": "12,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -821,7 +821,7 @@
     "title": "Cueca box classe a c/12",
     "code": "00785",
     "price": "20,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -887,7 +887,7 @@
     "title": "Doce goulart c/12",
     "code": "00479",
     "price": "20,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1459,8 +1459,8 @@
     "title": "Colcha casal com babado 2,20m x 2,25m",
     "code": "03436",
     "price": "125,00",
-    "isAvailable": false,
-    "isNew": true
+    "isAvailable": true,
+    "isNew": false
   },
   {
     "id": "134",
@@ -1471,7 +1471,7 @@
     "code": "03448",
     "price": "45,00",
     "isAvailable": true,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "135",
@@ -1481,8 +1481,8 @@
     "title": "Short juvenil hibrido c/4",
     "code": "03449",
     "price": "32,00",
-    "isAvailable": false,
-    "isNew": true
+    "isAvailable": true,
+    "isNew": false
   },
   {
     "id": "136",
@@ -1493,7 +1493,7 @@
     "code": "03437",
     "price": "40,00",
     "isAvailable": false,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "137",
@@ -1504,7 +1504,7 @@
     "code": "03323",
     "price": "80,00",
     "isAvailable": false,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "138",
@@ -1515,6 +1515,6 @@
     "code": "03321",
     "price": "99,00",
     "isAvailable": false,
-    "isNew": true
+    "isNew": false
   }
 ]
