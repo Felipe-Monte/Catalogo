@@ -1516,5 +1516,16 @@
     "price": "99,00",
     "isAvailable": true,
     "isNew": false
+  },
+  {
+    "id": "139",
+    "category": "cama",
+    "share": "",
+    "imgUrl": "/cobreleito infantil.webp",
+    "title": "Cobreleito mix solteiro 2pçs 160x240",
+    "code": "03483",
+    "price": "175,00",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
