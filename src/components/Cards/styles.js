@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   padding: 15px;
 
-  border-radius: 10px;
+  border-radius: 8px;
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
   transition: all 0.3s ease-out;
@@ -92,8 +92,9 @@ export const CardImg = styled.div`
   width: 100%;
   height: 200px;
 
-  border-radius: 5px;
+  border-radius: 0px;
   position: relative;
+
 
   #loader {
     width: 30px;
@@ -113,6 +114,10 @@ export const CardImg = styled.div`
   @media screen and (max-width: 425px) {
     max-height: 200px;
     height: 100%;
+
+    > img {
+    border-radius: 0px;
+  }
   }
 `;
 
