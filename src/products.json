@@ -1526,6 +1526,50 @@
     "code": "03483",
     "price": "175,00",
     "isAvailable": true,
+    "isNew": false
+  },
+  {
+    "id": "140",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/arnica naty.webp",
+    "title": "Spray ice arnica naty flora c/12",
+    "code": "03461",
+    "price": "20,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "141",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/calmanex.webp",
+    "title": "Pomada calmanex naty flora c/12",
+    "code": "03463",
+    "price": "20,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "142",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/sabonete naty.webp",
+    "title": "Sabonete íntimo naty flora c/6",
+    "code": "03460",
+    "price": "12,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "143",
+    "category": "vestido",
+    "share": "",
+    "imgUrl": "/vestido-plus-size.webp",
+    "title": "Vestido plus canelado mais mulher",
+    "code": "03484",
+    "price": "175,00",
+    "isAvailable": true,
     "isNew": true
   }
 ]
