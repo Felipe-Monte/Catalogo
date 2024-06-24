@@ -1578,9 +1578,9 @@
     "share": "",
     "imgUrl": "/balde.webp",
     "title": "Balde",
-    "code": "0000",
-    "price": "00,00",
+    "code": "??",
+    "price": "??",
     "isAvailable": true,
-    "isNew": false
+    "isNew": true
   }
 ]
