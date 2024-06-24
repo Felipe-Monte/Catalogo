@@ -579,7 +579,7 @@
     "title": "Cobreleito casal 3pçs 220x240",
     "code": "03260",
     "price": "236,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -590,7 +590,7 @@
     "title": "Cobreleito casal queen 3pçs",
     "code": "03261",
     "price": "266,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -634,7 +634,7 @@
     "title": "Camisa jait boy careca",
     "code": "02075",
     "price": "86,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -876,7 +876,7 @@
     "title": "Cocada moreninha c/12.",
     "code": "03244",
     "price": "28,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -997,7 +997,7 @@
     "title": "Saia peplum suplex",
     "code": "02930",
     "price": "39,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1404,7 +1404,7 @@
     "title": "Kit vasilha rubi 5pçs",
     "code": "03434",
     "price": "110,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1415,7 +1415,7 @@
     "title": "Kit vasilha diamante ret 4pçs",
     "code": "03433",
     "price": "80,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1426,7 +1426,7 @@
     "title": "Kit vasilha esmeralda 4pçs",
     "code": "03432",
     "price": "75,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1525,7 +1525,7 @@
     "title": "Cobreleito mix solteiro 2pçs 160x240",
     "code": "03483",
     "price": "175,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
