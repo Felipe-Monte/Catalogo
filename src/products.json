@@ -1582,5 +1582,27 @@
     "price": "??",
     "isAvailable": true,
     "isNew": true
+  },
+  {
+    "id": "145",
+    "category": "acessórios",
+    "share": "",
+    "imgUrl": "/bacia.webp",
+    "title": "Bacia",
+    "code": "00000",
+    "price": "??",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "146",
+    "category": "acessórios",
+    "share": "",
+    "imgUrl": "/cumbuca.webp",
+    "title": "Cumbuca",
+    "code": "00000",
+    "price": "??",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
