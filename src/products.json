@@ -18,7 +18,7 @@
     "title": "Kit capilar cordial 1kg/1lt",
     "code": "03396",
     "price": "120,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1261,7 +1261,7 @@
     "title": "Deo colônia essen wisk c/6",
     "code": "02960",
     "price": "39,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
