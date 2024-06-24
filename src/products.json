@@ -1403,7 +1403,7 @@
     "imgUrl": "/vasilha redonda.webp",
     "title": "Kit vasilha rubi 5pçs",
     "code": "03434",
-    "price": "100,00",
+    "price": "110,00",
     "isAvailable": false,
     "isNew": false
   },
@@ -1569,6 +1569,17 @@
     "title": "Vestido plus canelado mais mulher",
     "code": "03484",
     "price": "175,00",
+    "isAvailable": true,
+    "isNew": false
+  },
+  {
+    "id": "144",
+    "category": "acessórios",
+    "share": "",
+    "imgUrl": "/balde.webp",
+    "title": "Bacia",
+    "code": "0000",
+    "price": "50,00",
     "isAvailable": true,
     "isNew": false
   }
