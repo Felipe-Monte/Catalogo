@@ -436,7 +436,7 @@
     "title": "Blusa semi cropped c/6",
     "code": "02614",
     "price": "35,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -458,7 +458,7 @@
     "title": "Calça jeans masc new boy rox c/4",
     "code": "02365",
     "price": "120,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -480,7 +480,7 @@
     "title": "Calça jeans valiant fem",
     "code": "01878",
     "price": "170,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -491,7 +491,7 @@
     "title": "Calcinha av",
     "code": "00227",
     "price": "9,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -524,7 +524,7 @@
     "title": "Calcinha g cotton c/10",
     "code": "01217",
     "price": "20,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -535,7 +535,7 @@
     "title": "Calcinha micro renda c/12",
     "code": "01035",
     "price": "16,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -689,7 +689,7 @@
     "title": "Conj inf lara flor c/6",
     "code": "01129",
     "price": "45,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -876,7 +876,7 @@
     "title": "Cocada moreninha c/12.",
     "code": "03244",
     "price": "28,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -898,7 +898,7 @@
     "title": "Deo colônia eco natureza",
     "code": "02959",
     "price": "33,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1118,7 +1118,7 @@
     "title": "Toalha de banho infantil c/4",
     "code": "02938",
     "price": "36,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1294,7 +1294,7 @@
     "title": "Lençol casal dia a dia 3pçs",
     "code": "03215",
     "price": "125,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
