@@ -469,7 +469,7 @@
     "title": "Calça jeans masc valiant c/5",
     "code": "03210",
     "price": "175,00",
-    "isAvailable": false, 
+    "isAvailable": true, 
     "isNew": false
   },
   {
@@ -480,7 +480,7 @@
     "title": "Calça jeans valiant fem",
     "code": "01878",
     "price": "170,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -689,7 +689,7 @@
     "title": "Conj inf lara flor c/6",
     "code": "01129",
     "price": "45,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
