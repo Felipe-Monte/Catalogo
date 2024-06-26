@@ -1577,9 +1577,9 @@
     "category": "acessórios",
     "share": "",
     "imgUrl": "/balde.webp",
-    "title": "Balde",
-    "code": "00000",
-    "price": "??",
+    "title": "Balde safira 10lts",
+    "code": "03511",
+    "price": "25,00",
     "isAvailable": true,
     "isNew": true
   },
@@ -1588,9 +1588,9 @@
     "category": "acessórios",
     "share": "",
     "imgUrl": "/bacia.webp",
-    "title": "Bacia",
-    "code": "00000",
-    "price": "??",
+    "title": "Bacia safira 15lts",
+    "code": "03508",
+    "price": "30,00",
     "isAvailable": true,
     "isNew": true
   },
@@ -1602,6 +1602,28 @@
     "title": "Kit rubi c/4 cumbucas 10l",
     "code": "03507",
     "price": "90,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "147",
+    "category": "acessórios",
+    "share": "",
+    "imgUrl": "/bacia-25.webp",
+    "title": "Bacia safira 25lts",
+    "code": "03509",
+    "price": "40,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "148",
+    "category": "acessórios",
+    "share": "",
+    "imgUrl": "/bacia-35.webp",
+    "title": "Bacia safira 10lts",  
+    "code": "03511",
+    "price": "50,00",
     "isAvailable": true,
     "isNew": true
   }
