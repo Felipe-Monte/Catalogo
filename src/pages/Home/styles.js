@@ -31,6 +31,10 @@ export const Container = styled.div`
   @media (max-width: 1300px) {
     margin: 100px auto;
   }
+
+  @media (min-width: 768px){
+    margin: 80px auto;
+  }
 `;
 
 export const Section = styled.section`

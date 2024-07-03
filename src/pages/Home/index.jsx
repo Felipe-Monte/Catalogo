@@ -32,7 +32,7 @@ export function Home() {
 
   return (
     <Container>
-      <Header title="Catálogo AM Monte" onSearch={handleSearch} />
+      <Header title="Catálogo" onSearch={handleSearch} />
 
       <main>
         <Section>

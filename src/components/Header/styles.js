@@ -48,7 +48,7 @@ export const Container = styled.header`
 
   @media (max-width: 450px) {
     height: 100px;
-    padding: 0px 10px;
+    padding: 0px 10px;  
 
     .container-title {
       text-align: center;
@@ -68,4 +68,26 @@ export const Container = styled.header`
       }
     }
   }
+
+  @media (min-width: 768px){
+    height: 80px;
+
+    padding: 0px 80px;
+
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .container_header {
+      width: 20%;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
 `;
+
