@@ -30,8 +30,10 @@ export function Cards({
       className={`${isAvailable ? "" : "unavailable"} ${
         isNew ? "new_item" : ""
       }`}
-    >
-      <MdAddCircle className="icon-new" />
+    > 
+      <p className="icon-new">
+        NOVIDADE
+      </p>
       <CardImg>
         {!imageLoaded && (
           <img

@@ -40,22 +40,38 @@ export const Container = styled.div`
   }
 
   &.new_item {
-    border: 2px solid yellow;
+    /* border: 2px solid ${({ theme }) => theme.COLORS.PURPLE}; */
 
     .icon-new {
-      display: block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
-      width: 30px;
+      font-family: 'Roboto Slab', serif;
+      font-weight: bold;
+
+      width: fit-content;
       height: 30px;
+
+      padding: 8px;
 
       position: absolute;
 
-      top: 4px;
-      right: 4px;
+      top: 8px;
+      right: 8px;
 
       z-index: 1;
 
-      color: yellow;
+      color: white;
+      background-color: #22c55e;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px){
+      .icon-new {
+        font-size: 12px;
+       
+      }
     }
   }
 
