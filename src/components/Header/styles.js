@@ -31,6 +31,9 @@ export const Container = styled.header`
   .container-title {
     > h1 {
       font-size: 28px;
+      font-family: "Saira Stencil One", sans-serif;
+      font-weight: 400;
+      font-style: normal;
       cursor: pointer;
     }
   }

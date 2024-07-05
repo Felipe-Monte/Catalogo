@@ -47,7 +47,7 @@ export const Container = styled.div`
       align-items: center;
       justify-content: center;
 
-      font-family: 'Roboto Slab', serif;
+      font-family: "Saira", sans-serif;
       font-weight: bold;
 
       width: fit-content;
@@ -141,14 +141,14 @@ export const CardText = styled.div`
   width: 100%;
   height: 100px;
 
-  padding: 10px;
-
+  padding: 5px;
+ 
   /* text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;   */
 
   #in_stock {
-    margin-top: 2px;
+    margin-top: 0px;
     color: #22c55e;
     font-size: 14px;
   }
@@ -165,9 +165,9 @@ export const CardText = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 5px;
-    padding: 2px 0px 2px 0px;
 
+    gap: 10px;
+    
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -185,7 +185,7 @@ export const CardText = styled.div`
 
   > span {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
   }
 
   #share {
@@ -194,11 +194,10 @@ export const CardText = styled.div`
 
   @media screen and (max-width: 700px) {
     height: 100px;
-
-    padding: 5px;
+    line-height: 130%;
 
     > h2 {
-      font-size: 14px;
+      font-size: 16px;
     }
 
     #in_stock {
@@ -208,18 +207,18 @@ export const CardText = styled.div`
 
     .container-category {
       > p {
-        font-size: 12px;
-        opacity: 0.4;
+        font-size: 10px;
+        opacity: 0.5;
       }
 
       .p-category {
         font-size: 12px;
-        opacity: 0.4;
+        opacity: 0.5;
       }
     }
 
     > span {
-      font-size: 16px;
+      font-size:14px;
     }
   }
 `;
