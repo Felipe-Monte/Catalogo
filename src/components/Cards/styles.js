@@ -139,7 +139,10 @@ export const CardImg = styled.div`
 
 export const CardText = styled.div`
   width: 100%;
-  height: 100px;
+  margin-top: 5px;
+  height: fit-content;
+
+  /* border: 1px solid red; */
 
   padding: 5px;
  
@@ -185,7 +188,15 @@ export const CardText = styled.div`
 
   > span {
     display: block;
+    width: fit-content;
+    margin-top: 5px;
+
+    padding: 0px 10px;
+
     font-size: 20px;
+
+    border-radius: 8px;
+    background-color: ${({ theme }) => theme.COLORS.PURPLE};
   }
 
   #share {
@@ -194,7 +205,7 @@ export const CardText = styled.div`
 
   @media screen and (max-width: 700px) {
     height: 100px;
-    line-height: 130%;
+    /* line-height: 100%; */
 
     > h2 {
       font-size: 16px;
@@ -220,5 +231,13 @@ export const CardText = styled.div`
     > span {
       font-size:14px;
     }
+
   }
+
+  @media  (min-width: 700px){
+      
+      > span {
+        margin-top: 10px;
+      }
+    }
 `;

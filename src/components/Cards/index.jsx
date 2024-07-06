@@ -56,14 +56,14 @@ export function Cards({
         <h2>{title}</h2>
 
         <div className="container-category">
-          <p>Cód: {code}</p>
+          <p>Código: {code}</p>
           <p className="p-category">{category}</p>
         </div>
 
         <span>{price}</span>
         <p id="share">{share}</p>
 
-        {isAvailable && <p id="in_stock">Em estoque</p>}
+        {/* {isAvailable && <p id="in_stock">Em estoque</p>} */}
       </CardText>
     </Container>
   );
