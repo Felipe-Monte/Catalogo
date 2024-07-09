@@ -15,6 +15,7 @@ export const Container = styled.footer`
   margin-top: 4px;
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE};
+  text-align: center;
 
   p {
     font-size: 12px;
