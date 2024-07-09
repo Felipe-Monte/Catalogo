@@ -392,7 +392,7 @@
     "title": "Blusa canelda lz14 c/4",
     "code": "03112",
     "price": "50,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -557,7 +557,7 @@
     "title": "Calcinha sensuale mf c/12",
     "code": "02236",
     "price": "12,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1030,7 +1030,7 @@
     "title": "Short malha crepe c/6",
     "code": "02210",
     "price": "40,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1195,7 +1195,7 @@
     "title": "Toalha de banho esmeralda vtx c/5",
     "code": "02907",
     "price": "52,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1206,7 +1206,7 @@
     "title": "Pano de prato tela roma c/12",
     "code": "03068",
     "price": "7,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1558,7 +1558,7 @@
     "title": "Sabonete íntimo naty flora c/6",
     "code": "03460",
     "price": "15,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
