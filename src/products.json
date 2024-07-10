@@ -1626,5 +1626,27 @@
     "price": "50,00",
     "isAvailable": true,
     "isNew": true
+  },
+  {
+    "id": "149",
+    "category": "alimentício",
+    "share": "",
+    "imgUrl": "/cocada cremosa.webp",
+    "title": "Doce cocada goulart c/12",  
+    "code": "03440",
+    "price": "23,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "150",
+    "category": "alimentício",
+    "share": "",
+    "imgUrl": "/bolinho goulart.webp",
+    "title": "Bolinhos goulart c/15",  
+    "code": "01158",
+    "price": "45,00",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
