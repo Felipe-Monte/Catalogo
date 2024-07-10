@@ -4,10 +4,8 @@ export const Container = styled.footer`
   width: 100%;
   height: 50px;
 
-  /* position: absolute;
-  bottom: 0;
-  left: 0; */
-
+  text-align: center;
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +13,6 @@ export const Container = styled.footer`
   margin-top: 4px;
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE};
-  text-align: center;
 
   p {
     font-size: 12px;

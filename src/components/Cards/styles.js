@@ -40,8 +40,6 @@ export const Container = styled.div`
   }
 
   &.new_item {
-    /* border: 2px solid ${({ theme }) => theme.COLORS.PURPLE}; */
-
     .icon-new {
       display: flex;
       align-items: center;
@@ -67,10 +65,9 @@ export const Container = styled.div`
       border-radius: 8px;
     }
 
-    @media (max-width: 768px){
+    @media (max-width: 768px) {
       .icon-new {
         font-size: 12px;
-       
       }
     }
   }
@@ -111,7 +108,6 @@ export const CardImg = styled.div`
   border-radius: 0px;
   position: relative;
 
-
   #loader {
     width: 30px;
     height: 30px;
@@ -132,8 +128,8 @@ export const CardImg = styled.div`
     height: 100%;
 
     > img {
-    border-radius: 0px;
-  }
+      border-radius: 0px;
+    }
   }
 `;
 
@@ -142,13 +138,7 @@ export const CardText = styled.div`
   margin-top: 5px;
   height: fit-content;
 
-  /* border: 1px solid red; */
-
   padding: 5px;
- 
-  /* text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;   */
 
   #in_stock {
     margin-top: 0px;
@@ -170,7 +160,7 @@ export const CardText = styled.div`
     justify-content: space-between;
 
     gap: 10px;
-    
+
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
@@ -205,8 +195,6 @@ export const CardText = styled.div`
 
   @media screen and (max-width: 700px) {
     height: 100px;
-    /* line-height: 100%; */
-
     > h2 {
       font-size: 16px;
     }
@@ -229,15 +217,13 @@ export const CardText = styled.div`
     }
 
     > span {
-      font-size:14px;
+      font-size: 14px;
     }
-
   }
 
-  @media  (min-width: 700px){
-      
-      > span {
-        margin-top: 10px;
-      }
+  @media (min-width: 700px) {
+    > span {
+      margin-top: 10px;
     }
+  }
 `;

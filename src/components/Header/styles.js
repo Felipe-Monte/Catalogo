@@ -13,10 +13,10 @@ export const Container = styled.header`
   z-index: 2;
 
   display: flex;
-  gap: 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE};
 
@@ -38,20 +38,9 @@ export const Container = styled.header`
     }
   }
 
-  .container-icon-filter {
-    display: none;
-    padding: 0px;
-
-    > svg {
-      width: 30px;
-      height: 30px;
-      cursor: pointer;
-    }
-  }
-
   @media (max-width: 450px) {
     height: 100px;
-    padding: 0px 10px;  
+    padding: 0px 10px;
 
     .container-title {
       text-align: center;
@@ -60,28 +49,18 @@ export const Container = styled.header`
         font-size: 19px;
       }
     }
-
-    .container-icon-filter {
-      padding: 0px;
-
-      > svg {
-        width: 25px;
-        height: 25px;
-        cursor: pointer;
-      }
-    }
   }
 
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     height: 80px;
 
     padding: 0px 80px;
 
     display: flex;
-    gap: 10px;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    gap: 10px;
 
     .container_header {
       width: 20%;
@@ -91,6 +70,4 @@ export const Container = styled.header`
       justify-content: center;
     }
   }
-
 `;
-

@@ -1,5 +1,4 @@
 import { Container, CardImg, CardText } from "./styles";
-import { MdAddCircle } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
@@ -30,10 +29,8 @@ export function Cards({
       className={`${isAvailable ? "" : "unavailable"} ${
         isNew ? "new_item" : ""
       }`}
-    > 
-      <p className="icon-new">
-        NOVIDADE
-      </p>
+    >
+      <p className="icon-new">NOVIDADE</p>
       <CardImg>
         {!imageLoaded && (
           <img
@@ -62,8 +59,6 @@ export function Cards({
 
         <span>{price}</span>
         <p id="share">{share}</p>
-
-        {/* {isAvailable && <p id="in_stock">Em estoque</p>} */}
       </CardText>
     </Container>
   );
