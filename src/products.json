@@ -172,7 +172,7 @@
     "title": "Kit passadeira 3pçs",
     "code": "02615",
     "price": "65,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -502,7 +502,7 @@
     "title": "Calcinha borda sedução c/12",
     "code": "03331",
     "price": "15,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1030,7 +1030,7 @@
     "title": "Short malha crepe c/6",
     "code": "02210",
     "price": "40,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1063,7 +1063,7 @@
     "title": "Short pedal plus",
     "code": "02616",
     "price": "96,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1129,7 +1129,7 @@
     "title": "Vestido lunender malha canelado c/3",
     "code": "02610",
     "price": "138,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1195,7 +1195,7 @@
     "title": "Toalha de banho esmeralda vtx c/5",
     "code": "02907",
     "price": "52,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1239,7 +1239,7 @@
     "title": "Toalha gg master 1,78 x 78 c/3",
     "code": "03376",
     "price": "63,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1558,7 +1558,7 @@
     "title": "Sabonete íntimo naty flora c/6",
     "code": "03460",
     "price": "15,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
