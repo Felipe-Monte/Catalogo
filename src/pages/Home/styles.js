@@ -18,7 +18,6 @@ export const Container = styled.div`
     padding: 0;
 
     margin: 0 auto;
-    overflow: hidden;
     overflow-y: auto;
 
     display: flex;
@@ -29,10 +28,6 @@ export const Container = styled.div`
     gap: 15px;
     
     scroll-behavior: smooth;
-  }
-
-  @media (max-width: 768px){
-    margin: 80px auto;
   }
 `;
 
@@ -46,7 +41,7 @@ export const Section = styled.section`
   gap: 15px;
 
   padding: 15px;
-  overflow: hidden;
+  overflow: auto;
 
   @media screen and (max-width: 700px) {
     display: grid;
@@ -55,6 +50,7 @@ export const Section = styled.section`
     align-items: center;
     justify-items: center;
     gap: 3px;
+
     padding: 1px 0 0 0;
 
     .alert_not_found {
