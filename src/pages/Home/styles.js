@@ -10,7 +10,7 @@ export const Container = styled.div`
 
   position: relative;
   scroll-behavior: smooth;
- 
+
   > main {
     width: 100%;
     max-width: 1500px;
@@ -27,14 +27,14 @@ export const Container = styled.div`
     align-content: flex-start;
     flex-wrap: wrap;
     gap: 15px;
-    
-    scroll-behavior: smooth;
-  }
 
-  /* BUG SCROLL IN MOBILE */
-  @media (max-width: 768px) {
-    border: 2px solid red;
-    padding-bottom: 85px;
+    scroll-behavior: smooth;
+
+    /* BUG SCROLL IN MOBILE */
+    @media (max-width: 768px) {
+      border: 2px solid red;
+      padding-bottom: 30px;
+    }
   }
 `;
 
