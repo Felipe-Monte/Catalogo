@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 50%;
+  width: 100%;
   display: flex;
   align-items: center;
 
@@ -24,6 +24,10 @@ export const Container = styled.div`
 
     &::placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_100};
+    }
+
+    @media (max-width: 767px){
+      height: 30px;
     }
   }
 

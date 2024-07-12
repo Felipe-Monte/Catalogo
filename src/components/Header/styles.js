@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   width: 100%;
-  height: 110px;
+  height: 80px;
 
   padding: 0px 20px;
 
@@ -16,7 +16,7 @@ export const Container = styled.header`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 
   background-color: ${({ theme }) => theme.COLORS.PURPLE};
 
@@ -38,9 +38,10 @@ export const Container = styled.header`
     }
   }
 
+
   @media (max-width: 450px) {
-    height: 100px;
-    padding: 0px 10px;
+    height: 80px;
+    padding: 0px 14px;
 
     .container-title {
       text-align: center;
@@ -51,7 +52,7 @@ export const Container = styled.header`
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 600px) {
     height: 80px;
 
     padding: 0px 80px;
@@ -60,7 +61,7 @@ export const Container = styled.header`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 30px;
 
     .container_header {
       width: 20%;

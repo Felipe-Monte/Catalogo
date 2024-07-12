@@ -58,7 +58,7 @@ export function Home() {
           )}
         </Section>
       </main>
-      <Footer/>
+      {/* <Footer/> */}
     </Container>
   );
 }
