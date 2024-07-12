@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   width: 100%;
-  /* height: calc(100vh - 80px); */
   height: 100vh;
 
   margin-top: 80px;
@@ -10,6 +9,24 @@ export const Container = styled.div`
 
   position: relative;
   scroll-behavior: smooth;
+
+  ::-webkit-scrollbar {
+      width: 14px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: ${({ theme }) => theme.COLORS.BACKGROUND_600};
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: #888; 
+      border-radius: 10px; 
+      border: 3px solid #eee;
+      height: 40px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555; 
+    }
 
   > main {
     width: 100%;
@@ -30,10 +47,16 @@ export const Container = styled.div`
 
     scroll-behavior: smooth;
 
-    /* BUG SCROLL IN MOBILE */
+    /* BUG SCROLL IN MOBILE - SPACE IN BOTTOM*/
     @media (max-width: 768px) {
       padding-bottom: 50px;
     }
+  }
+
+  @media (max-width: 768px) {
+    ::-webkit-scrollbar {
+        display: none;
+      }
   }
 `;
 
