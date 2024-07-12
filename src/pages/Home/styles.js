@@ -32,8 +32,7 @@ export const Container = styled.div`
 
     /* BUG SCROLL IN MOBILE */
     @media (max-width: 768px) {
-      border: 2px solid red;
-      padding-bottom: 30px;
+      padding-bottom: 85px;
     }
   }
 `;
