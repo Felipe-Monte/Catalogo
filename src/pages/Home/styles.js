@@ -16,7 +16,7 @@ export const Container = styled.div`
     max-width: 1500px;
     height: calc(100vh - 85px);
 
-    padding: 0;
+    padding-bottom: 0px;
 
     margin: 0 auto;
     overflow-y: auto;
@@ -29,6 +29,12 @@ export const Container = styled.div`
     gap: 15px;
     
     scroll-behavior: smooth;
+  }
+
+  /* BUG SCROLL IN MOBILE */
+  @media (max-width: 768px) {
+    border: 2px solid red;
+    padding-bottom: 85px;
   }
 `;
 
