@@ -172,7 +172,7 @@
     "title": "Kit passadeira 3pçs",
     "code": "02615",
     "price": "65,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -216,7 +216,7 @@
     "title": "Tapete porta estampando",
     "code": "02559",
     "price": "16,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -436,7 +436,7 @@
     "title": "Blusa semi cropped c/6",
     "code": "02614",
     "price": "35,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -524,7 +524,7 @@
     "title": "Calcinha g cotton c/10",
     "code": "01217",
     "price": "20,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1503,7 +1503,7 @@
     "title": "Calça jogger duna c/4",
     "code": "03323",
     "price": "80,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
