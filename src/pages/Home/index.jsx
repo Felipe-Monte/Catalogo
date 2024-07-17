@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Section } from "./styles";
 import { Header } from "../../components/Header";
-import { Cards } from "../../components/Cards";
+import Cards from "../../components/Cards";
 import { Footer } from "../../components/Footer"
 import jsonData from "../../products.json";
 
