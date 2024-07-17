@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, memo } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
@@ -13,7 +13,7 @@ import {
 } from "./styles";
 import { HeaderDetails } from "../../components/HeaderDetails";
 
-export function Details() {
+function Details() {
   const location = useLocation();
   const { category, share, imgUrl, title, code, price } = location.state || {};
 
@@ -89,3 +89,5 @@ export function Details() {
     </Container>
   );
 }
+
+export default memo(Details);

@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, memo } from "react";
 import { Container, Section } from "./styles";
 import { Header } from "../../components/Header";
 import Cards from "../../components/Cards";
-import { Footer } from "../../components/Footer"
+import { Footer } from "../../components/Footer";
 import jsonData from "../../products.json";
 
 export function Home() {
   const [searchTerm, setSearchTerm] = useState("");
   const [sortedData, setSortedData] = useState([]);
-  
+
   const handleSearch = (term) => {
     setSearchTerm(term);
   };
@@ -29,7 +29,6 @@ export function Home() {
     sortData();
   }, [searchTerm]);
 
-
   return (
     <Container>
       <Header title="Catálogo" onSearch={handleSearch} />
@@ -38,7 +37,7 @@ export function Home() {
         <Section>
           {sortedData.length > 0 ? (
             sortedData.map((card) => (
-              <Cards
+              <MemoizedCards
                 key={card.id}
                 category={card.category}
                 share={card.share}
@@ -58,7 +57,11 @@ export function Home() {
           )}
         </Section>
       </main>
-      {/* <Footer/> */}
+      {/* <Footer /> */}
     </Container>
   );
 }
+
+const MemoizedCards = memo(Cards);
+
+export default Home;
