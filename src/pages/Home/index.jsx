@@ -2,7 +2,6 @@ import React, { useState, useEffect, memo } from "react";
 import { Container, Section } from "./styles";
 import { Header } from "../../components/Header";
 import Cards from "../../components/Cards";
-import { Footer } from "../../components/Footer";
 import jsonData from "../../products.json";
 
 export function Home() {
@@ -52,12 +51,12 @@ export function Home() {
             ))
           ) : (
             <p className="alert_not_found">
-              O produto "{searchTerm.toUpperCase()}" não está cadastrado em nosso catálogo.
+              O produto "{searchTerm.toUpperCase()}" não está cadastrado em
+              nosso catálogo.
             </p>
           )}
         </Section>
       </main>
-      {/* <Footer /> */}
     </Container>
   );
 }
