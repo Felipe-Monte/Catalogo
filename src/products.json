@@ -237,7 +237,7 @@
     "imgUrl": "/cafeteira.webp",
     "title": "Cafeteira destak",
     "code": "00218",
-    "price": "99,00",
+    "price": "110,00",
     "isAvailable": true,
     "isNew": false
   },
@@ -303,7 +303,7 @@
     "imgUrl": "/frigideira com espatula.webp",
     "title": "Frigidera com espátula",
     "code": "00537",
-    "price": "110,00",
+    "price": "115,00",
     "isAvailable": true,
     "isNew": false
   },
@@ -314,7 +314,7 @@
     "imgUrl": "/panela 300.webp",
     "title": "Jogo de panela destak",
     "code": "00304",
-    "price": "299,00",
+    "price": "320,00",
     "isAvailable": true,
     "isNew": false
   },
