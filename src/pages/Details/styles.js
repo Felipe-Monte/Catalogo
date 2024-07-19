@@ -155,7 +155,12 @@ export const ContainerText = styled.div`
   }
 
   > span {
-    font-size: 36px;
+    font-size: 24px;
+
+    padding: 4px 8px;
+    width: fit-content;
+    border-radius: 8px;
+    background-color: ${({ theme }) => theme.COLORS.PURPLE};
   }
 
   > svg {
@@ -181,7 +186,7 @@ export const ContainerText = styled.div`
     }
 
     > span {
-      font-size: 30px;
+      font-size: 24px;
     }
 
     > svg {
