@@ -36,7 +36,7 @@ export const Container = styled.div`
     padding-bottom: 0px;
 
     margin: 0 auto;
-    overflow-y: auto;
+    /* overflow-y: auto; */
 
     display: flex;
     justify-content: center;
