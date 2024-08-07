@@ -447,7 +447,7 @@
     "title": "Calça jeans fem linda bell",
     "code": "01935",
     "price": "120,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -458,7 +458,7 @@
     "title": "Calça jeans masc new boy rox c/4",
     "code": "02365",
     "price": "120,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -502,7 +502,7 @@
     "title": "Calcinha borda sedução c/12",
     "code": "03331",
     "price": "15,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -700,7 +700,7 @@
     "title": "Conj inf turma da molekada c/6",
     "code": "03268",
     "price": "44,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -876,7 +876,7 @@
     "title": "Cocada moreninha c/12.",
     "code": "03244",
     "price": "28,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1129,7 +1129,7 @@
     "title": "Vestido lunender malha canelado c/3",
     "code": "02610",
     "price": "138,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
