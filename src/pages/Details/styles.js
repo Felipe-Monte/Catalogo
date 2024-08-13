@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  overflow-y: auto;
-
+  height: fit-content;
   width: 100%;
-  height: calc(100vh -50px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   > main {
-    width: 100%;
-    height: 100%;
+    width: fit-content;
+    height: fit-content;
 
     margin-top: 50px;
 
@@ -16,11 +18,12 @@ export const Container = styled.div`
     justify-content: center;
   }
 
-  @media (max-width: 450px) {
+  /* @media (max-width: 450px) {
     > main {
       height: 100%;
+      border: 2px solid yellow;
     }
-  }
+  } */
 `;
 export const WrapperContainer = styled.div`
   display: flex;
@@ -32,7 +35,7 @@ export const WrapperContainer = styled.div`
   padding-right: 20px;
 
   position: relative;
-
+  
   .wrapper-icons {
     position: absolute;
     right: 25px;
@@ -42,7 +45,7 @@ export const WrapperContainer = styled.div`
     align-items: center;
     justify-content: center;
     gap: 15px;
-
+    
     > svg {
       width: 32px;
       height: 32px;
@@ -80,6 +83,7 @@ export const Section = styled.section`
   margin-top: 50px;
 
   border-radius: 10px;
+  border: 1px solid ${({ theme }) => theme.COLORS.WHITE};
 
   @media (max-width: 768px) {
     overflow-y: auto;
@@ -95,6 +99,7 @@ export const Section = styled.section`
     align-items: center;
 
     border-radius: 0;
+    border: none;
   }
 `;
 export const ContainerImg = styled.div`
@@ -225,11 +230,11 @@ export const ContainerButton = styled.div`
     background: transparent;
   }
 
-  #btn_back:hover{
+  #btn_back:hover {
     background-color: ${({ theme }) => theme.COLORS.PURPLE_HOVER};
   }
 
-  #btn_back:active{
+  #btn_back:active {
     background-color: transparent;
   }
 
