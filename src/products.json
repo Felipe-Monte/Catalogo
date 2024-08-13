@@ -1648,5 +1648,16 @@
     "price": "45,00",
     "isAvailable": true,
     "isNew": true
+  },
+  {
+    "id": "151",
+    "category": "conjunto",
+    "share": "",
+    "imgUrl": "/calça-leg.webp",
+    "title": "Calça legging/fitness c/4",  
+    "code": "01006",
+    "price": "54,00",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
