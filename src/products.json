@@ -1659,5 +1659,16 @@
     "price": "54,00",
     "isAvailable": true,
     "isNew": true
+  },
+  {
+    "id": "152",
+    "category": "conjunto",
+    "share": "",
+    "imgUrl": "/conj-academia.webp",
+    "title": "Conj suplex academia c/4",  
+    "code": "00441",
+    "price": "59,00",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
