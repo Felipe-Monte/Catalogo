@@ -67,7 +67,7 @@ function Details() {
           <WrapperContainer>
             <ContainerText>
               <h2>{title}</h2>
-              <p>Cód: {code}</p>
+              <p>Código: {code}</p>
               <p>{category}</p>
               <span>{price}</span>
 
