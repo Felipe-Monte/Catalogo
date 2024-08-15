@@ -16,7 +16,8 @@ export function Home() {
 
   // Filtre os produtos com base no termo de busca
   const filteredProducts = organizedProducts.filter((product) =>
-    product.title.toLowerCase().includes(searchTerm.toLowerCase())
+    product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    product.code.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
   return (
