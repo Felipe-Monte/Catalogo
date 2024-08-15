@@ -1,32 +1,23 @@
-import React, { useState, useEffect, memo } from "react";
-import { Container, Section } from "./styles";
+import React from "react";
 import { Header } from "../../components/Header";
+import { Container, Section } from "./styles";
 import Cards from "../../components/Cards";
 import jsonData from "../../products.json";
 
 export function Home() {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [sortedData, setSortedData] = useState([]);
+  const [searchTerm, setSearchTerm] = React.useState("");
 
   const handleSearch = (term) => {
     setSearchTerm(term);
   };
 
-  useEffect(() => {
-    const sortData = () => {
-      const sorted = [...jsonData]
-        .filter(
-          (card) =>
-            card.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            card.code.toLowerCase().includes(searchTerm.toLowerCase())
-        )
-        .sort((a, b) => a.title.localeCompare(b.title));
+  // Organize os produtos do último ao primeiro
+  const organizedProducts = [...jsonData].reverse();
 
-      setSortedData(sorted);
-    };
-
-    sortData();
-  }, [searchTerm]);
+  // Filtre os produtos com base no termo de busca
+  const filteredProducts = organizedProducts.filter((product) =>
+    product.title.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <Container>
@@ -34,9 +25,9 @@ export function Home() {
 
       <main>
         <Section>
-          {sortedData.length > 0 ? (
-            sortedData.map((card) => (
-              <MemoizedCards
+          {filteredProducts.length > 0 ? (
+            filteredProducts.map((card) => (
+              <Cards
                 key={card.id}
                 category={card.category}
                 share={card.share}
@@ -60,7 +51,5 @@ export function Home() {
     </Container>
   );
 }
-
-const MemoizedCards = memo(Cards);
 
 export default Home;

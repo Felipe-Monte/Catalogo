@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
@@ -90,4 +90,4 @@ function Details() {
   );
 }
 
-export default memo(Details);
+export default Details;
