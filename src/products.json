@@ -1526,7 +1526,7 @@
     "code": "03483",
     "price": "175,00",
     "isAvailable": true,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "140",
@@ -1581,7 +1581,7 @@
     "code": "03511",
     "price": "25,00",
     "isAvailable": true,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "145",
@@ -1592,7 +1592,7 @@
     "code": "03508",
     "price": "30,00",
     "isAvailable": true,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "146",
@@ -1603,7 +1603,7 @@
     "code": "03507",
     "price": "90,00",
     "isAvailable": true,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "147",
@@ -1614,7 +1614,7 @@
     "code": "03509",
     "price": "40,00",
     "isAvailable": true,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "148",
@@ -1625,7 +1625,7 @@
     "code": "03511",
     "price": "50,00",
     "isAvailable": true,
-    "isNew": true
+    "isNew": false
   },
   {
     "id": "149",
@@ -1668,6 +1668,17 @@
     "title": "Conj suplex academia c/4",  
     "code": "00441",
     "price": "59,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "153",
+    "category": "banho",
+    "share": "",
+    "imgUrl": "/toalha-madri.webp",
+    "title": "Toalha de banho madri bru 1,50 x 80 c/3",  
+    "code": "03518",
+    "price": "58,00",
     "isAvailable": true,
     "isNew": true
   }
