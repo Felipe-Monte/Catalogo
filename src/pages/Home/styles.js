@@ -10,24 +10,6 @@ export const Container = styled.div`
   position: relative;
   scroll-behavior: smooth;
 
-  ::-webkit-scrollbar {
-      width: 14px;
-    }
-
-    ::-webkit-scrollbar-track {
-      background: ${({ theme }) => theme.COLORS.BACKGROUND_600};
-    }
-    ::-webkit-scrollbar-thumb {
-      background-color: #888; 
-      border-radius: 10px; 
-      border: 3px solid #eee;
-      height: 40px;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-      background: #555; 
-    }
-
   > main {
     width: 100%;
     max-width: 1500px;
@@ -69,7 +51,7 @@ export const Section = styled.section`
   flex-wrap: wrap;
   gap: 15px;
 
-  padding: 15px;
+  padding: 0px 15px;
   overflow: auto;
 
   @media screen and (max-width: 700px) {
