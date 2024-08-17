@@ -30,7 +30,7 @@ export function Home() {
 
   return (
     <Container>
-      <Header title="Catálogo" onSearch={handleSearch} />
+      <Header title="Catálogo" onSearch={handleSearch} categorySelected={selectedCategory}/>
 
       <FilterCategory onSelectCategory={handleCategorySelect} />
 
