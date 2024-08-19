@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
-  margin-top: 80px;
+  margin-top: 140px;
   padding-bottom: 0px;
 
   position: relative;
@@ -36,6 +36,8 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
+    margin-top: 130px;
+    
     ::-webkit-scrollbar {
         display: none;
       }
