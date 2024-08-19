@@ -1525,7 +1525,7 @@
     "title": "Cobreleito mix solteiro 2pçs 160x240",
     "code": "03483",
     "price": "175,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1646,7 +1646,7 @@
     "title": "Bolinhos goulart c/15",  
     "code": "01158",
     "price": "45,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": true
   },
   {
@@ -1657,7 +1657,7 @@
     "title": "Calça legging/fitness c/4",  
     "code": "01006",
     "price": "54,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": true
   },
   {
@@ -1668,7 +1668,7 @@
     "title": "Conj suplex academia c/4",  
     "code": "00441",
     "price": "59,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": true
   },
   {
