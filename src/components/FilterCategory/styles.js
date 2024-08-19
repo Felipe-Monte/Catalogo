@@ -60,7 +60,7 @@ export const Container = styled.div`
       &.active {
         background-color: ${({ theme }) =>
           theme.COLORS.PURPLE_HOVER}; /* Cor de destaque */
-        color: white; /* Cor do texto */
+        color: yellow; /* Cor do texto */
         border-color: ${({ theme }) => theme.COLORS.PURPLE_HOVER};
       }
     }
