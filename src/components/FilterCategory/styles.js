@@ -24,16 +24,16 @@ export const Container = styled.div`
 
     /* Estilos para a barra de rolagem horizontal */
     &::-webkit-scrollbar {
-      height: 8px; /* Altura da barra horizontal */
+      height: 10px; /* Altura da barra horizontal */
     }
 
     &::-webkit-scrollbar-thumb {
-      background-color: #3E3B47; /* Cor do thumb */
-      border-radius: 4px; /* Borda arredondada */
+      background-color: #483D8B; /* Cor do thumb */
     }
 
     &::-webkit-scrollbar-thumb:hover {
       background-color: #555; /* Cor do thumb ao passar o mouse */
+      cursor: pointer;
     }
 
     &::-webkit-scrollbar-track {
@@ -52,6 +52,10 @@ export const Container = styled.div`
       font-size: 12px;
       line-height: 100%;
       cursor: pointer;
+
+      &:hover{
+        background-color: #999591;
+      }
 
       &.active {
         background-color: ${({ theme }) =>
