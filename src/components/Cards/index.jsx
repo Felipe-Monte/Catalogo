@@ -55,7 +55,7 @@ const Cards = React.memo(
 
           <div className="container-category">
             <p>Código: {code}</p>
-            <p className="p-category">{category}</p>
+            {/* <p className="p-category">{category}</p> */}
           </div>
 
           <span>{price}</span>

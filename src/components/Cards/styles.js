@@ -177,17 +177,21 @@ export const CardText = styled.div`
   }
 
   > span {
-    display: block;
-    width: fit-content;
-    margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
 
-    padding: 0px 10px;
+  
+  width: fit-content;
+  margin-top: 5px;
+  margin-left: auto; /* Isso vai alinhar o span à direita */
 
-    font-size: 20px;
+  padding: 0px 10px;
 
-    border-radius: 8px;
-    background-color: ${({ theme }) => theme.COLORS.PURPLE};
-  }
+  font-size: 20px;
+
+  border-radius: 8px;
+  background-color: ${({ theme }) => theme.COLORS.PURPLE};
+}
 
   #share {
     display: none;
