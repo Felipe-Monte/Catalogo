@@ -3,6 +3,7 @@ import { Header } from "../../components/Header";
 import FilterCategory from "../../components/FilterCategory";
 import { Container, Section } from "./styles";
 import Cards from "../../components/Cards";
+import  ButtonBackToTop  from "../../components/ButtonBackToTop"
 import jsonData from "../../products.json";
 
 export function Home() {
@@ -57,6 +58,8 @@ export function Home() {
               nosso catálogo.
             </p>
           )}
+
+          <ButtonBackToTop/>
         </Section>
       </main>
     </Container>
