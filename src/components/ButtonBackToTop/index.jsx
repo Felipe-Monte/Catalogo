@@ -1,4 +1,5 @@
 import React from "react";
+import { FiArrowUp } from "react-icons/fi";
 import { Container } from "./styles";
 
 const ButtonBackToTop = () => {
@@ -28,7 +29,7 @@ const ButtonBackToTop = () => {
     <Container>
       {isVisible && (
         <button onClick={scrollToTop}>
-          ↑ 
+          <FiArrowUp/>
         </button>
       )}
     </Container>

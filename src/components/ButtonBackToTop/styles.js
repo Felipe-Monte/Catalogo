@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 12px;
+  right: 12px;
 
   font-size: 18px;
 
@@ -18,9 +18,13 @@ export const Container = styled.div`
   transition: opacity 0.3s ease-in-out;
 
   > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     border: none;
     border-radius: 5px;
-    padding: 6px 16px;
+    padding: 8px 14px;
     color: white;
     background-color: #333;
   }
