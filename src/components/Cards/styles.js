@@ -39,30 +39,39 @@ export const Container = styled.div`
     display: none;
   }
 
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+     
+    }
+    50% {
+      transform: scale(1.1);
+     
+    }
+    100% {
+      transform: scale(1);
+      
+    }
+  }
+
   &.new_item {
     .icon-new {
       display: flex;
       align-items: center;
       justify-content: center;
-
       font-family: "Saira", sans-serif;
       font-weight: bold;
-
       width: fit-content;
       height: 30px;
-
       padding: 8px;
-
       position: absolute;
-
       top: 8px;
       right: 8px;
-
       z-index: 1;
-
       color: white;
       background-color: #22c55e;
       border-radius: 8px;
+      animation: pulse 1.5s infinite;
     }
 
     @media (max-width: 768px) {
@@ -177,21 +186,20 @@ export const CardText = styled.div`
   }
 
   > span {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 
-  
-  width: fit-content;
-  margin-top: 5px;
-  margin-left: auto; /* Isso vai alinhar o span à direita */
+    width: fit-content;
+    margin-top: 5px;
+    margin-left: auto; /* Isso vai alinhar o span à direita */
 
-  padding: 0px 10px;
+    padding: 0px 10px;
 
-  font-size: 20px;
+    font-size: 20px;
 
-  border-radius: 8px;
-  background-color: ${({ theme }) => theme.COLORS.PURPLE};
-}
+    border-radius: 8px;
+    background-color: ${({ theme }) => theme.COLORS.PURPLE};
+  }
 
   #share {
     display: none;
