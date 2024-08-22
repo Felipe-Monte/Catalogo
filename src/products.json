@@ -524,7 +524,7 @@
     "title": "Calcinha g cotton c/10",
     "code": "01217",
     "price": "20,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -579,7 +579,7 @@
     "title": "Cobreleito casal 3pçs 220x240",
     "code": "03260",
     "price": "236,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -590,7 +590,7 @@
     "title": "Cobreleito casal queen 3pçs",
     "code": "03261",
     "price": "266,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -645,7 +645,7 @@
     "title": "Camisa c/ abertura c/4",
     "code": "02280",
     "price": "44,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -752,7 +752,7 @@
     "category": "cosméticos",
     "share": "https://photos.app.goo.gl/1bBKPhjJ8VGFDBTN8",
     "imgUrl": "/fortgel.webp",
-    "title": "Pomada fortgel.webp",
+    "title": "Pomada fortgel",
     "code": "03219",
     "price": "12,00",
     "isAvailable": true,
@@ -920,7 +920,7 @@
     "title": "Deo colônia intensse c/5",
     "code": "02180",
     "price": "56,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -942,7 +942,7 @@
     "title": "Baby doll lz14 c/6",
     "code": "00198",
     "price": "40,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -997,7 +997,7 @@
     "title": "Saia peplum suplex",
     "code": "02930",
     "price": "39,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1041,7 +1041,7 @@
     "title": "Short moleton infantil masc c/4",
     "code": "02232",
     "price": "44,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1107,7 +1107,7 @@
     "title": "Toalha de banho jasmim c/6",
     "code": "03328",
     "price": "59,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1217,7 +1217,7 @@
     "title": "Lençol casal com fronha 220x240 c/5",
     "code": "01050",
     "price": "68,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1239,7 +1239,7 @@
     "title": "Toalha gg master 1,78 x 78 c/3",
     "code": "03376",
     "price": "63,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1503,7 +1503,7 @@
     "title": "Calça jogger duna c/4",
     "code": "03323",
     "price": "80,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
