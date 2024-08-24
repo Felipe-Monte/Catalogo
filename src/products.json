@@ -1681,5 +1681,16 @@
     "price": "58,00",
     "isAvailable": true,
     "isNew": true
+  },
+  {
+    "id": "154",
+    "category": "camisa",
+    "share": "",
+    "imgUrl": "/camisa-relevo.webp",
+    "title": "Camisa auto relevo c/4",  
+    "code": "03521",
+    "price": "49,00",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
