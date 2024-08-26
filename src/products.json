@@ -469,7 +469,7 @@
     "title": "Calça jeans masc valiant c/5",
     "code": "03210",
     "price": "175,00",
-    "isAvailable": true, 
+    "isAvailable": false, 
     "isNew": false
   },
   {
@@ -1140,7 +1140,7 @@
     "title": "Vestido suplex",
     "code": "03017",
     "price": "50,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -1657,7 +1657,7 @@
     "title": "Calça legging/fitness c/4",  
     "code": "01006",
     "price": "54,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": true
   },
   {
@@ -1668,7 +1668,7 @@
     "title": "Conj suplex academia c/4",  
     "code": "00441",
     "price": "59,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": true
   },
   {
