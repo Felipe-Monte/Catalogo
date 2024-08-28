@@ -1692,5 +1692,16 @@
     "price": "49,00",
     "isAvailable": true,
     "isNew": true
+  },
+  {
+    "id": "155",
+    "category": "vestido",
+    "share": "",
+    "imgUrl": "/vestido-inf.webp",
+    "title": "Vestido inf cotton/canelado c/5",  
+    "code": "03520",
+    "price": "45,00",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
