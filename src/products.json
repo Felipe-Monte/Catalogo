@@ -183,7 +183,7 @@
     "title": "Manta king",
     "code": "03275",
     "price": "130,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false
   },
   {
@@ -579,7 +579,7 @@
     "title": "Cobreleito casal 3pçs 220x240",
     "code": "03260",
     "price": "236,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -645,7 +645,7 @@
     "title": "Camisa c/ abertura c/4",
     "code": "02280",
     "price": "44,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1107,7 +1107,7 @@
     "title": "Toalha de banho jasmim c/6",
     "code": "03328",
     "price": "59,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1173,7 +1173,7 @@
     "title": "Conj caeve kids e bonequinha c/6",
     "code": "02565",
     "price": "54,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
