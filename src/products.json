@@ -1140,7 +1140,7 @@
     "title": "Vestido suplex",
     "code": "03017",
     "price": "54,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
