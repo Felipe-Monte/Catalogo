@@ -205,7 +205,7 @@
     "title": "Rede bucho de boi",
     "code": "03230",
     "price": "195,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
