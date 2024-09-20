@@ -1703,5 +1703,38 @@
     "price": "45,00",
     "isAvailable": true,
     "isNew": true
+  },
+  {
+    "id": "156",
+    "category": "blusa",
+    "share": "",
+    "imgUrl": "/blusa rovitex.webp",
+    "title": "Blusa select rovitex c/4",  
+    "code": "03188",
+    "price": "56,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "157",
+    "category": "blusa",
+    "share": "",
+    "imgUrl": "/blusas rovitex mix.webp",
+    "title": "Blusa rovitex mix c/4",  
+    "code": "01163",
+    "price": "66,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "158",
+    "category": "banho",
+    "share": "",
+    "imgUrl": "/toalha-class.webp",
+    "title": "Toalha de banho class c/3",  
+    "code": "03213",
+    "price": "105,00",
+    "isAvailable": true,
+    "isNew": true
   }
 ]
