@@ -524,7 +524,7 @@
     "title": "Calcinha g cotton c/10",
     "code": "01217",
     "price": "20,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1030,7 +1030,7 @@
     "title": "Short malha crepe c/6",
     "code": "02210",
     "price": "40,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1239,7 +1239,7 @@
     "title": "Toalha gg master 1,78 x 78 c/3",
     "code": "03376",
     "price": "63,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
