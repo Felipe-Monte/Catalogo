@@ -183,7 +183,7 @@
     "title": "Manta king",
     "code": "03275",
     "price": "130,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -392,7 +392,7 @@
     "title": "Blusa canelda lz14 c/4",
     "code": "03112",
     "price": "50,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1415,7 +1415,7 @@
     "title": "Kit vasilha diamante ret 4pçs",
     "code": "03433",
     "price": "80,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
@@ -1426,7 +1426,7 @@
     "title": "Kit vasilha esmeralda 4pçs",
     "code": "03432",
     "price": "75,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false
   },
   {
