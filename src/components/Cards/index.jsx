@@ -12,6 +12,7 @@ const Cards = React.memo(
     price,
     isAvailable,
     isNew,
+    type
   }) => {
     const navigate = useNavigate();
     const [imageLoaded, setImageLoaded] = useState(false);
@@ -19,7 +20,7 @@ const Cards = React.memo(
     function handleCardClick() {
       if (isAvailable) {
         navigate(`/details/${code}`, {
-          state: { category, share, imgUrl, title, code, price },
+          state: { category, share, imgUrl, title, code, price, type },
         });
       }
     }
@@ -56,6 +57,7 @@ const Cards = React.memo(
           <div className="container-category">
             <p>Código: {code}</p>
             {/* <p className="p-category">{category}</p> */}
+            <p>{type}</p>
           </div>
 
           <span>{price}</span>

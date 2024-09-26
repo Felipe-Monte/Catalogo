@@ -49,6 +49,7 @@ export function Home() {
                 price={`R$: ${card.price}`}
                 isAvailable={card.isAvailable}
                 isNew={card.isNew}
+                type={card.type}
                 loading="lazy"
               />
             ))
