@@ -325,7 +325,7 @@
     "imgUrl": "/panela 10l.webp",
     "title": "Panela de pressão 10l",
     "code": "00533",
-    "price": "210,00",
+    "price": "230,00",
     "isAvailable": true,
     "isNew": false
   },
@@ -336,7 +336,7 @@
     "imgUrl": "/panela 2,5l.webp",
     "title": "Panela de pressão 2,5l",
     "code": "00362",
-    "price": "98,00",
+    "price": "105,00",
     "isAvailable": true,
     "isNew": false
   },
@@ -347,7 +347,7 @@
     "imgUrl": "/panela 4,5l.webp",
     "title": "Panela de pressão 4,5l",
     "code": "00200",
-    "price": "115,00",
+    "price": "125,00",
     "isAvailable": true,
     "isNew": false
   },
@@ -358,7 +358,7 @@
     "imgUrl": "/panela 10l.webp",
     "title": "Panela de pressão 7,0l",
     "code": "00182",
-    "price": "150,00",
+    "price": "170,00",
     "isAvailable": true,
     "isNew": false
   },
@@ -1734,6 +1734,28 @@
     "title": "Toalha de banho class c/3",  
     "code": "03213",
     "price": "105,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "159",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/panela 10 new.webp",
+    "title": "Panela pressão f.externo 10lt",  
+    "code": "03528",
+    "price": "385,00",
+    "isAvailable": true,
+    "isNew": true
+  },
+  {
+    "id": "160",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/panela 4,5 new.webp",
+    "title": "Panela pressão f.externo 4,5lt",  
+    "code": "03527",
+    "price": "245,00",
     "isAvailable": true,
     "isNew": true
   }
