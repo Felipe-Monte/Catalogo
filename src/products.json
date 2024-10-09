@@ -511,7 +511,7 @@
     "title": "Calça jeans masc valiant c/5",
     "code": "03210",
     "price": "175,00",
-    "isAvailable": false, 
+    "isAvailable": true, 
     "isNew": false,
     "type": "Comissão"
   },
@@ -1123,7 +1123,7 @@
     "title": "Short malha crepe c/6",
     "code": "02210",
     "price": "40,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1135,7 +1135,7 @@
     "title": "Short moleton infantil masc c/4",
     "code": "02232",
     "price": "44,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1195,7 +1195,7 @@
     "title": "Conj lingerie estilosa c/4",
     "code": "03266",
     "price": "58,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1747,7 +1747,7 @@
     "title": "Kit rubi c/4 cumbucas 10l",
     "code": "03507",
     "price": "90,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Direta"
   },
