@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { Header } from "../../components/Header";
 import FilterCategory from "../../components/FilterCategory";
 import { Container, Section } from "./styles";
 import Cards from "../../components/Cards";
-import  ButtonBackToTop  from "../../components/ButtonBackToTop"
+import ButtonBackToTop from "../../components/ButtonBackToTop";
 import jsonData from "../../products.json";
 
 export function Home() {
-  const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("Todos");
+  const [searchTerm, setSearchTerm] = React.useState("");
+  const [selectedCategory, setSelectedCategory] = React.useState("Todos");
 
   const handleSearch = (term) => {
     setSearchTerm(term);
@@ -31,7 +31,11 @@ export function Home() {
 
   return (
     <Container>
-      <Header title="Catálogo" onSearch={handleSearch} categorySelected={selectedCategory}/>
+      <Header
+        title="Catálogo"
+        onSearch={handleSearch}
+        categorySelected={selectedCategory}
+      />
 
       <FilterCategory onSelectCategory={handleCategorySelect} />
 
@@ -60,7 +64,7 @@ export function Home() {
             </p>
           )}
 
-          <ButtonBackToTop/>
+          <ButtonBackToTop />
         </Section>
       </main>
     </Container>
