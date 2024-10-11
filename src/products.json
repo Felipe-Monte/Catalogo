@@ -535,7 +535,7 @@
     "title": "Calcinha av",
     "code": "00227",
     "price": "9,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -547,7 +547,7 @@
     "title": "Calcinha borda sedução c/12",
     "code": "03331",
     "price": "15,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -631,7 +631,7 @@
     "title": "Cobreleito casal 3pçs 220x240",
     "code": "03260",
     "price": "236,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -883,7 +883,7 @@
     "title": "Toalha de mesa térmica",
     "code": "02943",
     "price": "50,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -895,7 +895,7 @@
     "title": "Cueca box classe a c/12",
     "code": "00785",
     "price": "20,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1219,7 +1219,7 @@
     "title": "Toalha de banho infantil c/4",
     "code": "02938",
     "price": "36,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1243,7 +1243,7 @@
     "title": "Vestido suplex",
     "code": "03017",
     "price": "54,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1435,7 +1435,7 @@
     "title": "Conjunto lingerie renda c/4",
     "code": "03206",
     "price": "39,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1579,7 +1579,7 @@
     "title": "Spray natgel p/massagem 120ml c/12",
     "code": "03069",
     "price": "24,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1687,7 +1687,7 @@
     "title": "Pomada calmanex naty flora c/12",
     "code": "03463",
     "price": "20,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
