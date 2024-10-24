@@ -427,7 +427,7 @@
     "title": "Blusa canelda lz14 c/4",
     "code": "03112",
     "price": "50,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -463,7 +463,7 @@
     "title": "Blusa plus deluxe c/4",
     "code": "01111",
     "price": "50,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -475,7 +475,7 @@
     "title": "Blusa semi cropped c/6",
     "code": "02614",
     "price": "39,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -535,7 +535,7 @@
     "title": "Calcinha av",
     "code": "00227",
     "price": "9,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -655,7 +655,7 @@
     "title": "Colcha casal bord box",
     "code": "03009",
     "price": "160,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -787,7 +787,7 @@
     "title": "Gel natgel c/12",
     "code": "01863",
     "price": "23,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -799,7 +799,7 @@
     "title": "Kit capilar botox",
     "code": "01862",
     "price": "75,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1003,7 +1003,7 @@
     "title": "Deo colônia intensse c/5",
     "code": "02180",
     "price": "56,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1123,7 +1123,7 @@
     "title": "Short malha crepe c/6",
     "code": "02210",
     "price": "40,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1243,7 +1243,7 @@
     "title": "Vestido suplex",
     "code": "03017",
     "price": "54,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1447,7 +1447,7 @@
     "title": "Conj infanto juvenil 10 a 14 c/6",
     "code": "01110",
     "price": "60,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1807,7 +1807,7 @@
     "title": "Calça legging/fitness c/4",  
     "code": "01006",
     "price": "54,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": true,
     "type": "Comissão"
   },
@@ -1819,7 +1819,7 @@
     "title": "Conj suplex academia c/4",  
     "code": "00441",
     "price": "59,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": true,
     "type": "Comissão"
   },
