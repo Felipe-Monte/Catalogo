@@ -511,7 +511,7 @@
     "title": "Calça jeans masc valiant c/5",
     "code": "03210",
     "price": "175,00",
-    "isAvailable": true, 
+    "isAvailable": false, 
     "isNew": false,
     "type": "Comissão"
   },
@@ -523,7 +523,7 @@
     "title": "Calça jeans valiant fem",
     "code": "01878",
     "price": "170,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -535,7 +535,7 @@
     "title": "Calcinha av",
     "code": "00227",
     "price": "9,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -787,7 +787,7 @@
     "title": "Gel natgel c/12",
     "code": "01863",
     "price": "23,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -799,7 +799,7 @@
     "title": "Kit capilar botox",
     "code": "01862",
     "price": "75,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1099,7 +1099,7 @@
     "title": "Short adidas c/6",
     "code": "01455",
     "price": "29,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1351,7 +1351,7 @@
     "title": "Toalha gg master 1,78 x 78 c/3",
     "code": "03376",
     "price": "63,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1699,7 +1699,7 @@
     "title": "Sabonete íntimo naty flora c/6",
     "code": "03460",
     "price": "15,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
