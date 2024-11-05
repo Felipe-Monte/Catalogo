@@ -175,7 +175,7 @@
     "title": "Cortina de sala confetex",
     "code": "02646",
     "price": "180,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -631,7 +631,7 @@
     "title": "Cobreleito casal 3pçs 220x240",
     "code": "03260",
     "price": "236,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1243,7 +1243,7 @@
     "title": "Vestido suplex",
     "code": "03017",
     "price": "54,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1447,7 +1447,7 @@
     "title": "Conj infanto juvenil 10 a 14 c/6",
     "code": "01110",
     "price": "60,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1663,7 +1663,7 @@
     "title": "Cobreleito mix solteiro 2pçs 160x240",
     "code": "03483",
     "price": "175,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1819,7 +1819,7 @@
     "title": "Conj suplex academia c/4",  
     "code": "00441",
     "price": "59,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": true,
     "type": "Comissão"
   },
