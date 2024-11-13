@@ -175,7 +175,7 @@
     "title": "Cortina de sala confetex",
     "code": "02646",
     "price": "180,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -403,7 +403,7 @@
     "title": "Kit banheiro gandhi 3pçs",
     "code": "03296",
     "price": "69,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -463,7 +463,7 @@
     "title": "Blusa plus deluxe c/4",
     "code": "01111",
     "price": "50,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -475,7 +475,7 @@
     "title": "Blusa semi cropped c/6",
     "code": "02614",
     "price": "39,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -523,7 +523,7 @@
     "title": "Calça jeans valiant fem",
     "code": "01878",
     "price": "170,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -535,7 +535,7 @@
     "title": "Calcinha av",
     "code": "00227",
     "price": "9,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -547,7 +547,7 @@
     "title": "Calcinha borda sedução c/12",
     "code": "03331",
     "price": "15,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -655,7 +655,7 @@
     "title": "Colcha casal bord box",
     "code": "03009",
     "price": "160,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1063,7 +1063,7 @@
     "title": "Short doll criare lz14",
     "code": "03200",
     "price": "42,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1243,7 +1243,7 @@
     "title": "Vestido suplex",
     "code": "03017",
     "price": "54,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1279,7 +1279,7 @@
     "title": "Conj caeve kids e bonequinha c/6",
     "code": "02565",
     "price": "54,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1675,7 +1675,7 @@
     "title": "Spray ice arnica naty flora c/12",
     "code": "03461",
     "price": "20,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1807,7 +1807,7 @@
     "title": "Calça legging/fitness c/4",  
     "code": "01006",
     "price": "54,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": true,
     "type": "Comissão"
   },
@@ -1893,7 +1893,7 @@
     "price": "105,00",
     "isAvailable": true,
     "isNew": true,
-    "type": "Comissão"
+    "type": "Direta"
   },
   {
     "id": "159",
