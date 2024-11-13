@@ -1531,7 +1531,7 @@
     "title": "Kit vasilha rubi 5pçs",
     "code": "03434",
     "price": "110,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Direta"
   },
