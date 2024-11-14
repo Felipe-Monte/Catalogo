@@ -127,7 +127,7 @@
     "title": "Sebo de carneiro",
     "code": "03397",
     "price": "24,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1915,6 +1915,30 @@
     "title": "Panela pressão f.externo 4,5lt",  
     "code": "03527",
     "price": "245,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Direta"
+  },
+  {
+    "id": "161",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/cordial200.webp",
+    "title": "Colônia body splash 200ml cordial c/4",  
+    "code": "03619",
+    "price": "45,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Direta"
+  },
+  {
+    "id": "162",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/cordial100.webp",
+    "title": "Colônia body splash 100ml cordial c/4",  
+    "code": "03620",
+    "price": "28,00",
     "isAvailable": true,
     "isNew": true,
     "type": "Direta"
