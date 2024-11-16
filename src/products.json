@@ -1942,5 +1942,17 @@
     "isAvailable": true,
     "isNew": true,
     "type": "Comissão"
+  },
+  {
+    "id": "163",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/creme-cordial.webp",
+    "title": "Creme hid e esfoliante cordial c/4",  
+    "code": "03618",
+    "price": "28,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão"
   }
 ]
