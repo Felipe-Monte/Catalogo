@@ -403,7 +403,7 @@
     "title": "Kit banheiro gandhi 3pçs",
     "code": "03296",
     "price": "69,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -511,7 +511,7 @@
     "title": "Calça jeans masc valiant c/5",
     "code": "03210",
     "price": "175,00",
-    "isAvailable": false, 
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -883,7 +883,7 @@
     "title": "Toalha de mesa térmica",
     "code": "02943",
     "price": "50,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -895,7 +895,7 @@
     "title": "Cueca box classe a c/12",
     "code": "00785",
     "price": "20,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1003,7 +1003,7 @@
     "title": "Deo colônia intensse c/5",
     "code": "02180",
     "price": "56,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1063,7 +1063,7 @@
     "title": "Short doll criare lz14",
     "code": "03200",
     "price": "42,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1231,7 +1231,7 @@
     "title": "Vestido lunender malha canelado c/3",
     "code": "02610",
     "price": "138,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1279,7 +1279,7 @@
     "title": "Conj caeve kids e bonequinha c/6",
     "code": "02565",
     "price": "54,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1351,7 +1351,7 @@
     "title": "Toalha gg master 1,78 x 78 c/3",
     "code": "03376",
     "price": "63,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1531,7 +1531,7 @@
     "title": "Kit vasilha rubi 5pçs",
     "code": "03434",
     "price": "110,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Direta"
   },
@@ -1712,7 +1712,7 @@
     "code": "03484",
     "price": "175,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1768,7 +1768,7 @@
     "category": "acessórios",
     "share": "",
     "imgUrl": "/bacia-35.webp",
-    "title": "Bacia safira 35lts",  
+    "title": "Bacia safira 35lts",
     "code": "03511",
     "price": "50,00",
     "isAvailable": true,
@@ -1780,11 +1780,11 @@
     "category": "alimentício",
     "share": "",
     "imgUrl": "/cocada cremosa.webp",
-    "title": "Doce cocada goulart c/12",  
+    "title": "Doce cocada goulart c/12",
     "code": "03440",
     "price": "23,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1792,11 +1792,11 @@
     "category": "alimentício",
     "share": "",
     "imgUrl": "/bolinho goulart.webp",
-    "title": "Bolinhos goulart c/15",  
+    "title": "Bolinhos goulart c/15",
     "code": "01158",
     "price": "45,00",
-    "isAvailable": false,
-    "isNew": true,
+    "isAvailable": true,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1804,11 +1804,11 @@
     "category": "conjunto",
     "share": "",
     "imgUrl": "/calça-leg.webp",
-    "title": "Calça legging/fitness c/4",  
+    "title": "Calça legging/fitness c/4",
     "code": "01006",
     "price": "54,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1816,11 +1816,11 @@
     "category": "conjunto",
     "share": "",
     "imgUrl": "/conj-academia.webp",
-    "title": "Conj suplex academia c/4",  
+    "title": "Conj suplex academia c/4",
     "code": "00441",
     "price": "59,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1828,11 +1828,11 @@
     "category": "banho",
     "share": "",
     "imgUrl": "/toalha-madri.webp",
-    "title": "Toalha de banho madri bru 1,50 x 80 c/3",  
+    "title": "Toalha de banho madri bru 1,50 x 80 c/3",
     "code": "03518",
     "price": "58,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1840,11 +1840,11 @@
     "category": "camisa",
     "share": "",
     "imgUrl": "/camisa-relevo.webp",
-    "title": "Camisa auto relevo c/4",  
+    "title": "Camisa auto relevo c/4",
     "code": "03521",
     "price": "49,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1852,11 +1852,11 @@
     "category": "vestido",
     "share": "",
     "imgUrl": "/vestido-inf.webp",
-    "title": "Vestido inf cotton/canelado c/5",  
+    "title": "Vestido inf cotton/canelado c/5",
     "code": "03520",
     "price": "45,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1864,11 +1864,11 @@
     "category": "blusa",
     "share": "",
     "imgUrl": "/blusa rovitex.webp",
-    "title": "Blusa select rovitex c/4",  
+    "title": "Blusa select rovitex c/4",
     "code": "03188",
     "price": "56,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1876,11 +1876,11 @@
     "category": "blusa",
     "share": "",
     "imgUrl": "/blusas rovitex mix.webp",
-    "title": "Blusa rovitex mix c/4",  
+    "title": "Blusa rovitex mix c/4",
     "code": "01163",
     "price": "66,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1888,11 +1888,11 @@
     "category": "banho",
     "share": "",
     "imgUrl": "/toalha-class.webp",
-    "title": "Toalha de banho class c/3",  
+    "title": "Toalha de banho class c/3",
     "code": "03213",
     "price": "105,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Direta"
   },
   {
@@ -1900,11 +1900,11 @@
     "category": "alumínio",
     "share": "",
     "imgUrl": "/panela 10 new.webp",
-    "title": "Panela pressão f.externo 10lt",  
+    "title": "Panela pressão f.externo 10lt",
     "code": "03528",
     "price": "385,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Direta"
   },
   {
@@ -1912,11 +1912,11 @@
     "category": "alumínio",
     "share": "",
     "imgUrl": "/panela 4,5 new.webp",
-    "title": "Panela pressão f.externo 4,5lt",  
+    "title": "Panela pressão f.externo 4,5lt",
     "code": "03527",
     "price": "245,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Direta"
   },
   {
@@ -1924,7 +1924,7 @@
     "category": "cosméticos",
     "share": "",
     "imgUrl": "/cordial200.webp",
-    "title": "Colônia body splash 200ml cordial c/4",  
+    "title": "Colônia body splash 200ml cordial c/4",
     "code": "03619",
     "price": "45,00",
     "isAvailable": true,
@@ -1936,7 +1936,7 @@
     "category": "cosméticos",
     "share": "",
     "imgUrl": "/cordial100.webp",
-    "title": "Colônia body splash 100ml cordial c/4",  
+    "title": "Colônia body splash 100ml cordial c/4",
     "code": "03620",
     "price": "28,00",
     "isAvailable": true,
@@ -1948,7 +1948,7 @@
     "category": "cosméticos",
     "share": "",
     "imgUrl": "/creme-cordial.webp",
-    "title": "Creme hid e esfoliante cordial c/4",  
+    "title": "Creme hid e esfoliante cordial c/4",
     "code": "03618",
     "price": "28,00",
     "isAvailable": true,
