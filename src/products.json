@@ -1966,5 +1966,17 @@
     "isAvailable": true,
     "isNew": true,
     "type": "Comissão"
+  },
+  {
+    "id": "165",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/micelar.webp",
+    "title": "Mousse micelar limpeza",
+    "code": "03642",
+    "price": "39,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão"
   }
 ]
