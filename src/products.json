@@ -222,7 +222,7 @@
     "imgUrl": "/rede bucho boi normal.webp",
     "title": "Rede bucho de boi",
     "code": "03230",
-    "price": "195,00",
+    "price": "220,00",
     "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
@@ -942,7 +942,7 @@
     "imgUrl": "/biscoito.webp",
     "title": "Biscoito carvalho c/12",
     "code": "03184",
-    "price": "21,00",
+    "price": "22,00",
     "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
@@ -966,7 +966,7 @@
     "imgUrl": "/doce.webp",
     "title": "Doce goulart c/12",
     "code": "00479",
-    "price": "20,00",
+    "price": "22,00",
     "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
