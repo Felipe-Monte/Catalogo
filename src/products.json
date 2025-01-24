@@ -79,7 +79,7 @@
     "title": "kit capilar bababell",
     "code": "018622",
     "price": "75,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -174,7 +174,7 @@
     "imgUrl": "/cortina sala.webp",
     "title": "Cortina de sala confetex",
     "code": "02646",
-    "price": "180,00",
+    "price": "185,00",
     "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
@@ -475,7 +475,7 @@
     "title": "Blusa semi cropped c/6",
     "code": "02614",
     "price": "39,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -487,7 +487,7 @@
     "title": "Calça jeans fem linda bell",
     "code": "01935",
     "price": "120,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -571,7 +571,7 @@
     "title": "Calcinha g cotton c/10",
     "code": "01217",
     "price": "20,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -631,7 +631,7 @@
     "title": "Cobreleito casal 3pçs 220x240",
     "code": "03260",
     "price": "236,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -678,7 +678,7 @@
     "imgUrl": "/colcha bordada.webp",
     "title": "Colcha casal bordada 2,10m x 2,30m",
     "code": "01048",
-    "price": "115,00",
+    "price": "120,00",
     "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
@@ -775,7 +775,7 @@
     "title": "Gel peixe elétrico",
     "code": "00073",
     "price": "24,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -799,7 +799,7 @@
     "title": "Kit capilar botox",
     "code": "01862",
     "price": "75,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -931,7 +931,7 @@
     "title": "Cueca sleep c/12",
     "code": "00848",
     "price": "20,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -943,7 +943,7 @@
     "title": "Biscoito carvalho c/12",
     "code": "03184",
     "price": "22,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -955,7 +955,7 @@
     "title": "Cocada moreninha c/12.",
     "code": "03244",
     "price": "28,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1099,7 +1099,7 @@
     "title": "Short adidas c/6",
     "code": "01455",
     "price": "29,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1147,7 +1147,7 @@
     "title": "Short moleton masc c/4",
     "code": "02000",
     "price": "60,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1195,7 +1195,7 @@
     "title": "Conj lingerie estilosa c/4",
     "code": "03266",
     "price": "58,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1351,7 +1351,7 @@
     "title": "Toalha gg master 1,78 x 78 c/3",
     "code": "03376",
     "price": "63,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1387,7 +1387,7 @@
     "title": "Short jeans fem plus",
     "code": "02819",
     "price": "96,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1459,7 +1459,7 @@
     "title": "Macaquinho suplex d lara c/4",
     "code": "03358",
     "price": "54,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1590,7 +1590,7 @@
     "imgUrl": "/colcha babado.webp",
     "title": "Colcha casal com babado 2,20m x 2,25m",
     "code": "03436",
-    "price": "135,00",
+    "price": "140,00",
     "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
@@ -1627,7 +1627,7 @@
     "title": "Short curto tactel c/4",
     "code": "03437",
     "price": "40,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1783,7 +1783,7 @@
     "title": "Doce cocada goulart c/12",
     "code": "03440",
     "price": "23,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1807,7 +1807,7 @@
     "title": "Calça legging/fitness c/4",
     "code": "01006",
     "price": "54,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1855,7 +1855,7 @@
     "title": "Vestido inf cotton/canelado c/5",
     "code": "03520",
     "price": "45,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1927,8 +1927,8 @@
     "title": "Colônia body splash 200ml cordial c/4",
     "code": "03619",
     "price": "45,00",
-    "isAvailable": true,
-    "isNew": true,
+    "isAvailable": false,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1939,8 +1939,8 @@
     "title": "Colônia body splash 100ml cordial c/4",
     "code": "03620",
     "price": "28,00",
-    "isAvailable": true,
-    "isNew": true,
+    "isAvailable": false,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1951,8 +1951,8 @@
     "title": "Creme hid e esfoliante cordial c/4",
     "code": "03618",
     "price": "28,00",
-    "isAvailable": true,
-    "isNew": true,
+    "isAvailable": false,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1963,8 +1963,8 @@
     "title": "Short masc em sarja c/6",
     "code": "03635",
     "price": "66,00",
-    "isAvailable": true,
-    "isNew": true,
+    "isAvailable": false,
+    "isNew": false,
     "type": "Comissão"
   },
   {
@@ -1975,8 +1975,8 @@
     "title": "Mousse micelar limpeza",
     "code": "03642",
     "price": "39,00",
-    "isAvailable": true,
-    "isNew": true,
+    "isAvailable": false,
+    "isNew": false,
     "type": "Comissão"
   }
 ]
