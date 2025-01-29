@@ -23,4 +23,11 @@ export const Container = styled.section`
     margin-top: 1rem;
     width: 200px;
   }
+
+  @media (max-width: 450px) {
+    > textarea {
+      width: 90%;
+      height: 400px;
+    }
+  }
 `;

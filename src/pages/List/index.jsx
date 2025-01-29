@@ -5,10 +5,10 @@ import { jsPDF } from 'jspdf';
 
 const List = () => {
   const [list, setList] = React.useState('');
-  
+
   function handleSearch() {
     if (!list.trim()) {
-      console.log('Por favor, insira os códigos dos produtos.');
+      alert('Por favor, insira os códigos dos produtos.');
       return;
     }
 
