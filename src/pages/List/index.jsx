@@ -12,12 +12,6 @@ const List = () => {
       return;
     }
 
-    if (isNaN(list)) {
-      alert('Apenas valores numéricos');
-      setList('');
-      return;
-    }
-
     const codes = list
       .split('\n')
       .map((code) => code.trim())
