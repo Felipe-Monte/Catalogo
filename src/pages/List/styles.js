@@ -21,7 +21,12 @@ export const Container = styled.section`
 
   > button {
     margin-top: 1rem;
+    padding: 5px;
     width: 200px;
+    border: none;
+    border-radius: 8px;
+    color: ${({ theme }) => theme.COLORS.WHITE};
+    background-color: ${({ theme }) => theme.COLORS.PURPLE};
   }
 
   @media (max-width: 450px) {

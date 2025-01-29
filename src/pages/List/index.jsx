@@ -12,6 +12,12 @@ const List = () => {
       return;
     }
 
+    if (isNaN(list)) {
+      alert('Apenas valores numéricos');
+      setList('');
+      return;
+    }
+
     const codes = list
       .split('\n')
       .map((code) => code.trim())
@@ -76,7 +82,7 @@ const List = () => {
       <h1>Listagem de mercadoria</h1>
 
       <textarea
-        placeholder="Digite os códigos dos produtos (um por linha)"
+        placeholder="Digite os códigos dos produtos (um por linha), Insira apenas valores numéricos !"
         value={list}
         onChange={(e) => setList(e.target.value)}
       ></textarea>
