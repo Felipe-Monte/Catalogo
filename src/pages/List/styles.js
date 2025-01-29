@@ -14,6 +14,7 @@ export const Container = styled.section`
   }
 
   > textarea {
+    padding: 10px;
     width: 400px;
     height: 400px;
   }

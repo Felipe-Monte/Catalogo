@@ -73,7 +73,7 @@ const List = () => {
 
   return (
     <Container>
-      <h1>List page</h1>
+      <h1>Listagem de mercadoria</h1>
 
       <textarea
         placeholder="Digite os códigos dos produtos (um por linha)"
