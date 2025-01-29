@@ -12,6 +12,14 @@ const List = () => {
       return;
     }
 
+    // Juntando todos o caracteres do list antes de verificar se tem numeros
+    const cleanedList = list.replace(/\s+/g, '');
+
+    if (!/^\d+$/.test(cleanedList)) {
+      alert('Por favor, insira apenas números.');
+      return;
+    }
+
     const codes = list
       .split('\n')
       .map((code) => code.trim())
