@@ -5,7 +5,7 @@ import { jsPDF } from 'jspdf';
 
 const List = () => {
   const [list, setList] = React.useState('');
-
+  
   function handleSearch() {
     if (!list.trim()) {
       console.log('Por favor, insira os códigos dos produtos.');
@@ -25,7 +25,7 @@ const List = () => {
     // Contar a quantidade de itens não encontrados
     const notFoundCount = codes.filter((code) => {
       const foundProduct = jsonData.find(
-        (item) => item.code.toLowerCase() === code.toLowerCase()
+        (item) => item.code.toLowerCase() === code.toLowerCase(),
       );
       return !foundProduct;
     }).length;
@@ -40,7 +40,7 @@ const List = () => {
     doc.text(
       `Relatório de Produtos (${totalItems} itens, ${notFoundCount} não encontrados)`,
       20,
-      20
+      20,
     );
 
     // Posição inicial para o conteúdo
@@ -48,7 +48,7 @@ const List = () => {
 
     codes.forEach((code) => {
       const foundProduct = jsonData.find(
-        (item) => item.code.toLowerCase() === code.toLowerCase()
+        (item) => item.code.toLowerCase() === code.toLowerCase(),
       );
 
       if (foundProduct) {
@@ -57,7 +57,7 @@ const List = () => {
         doc.text(
           `Cód: ${foundProduct.code} | Nome: ${foundProduct.title} | R$${foundProduct.price}`,
           20,
-          yPosition
+          yPosition,
         );
       } else {
         doc.setTextColor(204, 0, 0); // Cor vermelha para produto não encontrado
