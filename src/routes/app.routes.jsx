@@ -2,14 +2,14 @@ import { Routes, Route } from 'react-router-dom';
 
 import { Home } from '../pages/Home';
 import Details from '../pages/Details';
-import List from '../pages/List';
+import Test from '../pages/List/main';
 
 export function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/details/:code" element={<Details />} />
-      <Route path="/list" element={<List />} />
+      <Route path="/list" element={<Test />} />
     </Routes>
   );
 }
