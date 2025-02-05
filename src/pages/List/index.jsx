@@ -2,9 +2,11 @@ import React from 'react';
 import { Container } from './styles';
 import jsonData from '../../products.json';
 import { jsPDF } from 'jspdf';
+import { Input } from '../../components/Input';
 
 const List = () => {
   const [list, setList] = React.useState('');
+  const [userName, setUserName] = React.useState('');
 
   function handleSearch() {
     if (!list.trim()) {
@@ -26,8 +28,8 @@ const List = () => {
     const doc = new jsPDF();
     const pageHeight = doc.internal.pageSize.height;
     const margin = 20;
-    const lineSpacing = 9;
-    let yPosition = margin + 9;
+    const lineSpacing = 8;
+    let yPosition = margin + 8;
 
     const totalItems = codes.length;
 
@@ -39,10 +41,10 @@ const List = () => {
 
     // Cabeçalho do PDF
     doc.setFont('helvetica', 'normal');
-    doc.setFontSize(20);
+    doc.setFontSize(18);
     doc.setTextColor(0, 0, 0);
     doc.text(
-      `Relatório de Produtos (${totalItems} itens, ${notFoundCount} não encontrados)`,
+      `Pedido ${userName} (${totalItems} itens, ${notFoundCount} não encontrados)`,
       20,
       margin,
     );
@@ -86,8 +88,14 @@ const List = () => {
     <Container>
       <h1>Listagem de mercadoria</h1>
 
+      <Input
+        placeholder="Nome do vendedor"
+        value={userName}
+        onChange={(e) => setUserName(e.target.value)}
+      />
+
       <textarea
-        placeholder="Digite os códigos dos produtos (um por linha), Insira apenas valores numéricos !"
+        placeholder="Cole os códigos dos produtos aqui (um por linha)"
         value={list}
         onChange={(e) => setList(e.target.value)}
       ></textarea>

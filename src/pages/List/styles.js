@@ -6,7 +6,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 40rem;
+  max-width: 26.5rem;
   text-align: center;
 
   > h1 {
@@ -14,9 +14,16 @@ export const Container = styled.section`
   }
 
   > textarea {
+    margin-top: 10px;
     padding: 10px;
     width: 400px;
     height: 400px;
+
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+    color: ${({ theme }) => theme.COLORS.WHITE};
+
+    border-radius: 5px;
+    border: 0;
   }
 
   > button {
