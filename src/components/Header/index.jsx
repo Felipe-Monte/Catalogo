@@ -4,6 +4,7 @@ import { FiSearch } from "react-icons/fi";
 import { Container } from "./styles";
 
 import { Input } from "../Input";
+import SideBar from "../sideBar";
 
 export function Header({ title, onSearch, categorySelected }) {
   const [searchTerm, setSearchTerm] = useState("");
@@ -36,6 +37,8 @@ export function Header({ title, onSearch, categorySelected }) {
       <p className="filter-text filter-desktop">
         Filtrando por: <span>{categorySelected}</span>
       </p>
+      
+      {/* <SideBar/> */}
     </Container>
   );
 }
