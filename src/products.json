@@ -775,7 +775,7 @@
     "title": "Gel peixe elétrico",
     "code": "00073",
     "price": "24,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -799,7 +799,7 @@
     "title": "Kit capilar botox",
     "code": "01862",
     "price": "75,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -943,7 +943,7 @@
     "title": "Biscoito carvalho c/12",
     "code": "03184",
     "price": "22,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1195,7 +1195,7 @@
     "title": "Conj lingerie estilosa c/4",
     "code": "03266",
     "price": "58,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1231,7 +1231,7 @@
     "title": "Vestido lunender malha canelado c/3",
     "code": "02610",
     "price": "138,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1351,7 +1351,7 @@
     "title": "Toalha gg master 1,78 x 78 c/3",
     "code": "03376",
     "price": "63,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1387,7 +1387,7 @@
     "title": "Short jeans fem plus",
     "code": "02819",
     "price": "96,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1783,7 +1783,7 @@
     "title": "Doce cocada goulart c/12",
     "code": "03440",
     "price": "23,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1807,7 +1807,7 @@
     "title": "Calça legging/fitness c/4",
     "code": "01006",
     "price": "54,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão"
   },
@@ -1975,8 +1975,8 @@
     "title": "Mousse micelar limpeza",
     "code": "03642",
     "price": "39,00",
-    "isAvailable": false,
-    "isNew": false,
+    "isAvailable": true,
+    "isNew": true,
     "type": "Comissão"
   }
 ]
