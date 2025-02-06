@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
@@ -42,15 +42,12 @@ export const Container = styled.div`
   @keyframes pulse {
     0% {
       transform: scale(1);
-     
     }
     50% {
       transform: scale(1.1);
-     
     }
     100% {
       transform: scale(1);
-      
     }
   }
 
@@ -59,7 +56,7 @@ export const Container = styled.div`
       display: flex;
       align-items: center;
       justify-content: center;
-      font-family: "Saira", sans-serif;
+      font-family: 'Saira', sans-serif;
       font-weight: bold;
       width: fit-content;
       height: 30px;
@@ -185,24 +182,36 @@ export const CardText = styled.div`
     }
   }
 
-  > span {
-    display: flex;
-    justify-content: flex-end;
-
-    width: fit-content;
-    margin-top: 5px;
-    margin-left: auto; /* Isso vai alinhar o span à direita */
-
-    padding: 0px 10px;
-
-    font-size: 20px;
-
-    border-radius: 8px;
-    background-color: ${({ theme }) => theme.COLORS.PURPLE};
-  }
-
   #share {
     display: none;
+  }
+
+  .container-price {
+    margin-top: 8px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    > span {
+      width: fit-content;
+
+      padding: 0px 10px;
+
+      font-size: 20px;
+
+      border-radius: 8px;
+      background-color: ${({ theme }) => theme.COLORS.PURPLE};
+    }
+
+    .btnAddCart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 50px;
+      padding: 5px;
+    }
   }
 
   @media screen and (max-width: 700px) {
@@ -217,6 +226,7 @@ export const CardText = styled.div`
     }
 
     .container-category {
+      margin-bottom: 5px;
       > p {
         font-size: 10px;
         opacity: 0.5;
@@ -228,14 +238,11 @@ export const CardText = styled.div`
       }
     }
 
-    > span {
-      font-size: 14px;
-    }
-  }
-
-  @media (min-width: 700px) {
-    > span {
-      margin-top: 10px;
+    .container-price {
+      margin-top: 0;
+      > span {
+        font-size: 14px;
+      }
     }
   }
 `;

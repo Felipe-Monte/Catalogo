@@ -1,6 +1,7 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { Container, CardImg, CardText } from "./styles";
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Container, CardImg, CardText } from './styles';
+import { FaCartPlus } from 'react-icons/fa';
 
 const Cards = React.memo(
   ({
@@ -12,7 +13,7 @@ const Cards = React.memo(
     price,
     isAvailable,
     isNew,
-    type
+    type,
   }) => {
     const navigate = useNavigate();
     const [imageLoaded, setImageLoaded] = useState(false);
@@ -28,8 +29,8 @@ const Cards = React.memo(
     return (
       <Container
         onClick={handleCardClick}
-        className={`${isAvailable ? "" : "unavailable"} ${
-          isNew ? "new_item" : ""
+        className={`${isAvailable ? '' : 'unavailable'} ${
+          isNew ? 'new_item' : ''
         }`}
       >
         <p className="icon-new">NOVIDADE</p>
@@ -55,17 +56,24 @@ const Cards = React.memo(
           <h2>{title}</h2>
 
           <div className="container-category">
-            <p>Código: {code}</p>
+            <p>Cód: {code}</p>
             {/* <p className="p-category">{category}</p> */}
             <p>{type}</p>
           </div>
 
-          <span>{price}</span>
-          <p id="share">{share}</p>
+          <div className="container-price">
+            {' '}
+            <button className="btnAddCart">
+              <FaCartPlus size={18}/>
+            </button>
+            <span>{price}</span>
+          </div>
+
+          {/* <p id="share">{share}</p> */}
         </CardText>
       </Container>
     );
-  }
+  },
 );
 
 export default Cards;
