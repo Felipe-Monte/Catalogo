@@ -3,6 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { Container, CardImg, CardText } from './styles';
 import { FaCartPlus } from 'react-icons/fa';
 
+import { UserContext } from '../../CartContext';
+
 const Cards = React.memo(
   ({
     category,
@@ -18,6 +20,8 @@ const Cards = React.memo(
     const navigate = useNavigate();
     const [imageLoaded, setImageLoaded] = useState(false);
 
+    const { cart, addToCart } = React.useContext(UserContext); 
+    
     function handleCardClick() {
       if (isAvailable) {
         navigate(`/details/${code}`, {
@@ -26,15 +30,26 @@ const Cards = React.memo(
       }
     }
 
+    function handleCartClick() {
+      const item = {
+        code,
+        title,
+        price,
+      };
+      
+      addToCart(item)
+      // console.log(cart)
+    }
+
     return (
-      <Container
-        onClick={handleCardClick}
-        className={`${isAvailable ? '' : 'unavailable'} ${
-          isNew ? 'new_item' : ''
-        }`}
-      >
+      <Container>
         <p className="icon-new">NOVIDADE</p>
-        <CardImg>
+        <CardImg
+          onClick={handleCardClick}
+          className={`${isAvailable ? '' : 'unavailable'} ${
+            isNew ? 'new_item' : ''
+          }`}
+        >
           {!imageLoaded && (
             <img
               id="loader"
@@ -63,8 +78,8 @@ const Cards = React.memo(
 
           <div className="container-price">
             {' '}
-            <button className="btnAddCart">
-              <FaCartPlus size={18}/>
+            <button className="btnAddCart" onClick={handleCartClick}>
+              <FaCartPlus size={18} />
             </button>
             <span>{price}</span>
           </div>
