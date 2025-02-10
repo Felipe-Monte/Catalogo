@@ -18,12 +18,11 @@ export const Container = styled.div`
     justify-content: center;
   }
 
-  /* @media (max-width: 450px) {
+  @media (max-width: 450px) {
     > main {
-      height: 100%;
-      border: 2px solid yellow;
+      border: 3px solid yellow;
     }
-  } */
+  }
 `;
 export const WrapperContainer = styled.div`
   display: flex;

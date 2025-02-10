@@ -58,8 +58,8 @@ function Details() {
     <Container >
       <HeaderDetails title="Detalhes do produto" />
 
-      <main className="animeLeft">
-        <Section>
+      <main >
+        <Section className="animeLeft">
           <ContainerImg>
             <img src={imgUrl} alt={`Imagem de ${title}`} />
           </ContainerImg>
