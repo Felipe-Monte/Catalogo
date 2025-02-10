@@ -27,10 +27,6 @@ export const Container = styled.div`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_600};
   }
 
-  &:active {
-    background-color: ${({ theme }) => theme.COLORS.PURPLE_HOVER};
-  }
-
   .unavailable {
     position: relative;
   }
@@ -127,6 +123,10 @@ export const CardImg = styled.div`
 
     object-fit: cover;
     border-radius: 5px;
+  }
+
+  > img:active {
+    opacity: 0.1;
   }
 
   @media screen and (max-width: 425px) {
