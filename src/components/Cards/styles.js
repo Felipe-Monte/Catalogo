@@ -125,8 +125,8 @@ export const CardImg = styled.div`
     border-radius: 5px;
   }
 
-  > img:active {
-    opacity: 0.1;
+  img:active {
+    border: 5px solid yellow;
   }
 
   @media screen and (max-width: 425px) {

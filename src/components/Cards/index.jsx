@@ -20,8 +20,8 @@ const Cards = React.memo(
     const navigate = useNavigate();
     const [imageLoaded, setImageLoaded] = useState(false);
 
-    const { cart, addToCart } = React.useContext(UserContext); 
-    
+    const { cart, addToCart } = React.useContext(UserContext);
+
     function handleCardClick() {
       if (isAvailable) {
         navigate(`/details/${code}`, {
@@ -36,8 +36,8 @@ const Cards = React.memo(
         title,
         price,
       };
-      
-      addToCart(item)
+
+      addToCart(item);
       // console.log(cart)
     }
 
