@@ -42,7 +42,7 @@ const Cards = React.memo(
     }
 
     return (
-      <Container>
+      <Container className="animeLeft">
         <p className="icon-new">NOVIDADE</p>
         <CardImg
           onClick={handleCardClick}

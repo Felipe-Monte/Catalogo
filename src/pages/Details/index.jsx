@@ -55,10 +55,10 @@ function Details() {
   // };
 
   return (
-    <Container>
+    <Container >
       <HeaderDetails title="Detalhes do produto" />
 
-      <main>
+      <main className="animeLeft">
         <Section>
           <ContainerImg>
             <img src={imgUrl} alt={`Imagem de ${title}`} />
