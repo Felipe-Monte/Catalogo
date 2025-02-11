@@ -215,6 +215,7 @@ export const CardText = styled.div`
   }
 
   @media screen and (max-width: 700px) {
+    margin-top: 0px;
     height: 100px;
     > h2 {
       font-size: 16px;
