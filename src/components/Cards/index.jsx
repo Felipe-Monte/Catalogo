@@ -42,8 +42,8 @@ const Cards = React.memo(
     }
 
     return (
-      <Container className="animeLeft">
-        <p className="icon-new">NOVIDADE</p>
+      <Container className={`animeLeft ${isNew ? 'new_item' : ''}`}>
+        {isNew && <p className="icon-new">NOVIDADE</p>}
         <CardImg
           onClick={handleCardClick}
           className={`${isAvailable ? '' : 'unavailable'} ${

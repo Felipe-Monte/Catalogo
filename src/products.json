@@ -1978,5 +1978,17 @@
     "isAvailable": true,
     "isNew": true,
     "type": "Comissão"
+  },
+  {
+    "id": "166",
+    "category": "conjunto",
+    "share": "",
+    "imgUrl": "/short doll plus.webp",
+    "title": "Short doll plus size c/4",
+    "code": "03482",
+    "price": "58,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão"
   }
 ]
