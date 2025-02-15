@@ -46,9 +46,7 @@ const Cards = React.memo(
         {isNew && <p className="icon-new">NOVIDADE</p>}
         <CardImg
           onClick={handleCardClick}
-          className={`${isAvailable ? '' : 'unavailable'} ${
-            isNew ? 'new_item' : ''
-          }`}
+          className={isAvailable ? '' : 'unavailable'}
         >
           {!imageLoaded && (
             <img
