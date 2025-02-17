@@ -4,7 +4,7 @@ import { FiSearch } from 'react-icons/fi';
 import { Container } from './styles';
 
 import { Input } from '../Input';
-import SideBar from '../sideBar';
+import SideBar from '../SideBar'
 
 export function Header({ title, onSearch, categorySelected }) {
   const [searchTerm, setSearchTerm] = useState('');

@@ -6,12 +6,8 @@ import { FaTimes } from 'react-icons/fa';
 function SideBar() {
   const [isOpen, setIsOpen] = React.useState(false);
 
-  function handleClick() {
-    console.log('clicou');
-  }
-
   return (
-    <Container className="sideBar" onClick={handleClick}>
+    <Container className="sideBar" >
       <Button $isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <FaTimes size={25} /> : <BsCartCheck size={25} />}
       </Button>
