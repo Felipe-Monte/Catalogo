@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   width: 100%;
@@ -11,7 +11,7 @@ export const Container = styled.div`
 
   z-index: 1;
 
-  background: #3E3B47;
+  background: #3e3b47;
 
   ul {
     display: flex;
@@ -28,7 +28,7 @@ export const Container = styled.div`
     }
 
     &::-webkit-scrollbar-thumb {
-      background-color: #483D8B; /* Cor do thumb */
+      background-color: #483d8b; /* Cor do thumb */
     }
 
     &::-webkit-scrollbar-thumb:hover {
@@ -53,7 +53,7 @@ export const Container = styled.div`
       line-height: 100%;
       cursor: pointer;
 
-      &:hover{
+      &:hover {
         background-color: #999591;
       }
 
@@ -64,5 +64,9 @@ export const Container = styled.div`
         border-color: ${({ theme }) => theme.COLORS.PURPLE_HOVER};
       }
     }
+  }
+
+  @media (max-width: 600px) {
+    margin-top: 20px;
   }
 `;

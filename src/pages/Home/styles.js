@@ -36,11 +36,15 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    margin-top: 130px;
+    margin-top: 132px;
 
     ::-webkit-scrollbar {
       display: none;
     }
+  }
+
+  @media(max-width: 600px){
+    margin-top: 150px;
   }
 `;
 

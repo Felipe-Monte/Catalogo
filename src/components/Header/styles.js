@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.header`
   width: 100%;
@@ -39,16 +39,23 @@ export const Container = styled.header`
   .container-title {
     > h1 {
       font-size: 28px;
-      font-family: "Saira Stencil One", sans-serif;
+      font-family: 'Saira Stencil One', sans-serif;
       font-weight: 400;
       font-style: normal;
       cursor: pointer;
     }
   }
+  .sideBar {
+    display: none;
+  }
 
   @media (max-width: 600px) {
-    height: 80px;
+    height: 100px;
     padding: 0px 20px;
+
+    .sideBar {
+      display: block;
+    }
 
     .container_header {
       width: 100%;
@@ -81,7 +88,6 @@ export const Container = styled.header`
 
   @media (min-width: 600px) {
     height: 80px;
-
     padding: 0px 80px;
 
     display: flex;

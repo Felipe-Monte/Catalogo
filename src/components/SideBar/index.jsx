@@ -1,18 +1,29 @@
 import React from 'react';
 import { Container, Button, SideBarContainer } from './styles';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { BsCartCheck } from 'react-icons/bs';
+import { FaTimes } from 'react-icons/fa';
 
 function SideBar() {
   const [isOpen, setIsOpen] = React.useState(false);
 
+  function handleClick() {
+    console.log('clicou');
+  }
+
   return (
-    <Container>
+    <Container className="sideBar" onClick={handleClick}>
       <Button $isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? <FaTimes size={25} /> : <FaBars size={25} />}
+        {isOpen ? <FaTimes size={25} /> : <BsCartCheck size={25} />}
       </Button>
 
       <SideBarContainer $isOpen={isOpen}>
-        <h2>Carrinho</h2>
+        <Button $isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}>
+          {isOpen ? <FaTimes size={25} /> : <BsCartCheck size={25} />}
+        </Button>
+        <div className='cart-text'>
+          <h2>Carrinho</h2>
+          <p>Carrinho indisponivel no momento, estamos trabalhando nisso!</p>
+        </div>
       </SideBarContainer>
     </Container>
   );
