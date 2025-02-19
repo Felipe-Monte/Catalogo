@@ -2156,5 +2156,18 @@
     "isNew": true,
     "type": "Comissão",
     "measure": "kit"
+  },
+  {
+    "id": "167",
+    "category": "alimentício",
+    "share": "",
+    "imgUrl": "/petisco.webp",
+    "title": "Petisco salgado c/12",
+    "code": "02624",
+    "price": "25,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "cx"
   }
 ]
