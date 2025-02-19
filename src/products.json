@@ -85,7 +85,7 @@
     "title": "kit capilar bababell",
     "code": "018622",
     "price": "75,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -514,7 +514,7 @@
     "title": "Blusa semi cropped c/6",
     "code": "02614",
     "price": "39,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -618,7 +618,7 @@
     "title": "Calcinha g cotton c/10",
     "code": "01217",
     "price": "20,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1200,10 +1200,10 @@
     "category": "short",
     "share": "https://photos.app.goo.gl/xpxiGszvzSPX222e8",
     "imgUrl": "/d luxo.webp",
-    "title": "Short jeans d luxo c/4",
-    "code": "03264",
-    "price": "115,00",
-    "isAvailable": false,
+    "title": "Short pedalete jeans tg c/4",
+    "code": "00425",
+    "price": "105,00",
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -2087,7 +2087,7 @@
     "title": "Colônia body splash 200ml cordial c/4",
     "code": "03619",
     "price": "45,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -2100,7 +2100,7 @@
     "title": "Colônia body splash 100ml cordial c/4",
     "code": "03620",
     "price": "28,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -2113,7 +2113,7 @@
     "title": "Creme hid e esfoliante cordial c/4",
     "code": "03618",
     "price": "28,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "und"
