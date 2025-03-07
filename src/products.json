@@ -2126,7 +2126,7 @@
     "title": "Short masc em sarja c/6",
     "code": "03635",
     "price": "66,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
