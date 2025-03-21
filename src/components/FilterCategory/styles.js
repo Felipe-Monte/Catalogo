@@ -42,13 +42,15 @@ export const Container = styled.div`
     }
 
     li {
+      padding: 15px 10px;
       flex: 0 0 70px;
       height: 30px;
       display: flex;
       align-items: center;
       justify-content: center;
-      border-radius: 10px;
-      border: 2px solid white;
+      gap: 8px;
+      border-radius: 8px;
+      border: 1px solid white;
       font-size: 12px;
       line-height: 100%;
       cursor: pointer;

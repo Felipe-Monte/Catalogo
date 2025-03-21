@@ -1,14 +1,15 @@
-import React from "react";
-import { Header } from "../../components/Header";
-import FilterCategory from "../../components/FilterCategory";
-import { Container, Section } from "./styles";
-import Cards from "../../components/Cards";
-import ButtonBackToTop from "../../components/ButtonBackToTop";
-import jsonData from "../../products.json";
+import React from 'react';
+import { Header } from '../../components/Header';
+import FilterCategory from '../../components/FilterCategory';
+import { Container, Section } from './styles';
+import Cards from '../../components/Cards';
+import ButtonBackToTop from '../../components/ButtonBackToTop';
+
+import jsonData from '../../products.json';
 
 export function Home() {
-  const [searchTerm, setSearchTerm] = React.useState("");
-  const [selectedCategory, setSelectedCategory] = React.useState("Todos");
+  const [searchTerm, setSearchTerm] = React.useState('');
+  const [selectedCategory, setSelectedCategory] = React.useState('Todos');
 
   const handleSearch = (term) => {
     setSearchTerm(term);
@@ -24,9 +25,9 @@ export function Home() {
   // Filtre os produtos com base no termo de busca e categoria selecionada
   const filteredProducts = organizedProducts.filter(
     (product) =>
-      (selectedCategory === "Todos" || product.category === selectedCategory) &&
+      (selectedCategory === 'Todos' || product.category === selectedCategory) &&
       (product.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-        product.code.toLowerCase().includes(searchTerm.toLowerCase()))
+        product.code.toLowerCase().includes(searchTerm.toLowerCase())),
   );
 
   return (
