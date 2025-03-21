@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   width: 100%;
   height: fit-content;
   padding: 5px;
@@ -12,13 +16,17 @@ export const Container = styled.div`
   z-index: 1;
 
   background: #3e3b47;
+  
 
   ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10px;
+    justify-content: space-between;
+   
+    gap: 8px;
     padding: 5px;
+
     list-style: none;
     overflow-x: auto;
 
@@ -43,17 +51,24 @@ export const Container = styled.div`
 
     li {
       padding: 15px 10px;
-      flex: 0 0 70px;
+
+      min-width: 100px;
       height: 30px;
+
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 8px;
+
+      flex: 1;
+      
+      cursor: pointer;
+      
+      line-height: 100%;
+      font-size: 12px;
+
       border-radius: 8px;
       border: 1px solid white;
-      font-size: 12px;
-      line-height: 100%;
-      cursor: pointer;
 
       &:hover {
         background-color: #999591;
