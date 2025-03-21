@@ -4,10 +4,10 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   width: 100%;
   height: fit-content;
-  padding: 5px;
+  padding: 8px;
 
   position: fixed;
   top: 80px;
@@ -16,37 +16,24 @@ export const Container = styled.div`
   z-index: 1;
 
   background: #3e3b47;
-  
 
   ul {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-   
+    justify-content: flex-start;
+
     gap: 8px;
     padding: 5px;
 
     list-style: none;
     overflow-x: auto;
+    scroll-behavior: smooth; /* 🔹 Adiciona suavidade ao scroll */
+    scrollbar-width: none; /* 🔹 Oculta scrollbar no Firefox */
 
-    /* Estilos para a barra de rolagem horizontal */
+    /* Oculta a scrollbar no Chrome, Edge e Safari */
     &::-webkit-scrollbar {
-      height: 10px; /* Altura da barra horizontal */
-    }
-
-    &::-webkit-scrollbar-thumb {
-      background-color: #483d8b; /* Cor do thumb */
-    }
-
-    &::-webkit-scrollbar-thumb:hover {
-      background-color: #555; /* Cor do thumb ao passar o mouse */
-      cursor: pointer;
-    }
-
-    &::-webkit-scrollbar-track {
-      background-color: #e0e0e0; /* Cor do trilho */
-      border-radius: 4px; /* Borda arredondada */
+      display: none;
     }
 
     li {
@@ -61,9 +48,8 @@ export const Container = styled.div`
       gap: 8px;
 
       flex: 1;
-      
       cursor: pointer;
-      
+
       line-height: 100%;
       font-size: 12px;
 
