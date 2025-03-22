@@ -29,6 +29,14 @@ const FilterCategory = ({ onSelectCategory }) => {
     "cosméticos": "cosmeticos",
     "cozinha": "cozinha",
     "cueca": "cueca",
+    "dormir": "dormir",
+    "infantil": "infantil",
+    "perfumaria": "perfumaria",
+    "rede": "rede",
+    "saia": "saia",
+    "short": "short",
+    "sutiã": "sutia",
+    "vestido": "vestido",
   };
 
   const handleCategoryClick = (category) => {
