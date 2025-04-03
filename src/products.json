@@ -449,7 +449,7 @@
     "title": "Blusa canelada lunender c/3",
     "code": "01930",
     "price": "78,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -527,7 +527,7 @@
     "title": "Calça jeans fem linda bell",
     "code": "01935",
     "price": "120,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -553,7 +553,7 @@
     "title": "Calça jeans masc valiant c/5",
     "code": "03210",
     "price": "175,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1047,7 +1047,7 @@
     "title": "Doce goulart c/12",
     "code": "00479",
     "price": "22,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "cx"
@@ -1320,7 +1320,7 @@
     "title": "Toalha de banho infantil c/4",
     "code": "02938",
     "price": "36,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1658,7 +1658,7 @@
     "title": "Kit vasilha rubi 5pçs",
     "code": "03434",
     "price": "120,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Direta",
     "measure": "und"
@@ -1671,7 +1671,7 @@
     "title": "Kit vasilha diamante ret 4pçs",
     "code": "03433",
     "price": "88,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Direta",
     "measure": "und"
@@ -1684,7 +1684,7 @@
     "title": "Kit vasilha esmeralda 4pçs",
     "code": "03432",
     "price": "82,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Direta",
     "measure": "und"
@@ -1944,7 +1944,7 @@
     "title": "Bolinhos goulart c/15",
     "code": "01158",
     "price": "45,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "cx"
