@@ -1242,7 +1242,7 @@
     "title": "Short moleton masc c/4",
     "code": "02000",
     "price": "60,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
