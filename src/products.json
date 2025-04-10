@@ -1658,7 +1658,7 @@
     "title": "Kit vasilha rubi 5pçs",
     "code": "03434",
     "price": "120,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Direta",
     "measure": "und"
@@ -1671,7 +1671,7 @@
     "title": "Kit vasilha diamante ret 4pçs",
     "code": "03433",
     "price": "88,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Direta",
     "measure": "und"
@@ -1684,7 +1684,7 @@
     "title": "Kit vasilha esmeralda 4pçs",
     "code": "03432",
     "price": "82,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Direta",
     "measure": "und"
@@ -2182,5 +2182,18 @@
     "isNew": true,
     "type": "Comissão",
     "measure": "cx"
+  },
+  {
+    "id": "169",
+    "category": "cozinha",
+    "share": "",
+    "imgUrl": "/escorredor.webp",
+    "title": "Kit jade 4 peças",
+    "code": "03681",
+    "price": "150",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Direta",
+    "measure": "und"
   }
 ]
