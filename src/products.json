@@ -2195,5 +2195,18 @@
     "isNew": true,
     "type": "Direta",
     "measure": "und"
+  },
+  {
+    "id": "170",
+    "category": "acessórios",
+    "share": "",
+    "imgUrl": "/passadeira-cotovelo.webp",
+    "title": "Kit passadeira cotovelo",
+    "code": "03695",
+    "price": "96,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "und"
   }
 ]
