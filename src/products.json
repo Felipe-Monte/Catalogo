@@ -2221,5 +2221,18 @@
     "isNew": true,
     "type": "Comissão",
     "measure": "und"
+  },
+  {
+    "id": "172",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/perfume arabe.webp",
+    "title": "Deo colônia arabic 100ml c/6",
+    "code": "03698",
+    "price": "59,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "und"
   }
 ]
