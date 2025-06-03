@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Header } from '../../components/Header';
 import FilterCategory from '../../components/FilterCategory';
 import { Container, Section } from './styles';
@@ -11,18 +12,25 @@ export function Home() {
   const [searchTerm, setSearchTerm] = React.useState('');
   const [selectedCategory, setSelectedCategory] = React.useState('Todos');
 
+  // Carregar categoria salva no localStorage ao montar o componente
+  React.useEffect(() => {
+    const savedCategory = localStorage.getItem('selectedCategory');
+    if (savedCategory) {
+      setSelectedCategory(savedCategory);
+    }
+  }, []);
+
   const handleSearch = (term) => {
     setSearchTerm(term);
   };
 
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
+    localStorage.setItem('selectedCategory', category); // salvar categoria
   };
 
-  // Organize os produtos do último ao primeiro
   const organizedProducts = [...jsonData].reverse();
 
-  // Filtre os produtos com base no termo de busca e categoria selecionada
   const filteredProducts = organizedProducts.filter(
     (product) =>
       (selectedCategory === 'Todos' || product.category === selectedCategory) &&
@@ -38,7 +46,10 @@ export function Home() {
         categorySelected={selectedCategory}
       />
 
-      <FilterCategory onSelectCategory={handleCategorySelect} />
+      <FilterCategory
+        onSelectCategory={handleCategorySelect}
+        selectedCategory={selectedCategory}
+      />
 
       <main>
         <Section>

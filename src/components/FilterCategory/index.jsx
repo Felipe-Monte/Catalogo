@@ -3,16 +3,58 @@ import { Container } from './styles';
 import CategoryIcon from '../CategoryIcon';
 import jsonData from '../../products.json';
 
-const FilterCategory = ({ onSelectCategory }) => {
-  const [activeCategory, setActiveCategory] = useState('Todos');
-  const listRef = useRef(null); // 🔹 Criando referência para o <ul>
+const FilterCategory = ({ onSelectCategory, selectedCategory }) => {
+  const [activeCategory, setActiveCategory] = useState(selectedCategory || 'Todos');
+  const listRef = useRef(null);
 
-  // Obtém categorias únicas e ordenadas
-  const uniqueCategories = [
-    ...new Set(jsonData.map((product) => product.category)),
-  ].sort();
+  // Atualiza a categoria ativa quando `selectedCategory` mudar no componente pai
+  useEffect(() => {
+    setActiveCategory(selectedCategory || 'Todos');
+  }, [selectedCategory]);
 
-  // Mapeia categorias para os ícones correspondentes
+  // Salva a posição de scroll ao trocar de categoria
+  const handleCategoryClick = (category) => {
+    setActiveCategory(category);
+    onSelectCategory(category);
+
+    // Salva a posição atual do scroll no localStorage
+    if (listRef.current) {
+      localStorage.setItem('categoryScrollLeft', listRef.current.scrollLeft);
+    }
+  };
+
+  // Restaura posição de scroll ao montar o componente
+  useEffect(() => {
+    const savedScroll = localStorage.getItem('categoryScrollLeft');
+    if (savedScroll && listRef.current) {
+      listRef.current.scrollLeft = parseInt(savedScroll, 10);
+    }
+  }, []);
+
+  // Rola horizontalmente com a roda do mouse
+  useEffect(() => {
+    const handleScroll = (event) => {
+      if (listRef.current) {
+        const scrollAmount = event.deltaY * 5;
+        listRef.current.scrollLeft += scrollAmount;
+        event.preventDefault();
+      }
+    };
+
+    const ulElement = listRef.current;
+    if (ulElement) {
+      ulElement.addEventListener("wheel", handleScroll, { passive: false });
+    }
+
+    return () => {
+      if (ulElement) {
+        ulElement.removeEventListener("wheel", handleScroll);
+      }
+    };
+  }, []);
+
+  const uniqueCategories = [...new Set(jsonData.map(p => p.category))].sort();
+
   const categoryIcons = {
     "todos": "todos",
     "acessórios": "acessorios",
@@ -39,36 +81,9 @@ const FilterCategory = ({ onSelectCategory }) => {
     "vestido": "vestido",
   };
 
-  const handleCategoryClick = (category) => {
-    setActiveCategory(category);
-    onSelectCategory(category);
-  };
-
-  useEffect(() => {
-    const handleScroll = (event) => {
-      if (listRef.current) {
-        // Ajustando a velocidade de rolagem horizontal
-        const scrollAmount = event.deltaY * 5 // 🔹 Aumente o multiplicador para mais velocidade
-        listRef.current.scrollLeft += scrollAmount;
-        event.preventDefault(); // Evita o comportamento de scroll vertical
-      }
-    };
-
-    const ulElement = listRef.current;
-    if (ulElement) {
-      ulElement.addEventListener("wheel", handleScroll, { passive: false });
-    }
-
-    return () => {
-      if (ulElement) {
-        ulElement.removeEventListener("wheel", handleScroll);
-      }
-    };
-  }, []);
-
   return (
     <Container>
-      <ul ref={listRef}> {/* 🔹 Aplicando a referência ao <ul> */}
+      <ul ref={listRef}>
         <li
           onClick={() => handleCategoryClick('Todos')}
           className={activeCategory === 'Todos' ? 'active' : ''}
@@ -77,8 +92,7 @@ const FilterCategory = ({ onSelectCategory }) => {
           Todos
         </li>
         {uniqueCategories.map((category, index) => {
-          const categoryKey = category.toLowerCase(); // Garante que a chave seja minúscula
-          
+          const categoryKey = category.toLowerCase();
           return (
             <li
               key={index}
