@@ -2260,5 +2260,44 @@
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
+  },
+  {
+    "id": "175",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/frigideira-ovos.webp",
+    "title": "Frigidera 4 ovos n24",
+    "code": "03223",
+    "price": "63,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "und"
+  },
+  {
+    "id": "176",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/panela-spin-7.webp",
+    "title": "Panela de pressão spindula 7lts",
+    "code": "00182",
+    "price": "195,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "und"
+  },
+  {
+    "id": "177",
+    "category": "alumínio",
+    "share": "",
+    "imgUrl": "/panela-spin-4.webp",
+    "title": "Panela de pressão spindula 4,5lts",
+    "code": "03225",
+    "price": "130,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "und"
   }
 ]
