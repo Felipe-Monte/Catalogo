@@ -2325,5 +2325,18 @@
     "isNew": true,
     "type": "Comissão",
     "measure": "und"
+  },
+  {
+    "id": "180",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/capilar-naty.webp",
+    "title": "Kit capilar naty flora c/500 ml",
+    "code": "03739",
+    "price": "75,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "und"
   }
 ]
