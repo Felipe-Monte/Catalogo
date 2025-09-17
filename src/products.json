@@ -2312,5 +2312,18 @@
     "isNew": true,
     "type": "Comissão",
     "measure": "und"
+  },
+  {
+    "id": "179",
+    "category": "cama",
+    "share": "",
+    "imgUrl": "/colcha-canelada.webp",
+    "title": "Colcha queen canelada",
+    "code": "03765",
+    "price": "210,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "und"
   }
 ]
