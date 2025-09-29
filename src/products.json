@@ -449,7 +449,7 @@
     "title": "Blusa canelada lunender c/3",
     "code": "01930",
     "price": "78,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -553,7 +553,7 @@
     "title": "Calça jeans masc valiant c/5",
     "code": "03210",
     "price": "175,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -787,7 +787,7 @@
     "title": "Camisa polo piquet",
     "code": "01942",
     "price": "49,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -826,7 +826,7 @@
     "title": "Conj inf turma da molekada c/6",
     "code": "03268",
     "price": "44,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1281,7 +1281,7 @@
     "title": "Short top griff",
     "code": "01882",
     "price": "86,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1320,7 +1320,7 @@
     "title": "Toalha de banho infantil c/4",
     "code": "02938",
     "price": "36,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1411,7 +1411,7 @@
     "title": "Toalha de banho esmeralda vtx c/5",
     "code": "02907",
     "price": "52,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1944,7 +1944,7 @@
     "title": "Bolinhos goulart c/15",
     "code": "01158",
     "price": "45,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "cx"
@@ -2205,7 +2205,7 @@
     "code": "03695",
     "price": "96,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "und"
   },
@@ -2295,6 +2295,45 @@
     "title": "Panela de pressão spindula 4,5lts",
     "code": "03225",
     "price": "130,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "und"
+  },
+  {
+    "id": "178",
+    "category": "camisa",
+    "share": "",
+    "imgUrl": "/camisa-relevo-2.webp",
+    "title": "Camisa cotton auto relevo c/4",
+    "code": "44151",
+    "price": "54,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "und"
+  },
+  {
+    "id": "179",
+    "category": "cama",
+    "share": "",
+    "imgUrl": "/colcha-canelada.webp",
+    "title": "Colcha queen canelada",
+    "code": "03765",
+    "price": "210,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "und"
+  },
+  {
+    "id": "180",
+    "category": "cosméticos",
+    "share": "",
+    "imgUrl": "/capilar-naty.webp",
+    "title": "Kit capilar naty flora c/500 ml",
+    "code": "03739",
+    "price": "75,00",
     "isAvailable": true,
     "isNew": true,
     "type": "Comissão",
