@@ -1177,7 +1177,7 @@
     "title": "Saia peplum suplex",
     "code": "02930",
     "price": "45,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
