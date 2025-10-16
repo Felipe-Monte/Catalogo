@@ -2338,5 +2338,18 @@
     "isNew": true,
     "type": "Comissão",
     "measure": "und"
+  },
+  {
+    "id": "181",
+    "category": "calça",
+    "share": "",
+    "imgUrl": "/calca_plus.webp",
+    "title": "Calça jeans plus c/4",
+    "code": "03807",
+    "price": "160,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "kit"
   }
 ]
