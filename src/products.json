@@ -683,7 +683,7 @@
     "title": "Cobreleito casal 3pçs 220x240",
     "code": "03260",
     "price": "236,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "und"
@@ -943,7 +943,7 @@
     "title": "Pano de prato xadrez",
     "code": "01105",
     "price": "8,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1059,8 +1059,8 @@
     "imgUrl": "/perfume bola.webp",
     "title": "Deo colônia eco natureza",
     "code": "02959",
-    "price": "33,00",
-    "isAvailable": false,
+    "price": "39,00",
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "cx"
@@ -1086,7 +1086,7 @@
     "title": "Deo colônia intensse c/5",
     "code": "02180",
     "price": "56,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1099,7 +1099,7 @@
     "title": "Baby doll suede lig confort c/4",
     "code": "03183",
     "price": "48,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": true,
     "type": "Comissão",
     "measure": "kit"
@@ -1229,7 +1229,7 @@
     "title": "Short moleton infantil masc c/4",
     "code": "02232",
     "price": "44,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1242,7 +1242,7 @@
     "title": "Short moleton masc c/4",
     "code": "02000",
     "price": "60,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1372,7 +1372,7 @@
     "title": "Saia jeans miss bell c/4",
     "code": "00377",
     "price": "120,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1385,7 +1385,7 @@
     "title": "Conj caeve kids e bonequinha c/6",
     "code": "02565",
     "price": "54,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1411,7 +1411,7 @@
     "title": "Toalha de banho esmeralda vtx c/5",
     "code": "02907",
     "price": "52,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1632,7 +1632,7 @@
     "title": "Pano de prato liso g c/12",
     "code": "03222",
     "price": "8,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1788,7 +1788,7 @@
     "title": "Macaquinho duna c/4",
     "code": "03321",
     "price": "99,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1801,7 +1801,7 @@
     "title": "Cobreleito mix solteiro 2pçs 160x240",
     "code": "03483",
     "price": "175,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "und"
@@ -1931,7 +1931,7 @@
     "title": "Doce cocada goulart c/12",
     "code": "03440",
     "price": "25,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "cx"
@@ -1944,7 +1944,7 @@
     "title": "Bolinhos goulart c/15",
     "code": "01158",
     "price": "45,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "cx"
@@ -2061,7 +2061,7 @@
     "title": "Panela pressão f.externo 10lt",
     "code": "03528",
     "price": "385,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Direta",
     "measure": "und"
@@ -2074,7 +2074,7 @@
     "title": "Panela pressão f.externo 4,5lt",
     "code": "03527",
     "price": "245,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Direta",
     "measure": "und"
@@ -2087,7 +2087,7 @@
     "title": "Colônia body splash 200ml cordial c/4",
     "code": "03619",
     "price": "45,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -2100,7 +2100,7 @@
     "title": "Colônia body splash 100ml cordial c/4",
     "code": "03620",
     "price": "28,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -2139,7 +2139,7 @@
     "title": "Mousse micelar limpeza",
     "code": "03642",
     "price": "39,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": true,
     "type": "Comissão",
     "measure": "und"
@@ -2162,9 +2162,9 @@
     "category": "alimentício",
     "share": "",
     "imgUrl": "/petisco.webp",
-    "title": "Petisco salgado c/12",
+    "title": "Biscoito salgado de minas c/12",
     "code": "02624",
-    "price": "25,00",
+    "price": "23,00",
     "isAvailable": true,
     "isNew": true,
     "type": "Comissão",
@@ -2243,7 +2243,7 @@
     "title": "Short masc rox cós elástico c/4",
     "code": "03425",
     "price": "120,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
