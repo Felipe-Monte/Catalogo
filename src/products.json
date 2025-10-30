@@ -943,7 +943,7 @@
     "title": "Pano de prato xadrez",
     "code": "01105",
     "price": "9,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
