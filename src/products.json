@@ -683,7 +683,7 @@
     "title": "Cobreleito casal 3pçs 220x240",
     "code": "03260",
     "price": "236,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "und"
@@ -1047,7 +1047,7 @@
     "title": "Doce goulart c/12",
     "code": "00479",
     "price": "23,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "cx"
@@ -1086,7 +1086,7 @@
     "title": "Deo colônia intensse c/5",
     "code": "02180",
     "price": "56,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1411,7 +1411,7 @@
     "title": "Toalha de banho esmeralda vtx c/5",
     "code": "02907",
     "price": "52,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1931,7 +1931,7 @@
     "title": "Doce cocada goulart c/12",
     "code": "03440",
     "price": "25,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "cx"
@@ -1944,7 +1944,7 @@
     "title": "Bolinhos goulart c/15",
     "code": "01158",
     "price": "45,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "cx"
@@ -2087,7 +2087,7 @@
     "title": "Colônia body splash 200ml cordial c/4",
     "code": "03619",
     "price": "45,00",
-    "isAvailable": false,
+    "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -2490,6 +2490,45 @@
     "title": "Colete jeans c/4",
     "code": "03727",
     "price": "105,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "kit"
+  },
+  {
+    "id": "193",
+    "category": "banho",
+    "share": "",
+    "imgUrl": "/toalha-rosto.webp",
+    "title": "Toalha de rosto botanica orla c/4",
+    "code": "03847",
+    "price": "18,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "kit"
+  },
+  {
+    "id": "194",
+    "category": "alimentício",
+    "share": "",
+    "imgUrl": "/doce-baianita.webp",
+    "title": "Doce baianita cremoso c/12",
+    "code": "03849",
+    "price": "25,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Comissão",
+    "measure": "cx"
+  },
+  {
+    "id": "195",
+    "category": "short",
+    "share": "",
+    "imgUrl": "/short-tommy.webp",
+    "title": "Short jeans d marca c/4",
+    "code": "03851",
+    "price": "145,00",
     "isAvailable": true,
     "isNew": true,
     "type": "Comissão",
