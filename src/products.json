@@ -2140,7 +2140,7 @@
     "code": "03642",
     "price": "39,00",
     "isAvailable": false,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "und"
   },
@@ -2153,7 +2153,7 @@
     "code": "03482",
     "price": "58,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2166,7 +2166,7 @@
     "code": "02624",
     "price": "23,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "cx"
   },
@@ -2216,9 +2216,9 @@
     "imgUrl": "/edredom queen.webp",
     "title": "Edredom queen microfibra 2,10x2,30",
     "code": "03696",
-    "price": "90,00",
+    "price": "99,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "und"
   },
@@ -2231,7 +2231,7 @@
     "code": "03698",
     "price": "59,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "und"
   },
@@ -2270,7 +2270,7 @@
     "code": "03223",
     "price": "63,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "und"
   },
@@ -2296,7 +2296,7 @@
     "code": "03225",
     "price": "130,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "und"
   },
@@ -2309,7 +2309,7 @@
     "code": "44151",
     "price": "54,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "und"
   },
@@ -2322,7 +2322,7 @@
     "code": "03765",
     "price": "210,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "und"
   },
@@ -2335,7 +2335,7 @@
     "code": "03739",
     "price": "75,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "und"
   },
@@ -2347,8 +2347,8 @@
     "title": "Calça jeans plus c/4",
     "code": "03807",
     "price": "160,00",
-    "isAvailable": true,
-    "isNew": true,
+    "isAvailable": false,
+    "isNew": false,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2438,8 +2438,8 @@
     "title": "Jaquete jeans regular c/4",
     "code": "03806",
     "price": "160,00",
-    "isAvailable": true,
-    "isNew": true,
+    "isAvailable": false,
+    "isNew": false,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2465,7 +2465,7 @@
     "code": "03737",
     "price": "66,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2477,8 +2477,8 @@
     "title": "Calça masculina sport fino",
     "code": "03767",
     "price": "225,00",
-    "isAvailable": true,
-    "isNew": true,
+    "isAvailable": false,
+    "isNew": false,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2490,8 +2490,8 @@
     "title": "Colete jeans c/4",
     "code": "03727",
     "price": "105,00",
-    "isAvailable": true,
-    "isNew": true,
+    "isAvailable": false,
+    "isNew": false,
     "type": "Comissão",
     "measure": "kit"
   },
