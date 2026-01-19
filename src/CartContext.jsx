@@ -1,5 +1,5 @@
+import PropTypes from 'prop-types';
 import React from 'react';
-
 export const UserContext = React.createContext();
 
 export const CartProvider = ({ children }) => {
@@ -14,4 +14,8 @@ export const CartProvider = ({ children }) => {
       {children}
     </UserContext.Provider>
   );
+};
+
+CartProvider.propTypes = {
+  children: PropTypes.node,
 };

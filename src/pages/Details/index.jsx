@@ -1,21 +1,18 @@
-import React from "react";
-import { useLocation, useNavigate } from "react-router-dom";
-import { FiArrowLeft } from "react-icons/fi";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaRegCopy } from "react-icons/fa6";
+import { FiArrowLeft } from 'react-icons/fi';
+import { useLocation, useNavigate } from 'react-router-dom';
+import { HeaderDetails } from '../../components/HeaderDetails';
 import {
   Container,
-  Section,
-  WrapperContainer,
+  ContainerButton,
   ContainerImg,
   ContainerText,
-  ContainerButton,
-} from "./styles";
-import { HeaderDetails } from "../../components/HeaderDetails";
+  Section,
+  WrapperContainer,
+} from './styles';
 
 function Details() {
   const location = useLocation();
-  const { category, share, imgUrl, title, code, price } = location.state || {};
+  const { category, imgUrl, title, code, price } = location.state || {};
 
   const navigate = useNavigate();
 
@@ -23,42 +20,11 @@ function Details() {
     navigate(-1);
   };
 
-  // const sendWhatsApp = () => {
-  //   const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent(
-  //     share
-  //   )} ${title} Cód: ${code} ${price}.`;
-  //   window.open(whatsappURL);
-  // };
-
-  // const handleCopyToClipboard = () => {
-  //   const whatsappURL = `${share} ${title} Cód: ${code} ${price}.`;
-
-  //   // Criar um elemento de input temporário
-  //   const inputElement = document.createElement("input");
-  //   inputElement.value = whatsappURL;
-
-  //   // Adicionar o elemento ao DOM
-  //   document.body.appendChild(inputElement);
-
-  //   // Selecionar o texto no campo de input
-  //   inputElement.select();
-  //   inputElement.setSelectionRange(0, 99999); // Para dispositivos móveis
-
-  //   // Copiar o texto para a área de transferência
-  //   document.execCommand("copy");
-
-  //   // Remover o elemento temporário
-  //   document.body.removeChild(inputElement);
-
-  //   // Alerta ou feedback para o usuário
-  //   alert("Link copiado para a área de transferência!");
-  // };
-
   return (
-    <Container >
+    <Container>
       <HeaderDetails title="Detalhes do produto" />
 
-      <main >
+      <main>
         <Section className="animeLeft">
           <ContainerImg>
             <img src={imgUrl} alt={`Imagem de ${title}`} />
@@ -70,11 +36,6 @@ function Details() {
               <p>Código: {code}</p>
               <p>{category}</p>
               <span>{price}</span>
-
-              <div className="wrapper-icons">
-                {/* <FaWhatsapp className="icon-whatsapp" onClick={sendWhatsApp} />
-                <FaRegCopy onClick={handleCopyToClipboard} /> */}
-              </div>
             </ContainerText>
 
             <ContainerButton>

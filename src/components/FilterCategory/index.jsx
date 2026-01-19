@@ -1,10 +1,13 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { Container } from './styles';
-import CategoryIcon from '../CategoryIcon';
+import PropTypes from 'prop-types';
+import { useEffect, useRef, useState } from 'react';
 import jsonData from '../../products.json';
+import CategoryIcon from '../CategoryIcon';
+import { Container } from './styles';
 
 const FilterCategory = ({ onSelectCategory, selectedCategory }) => {
-  const [activeCategory, setActiveCategory] = useState(selectedCategory || 'Todos');
+  const [activeCategory, setActiveCategory] = useState(
+    selectedCategory || 'Todos',
+  );
   const listRef = useRef(null);
 
   // Atualiza a categoria ativa quando `selectedCategory` mudar no componente pai
@@ -43,42 +46,42 @@ const FilterCategory = ({ onSelectCategory, selectedCategory }) => {
 
     const ulElement = listRef.current;
     if (ulElement) {
-      ulElement.addEventListener("wheel", handleScroll, { passive: false });
+      ulElement.addEventListener('wheel', handleScroll, { passive: false });
     }
 
     return () => {
       if (ulElement) {
-        ulElement.removeEventListener("wheel", handleScroll);
+        ulElement.removeEventListener('wheel', handleScroll);
       }
     };
   }, []);
 
-  const uniqueCategories = [...new Set(jsonData.map(p => p.category))].sort();
+  const uniqueCategories = [...new Set(jsonData.map((p) => p.category))].sort();
 
   const categoryIcons = {
-    "todos": "todos",
-    "acessórios": "acessorios",
-    "alimentício": "alimenticio",
-    "alumínio": "aluminio",
-    "banheiro": "banheiro",
-    "banho": "banho",
-    "blusa": "blusa",
-    "calcinha": "calcinha",
-    "calça": "calca",
-    "cama": "cama",
-    "camisa": "camisa",
-    "conjunto": "conjunto",
-    "cosméticos": "cosmeticos",
-    "cozinha": "cozinha",
-    "cueca": "cueca",
-    "dormir": "dormir",
-    "infantil": "infantil",
-    "perfumaria": "perfumaria",
-    "rede": "rede",
-    "saia": "saia",
-    "short": "short",
-    "sutiã": "sutia",
-    "vestido": "vestido",
+    todos: 'todos',
+    acessórios: 'acessorios',
+    alimentício: 'alimenticio',
+    alumínio: 'aluminio',
+    banheiro: 'banheiro',
+    banho: 'banho',
+    blusa: 'blusa',
+    calcinha: 'calcinha',
+    calça: 'calca',
+    cama: 'cama',
+    camisa: 'camisa',
+    conjunto: 'conjunto',
+    cosméticos: 'cosmeticos',
+    cozinha: 'cozinha',
+    cueca: 'cueca',
+    dormir: 'dormir',
+    infantil: 'infantil',
+    perfumaria: 'perfumaria',
+    rede: 'rede',
+    saia: 'saia',
+    short: 'short',
+    sutiã: 'sutia',
+    vestido: 'vestido',
   };
 
   return (
@@ -99,7 +102,9 @@ const FilterCategory = ({ onSelectCategory, selectedCategory }) => {
               onClick={() => handleCategoryClick(category)}
               className={activeCategory === category ? 'active' : ''}
             >
-              {categoryIcons[categoryKey] && <CategoryIcon iconName={categoryIcons[categoryKey]} />}
+              {categoryIcons[categoryKey] && (
+                <CategoryIcon iconName={categoryIcons[categoryKey]} />
+              )}
               {category}
             </li>
           );
@@ -107,6 +112,11 @@ const FilterCategory = ({ onSelectCategory, selectedCategory }) => {
       </ul>
     </Container>
   );
+};
+
+FilterCategory.propTypes = {
+  onSelectCategory: PropTypes.func.isRequired,
+  selectedCategory: PropTypes.string,
 };
 
 export default FilterCategory;

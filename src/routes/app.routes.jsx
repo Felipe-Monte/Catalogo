@@ -1,9 +1,8 @@
-import { Routes, Route } from 'react-router-dom';
-
-import { Home } from '../pages/Home';
-import Details from '../pages/Details';
-import List from '../pages/List';
+import { Route, Routes } from 'react-router-dom';
 import { CartProvider } from '../CartContext';
+import Details from '../pages/Details';
+import { Home } from '../pages/Home';
+import List from '../pages/List';
 
 export function AppRoutes() {
   return (

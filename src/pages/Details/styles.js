@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   height: fit-content;
@@ -34,7 +34,7 @@ export const WrapperContainer = styled.div`
   padding-right: 20px;
 
   position: relative;
-  
+
   .wrapper-icons {
     position: absolute;
     right: 25px;
@@ -44,7 +44,7 @@ export const WrapperContainer = styled.div`
     align-items: center;
     justify-content: center;
     gap: 15px;
-    
+
     > svg {
       width: 32px;
       height: 32px;

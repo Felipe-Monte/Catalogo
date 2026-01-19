@@ -1,92 +1,107 @@
+import PropTypes from 'prop-types';
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { Container, CardImg, CardText } from './styles';
 import { FaCartPlus } from 'react-icons/fa';
+import { useNavigate } from 'react-router-dom';
+import { CardImg, CardText, Container } from './styles';
 
 import { UserContext } from '../../CartContext';
 
-const Cards = React.memo(
-  ({
-    category,
-    share,
-    imgUrl,
-    title,
-    code,
-    price,
-    isAvailable,
-    isNew,
-    type,
-  }) => {
-    const navigate = useNavigate();
-    const [imageLoaded, setImageLoaded] = useState(false);
+const Cards = ({
+  category,
+  share,
+  imgUrl,
+  title,
+  code,
+  price,
+  isAvailable,
+  isNew,
+  type,
+}) => {
+  const navigate = useNavigate();
+  const [imageLoaded, setImageLoaded] = useState(false);
 
-    const { cart, addToCart } = React.useContext(UserContext);
+  const { addToCart } = React.useContext(UserContext);
 
-    function handleCardClick() {
-      if (isAvailable) {
-        navigate(`/details/${code}`, {
-          state: { category, share, imgUrl, title, code, price, type },
-        });
-      }
+  function handleCardClick() {
+    if (isAvailable) {
+      navigate(`/details/${code}`, {
+        state: { category, share, imgUrl, title, code, price, type },
+      });
     }
+  }
 
-    function handleCartClick() {
-      const item = {
-        code,
-        title,
-        price,
-      };
+  function handleCartClick(e) {
+    e.stopPropagation();
+    const item = {
+      code,
+      title,
+      price,
+    };
 
-      addToCart(item);
-      // console.log(cart)
-    }
+    addToCart(item);
+  }
 
-    return (
-      <Container className={`animeLeft ${isNew ? 'new_item' : ''}`}>
-        {isNew && <p className="icon-new">NOVIDADE</p>}
-        <CardImg
-          onClick={handleCardClick}
-          className={isAvailable ? '' : 'unavailable'}
-        >
-          {!imageLoaded && (
-            <img
-              id="loader"
-              src="/spinner.svg"
-              alt="loading spinner"
-              loading="lazy"
-            />
-          )}
+  return (
+    <Container className={`animeLeft ${isNew ? 'new_item' : ''}`}>
+      {isNew && <p className="icon-new">NOVIDADE</p>}
+      <CardImg
+        onClick={handleCardClick}
+        className={isAvailable ? '' : 'unavailable'}
+      >
+        {!imageLoaded && (
           <img
-            src={imgUrl}
-            alt={`Imagem de ${title}`}
+            id="loader"
+            src="/spinner.svg"
+            alt="loading spinner"
             loading="lazy"
-            onLoad={() => setImageLoaded(true)}
           />
-          {!isAvailable && <div className="unavailable-banner">Esgotado</div>}
-        </CardImg>
+        )}
+        <img
+          src={imgUrl}
+          alt={`Imagem de ${title}`}
+          loading="lazy"
+          onLoad={() => setImageLoaded(true)}
+          onError={() => setImageLoaded(true)}
+          style={{ display: imageLoaded ? 'block' : 'none' }}
+        />
+        {!isAvailable && <div className="unavailable-banner">Esgotado</div>}
+      </CardImg>
 
-        <CardText>
-          <h2>{title}</h2>
+      <CardText>
+        <h2>{title}</h2>
 
-          <div className="container-category">
-            <p>Cód: {code}</p>
-            {/* <p className="p-category">{category}</p> */}
-            <p>{type}</p>
-          </div>
+        <div className="container-category">
+          <p>Cód: {code}</p>
+          {/* <p className="p-category">{category}</p> */}
+          <p>{type}</p>
+        </div>
 
-          <div className="container-price">
-            {' '}
-            <button className="btnAddCart" onClick={handleCartClick}>
-              <FaCartPlus size={18} />
-            </button>
-            <span>{price}</span>
-          </div>
+        <div className="container-price">
+          {' '}
+          <button className="btnAddCart" onClick={handleCartClick}>
+            <FaCartPlus size={18} />
+          </button>
+          <span>{price}</span>
+        </div>
 
-          {/* <p id="share">{share}</p> */}
-        </CardText>
-      </Container>
-    );
-  },
-);
+        {/* <p id="share">{share}</p> */}
+      </CardText>
+    </Container>
+  );
+};
+
+Cards.propTypes = {
+  id: PropTypes.string,
+  category: PropTypes.string,
+  share: PropTypes.string,
+  imgUrl: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  code: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
+  isAvailable: PropTypes.bool,
+  isNew: PropTypes.bool,
+  type: PropTypes.string,
+  measure: PropTypes.string,
+};
 
 export default Cards;

@@ -50,7 +50,7 @@ const List = () => {
     );
 
     // Iteração sobre os códigos
-    codes.forEach((code, index) => {
+    codes.forEach((code) => {
       const foundProduct = jsonData.find(
         (item) => item.code.toLowerCase() === code.toLowerCase(),
       );
@@ -81,7 +81,7 @@ const List = () => {
       }
     });
 
-    doc.save('relatorio_produtos.pdf');
+    doc.save('relatório_produtos.pdf');
   }
 
   return (

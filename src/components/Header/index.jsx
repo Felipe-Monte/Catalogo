@@ -1,10 +1,15 @@
-import React, { useState } from 'react';
+import PropTypes from 'prop-types';
+import { useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
-
+import { Input } from '../Input';
+import SideBar from '../SideBar';
 import { Container } from './styles';
 
-import { Input } from '../Input';
-import SideBar from '../SideBar'
+Header.propTypes = {
+  title: PropTypes.string.isRequired,
+  onSearch: PropTypes.func.isRequired,
+  categorySelected: PropTypes.string,
+};
 
 export function Header({ title, onSearch, categorySelected }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -39,8 +44,6 @@ export function Header({ title, onSearch, categorySelected }) {
       <p className="filter-text filter-desktop">
         Filtrando por: <span>{categorySelected}</span>
       </p>
-
-     
     </Container>
   );
 }

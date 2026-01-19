@@ -71,7 +71,7 @@ export function Home() {
             ))
           ) : (
             <p className="alert_not_found">
-              O produto "{searchTerm.toUpperCase()}" não está cadastrado em
+              O produto &ldquo;{searchTerm.toUpperCase()}&ldquo; não está cadastrado em
               nosso catálogo.
             </p>
           )}
