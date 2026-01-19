@@ -1,10 +1,10 @@
-import React from 'react';
+import { useState } from 'react';
 import { BsCartCheck } from 'react-icons/bs';
 import { FaTimes } from 'react-icons/fa';
 import { Button, Container, SideBarContainer } from './styles';
 
 function SideBar() {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   return (
     <Container className="sideBar">

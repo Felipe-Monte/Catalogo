@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React, { useState } from 'react';
+import { useContext, useState } from 'react';
 import { FaCartPlus } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import { CardImg, CardText, Container } from './styles';
@@ -20,7 +20,7 @@ const Cards = ({
   const navigate = useNavigate();
   const [imageLoaded, setImageLoaded] = useState(false);
 
-  const { addToCart } = React.useContext(UserContext);
+  const { addToCart } = useContext(UserContext);
 
   function handleCardClick() {
     if (isAvailable) {
