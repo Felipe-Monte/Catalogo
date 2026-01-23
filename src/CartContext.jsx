@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import { createContext, useState } from 'react';
-export const UserContext = createContext();
+import React from 'react';
+export const UserContext = React.createContext();
 
 export const CartProvider = ({ children }) => {
-  const [cart, setCart] = useState([]);
+  const [cart, setCart] = React.useState([]);
 
   const addToCart = (item) => {
     setCart((prevCart) => [...prevCart, item]);

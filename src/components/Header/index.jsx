@@ -4,6 +4,13 @@ import { FiSearch } from 'react-icons/fi';
 import { Input } from '../Input';
 import SideBar from '../SideBar';
 import { Container } from './styles';
+
+Header.propTypes = {
+  title: PropTypes.string.isRequired,
+  onSearch: PropTypes.func.isRequired,
+  categorySelected: PropTypes.string,
+};
+
 export function Header({ title, onSearch, categorySelected }) {
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -40,9 +47,3 @@ export function Header({ title, onSearch, categorySelected }) {
     </Container>
   );
 }
-
-Header.propTypes = {
-  title: PropTypes.string.isRequired,
-  onSearch: PropTypes.func.isRequired,
-  categorySelected: PropTypes.string,
-};

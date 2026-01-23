@@ -1,18 +1,19 @@
-import { useEffect, useState } from 'react';
-import ButtonBackToTop from '../../components/ButtonBackToTop';
-import Cards from '../../components/Cards';
-import FilterCategory from '../../components/FilterCategory';
+import React from 'react';
+
 import { Header } from '../../components/Header';
+import FilterCategory from '../../components/FilterCategory';
 import { Container, Section } from './styles';
+import Cards from '../../components/Cards';
+import ButtonBackToTop from '../../components/ButtonBackToTop';
 
 import jsonData from '../../products.json';
 
 export function Home() {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState('Todos');
+  const [searchTerm, setSearchTerm] = React.useState('');
+  const [selectedCategory, setSelectedCategory] = React.useState('Todos');
 
   // Carregar categoria salva no localStorage ao montar o componente
-  useEffect(() => {
+  React.useEffect(() => {
     const savedCategory = localStorage.getItem('selectedCategory');
     if (savedCategory) {
       setSelectedCategory(savedCategory);
@@ -70,8 +71,8 @@ export function Home() {
             ))
           ) : (
             <p className="alert_not_found">
-              O produto &ldquo;{searchTerm.toUpperCase()}&ldquo; não está
-              cadastrado em nosso catálogo.
+              O produto &ldquo;{searchTerm.toUpperCase()}&ldquo; não está cadastrado em
+              nosso catálogo.
             </p>
           )}
 

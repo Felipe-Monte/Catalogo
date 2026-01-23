@@ -1,12 +1,12 @@
-import { jsPDF } from 'jspdf';
-import { useState } from 'react';
-import { Input } from '../../components/Input';
-import jsonData from '../../products.json';
+import React from 'react';
 import { Container } from './styles';
+import jsonData from '../../products.json';
+import { jsPDF } from 'jspdf';
+import { Input } from '../../components/Input';
 
 const List = () => {
-  const [list, setList] = useState('');
-  const [userName, setUserName] = useState('');
+  const [list, setList] = React.useState('');
+  const [userName, setUserName] = React.useState('');
 
   function handleSearch() {
     if (!list.trim()) {

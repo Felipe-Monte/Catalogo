@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react';
+import React from 'react';
 import { FiArrowUp } from 'react-icons/fi';
 import { Container } from './styles';
 
 const ButtonBackToTop = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = React.useState(false);
 
   function scrollToTop() {
     window.scrollTo({
@@ -12,7 +12,7 @@ const ButtonBackToTop = () => {
     });
   }
 
-  useEffect(() => {
+  React.useEffect(() => {
     function toggleVisibility() {
       if (window.scrollY > 1500) {
         setIsVisible(true);
