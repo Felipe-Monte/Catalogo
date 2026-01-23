@@ -60,7 +60,25 @@ export const Tag = styled.div`
   right: 10px;
   z-index: 1;
 
-  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  animation: pulse 1.5s infinite;
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  background: #22c55e;
   color: white;
   padding: 5px 12px;
   border-radius: 10px;
