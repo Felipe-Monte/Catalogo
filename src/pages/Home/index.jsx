@@ -5,7 +5,6 @@ import FilterCategory from '../../components/FilterCategory';
 import { Header } from '../../components/Header';
 import { Container, Section } from './styles';
 
-import { BannerSlide } from '../../components/BannerSlide';
 import jsonData from '../../products.json';
 
 export function Home() {
@@ -52,8 +51,6 @@ export function Home() {
       />
 
       <main>
-        <BannerSlide />
-
         <Section>
           {filteredProducts.length > 0 ? (
             filteredProducts.map((card) => (

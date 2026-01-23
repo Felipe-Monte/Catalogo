@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useContext, useState } from 'react';
 import { FaCartPlus } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
@@ -87,6 +88,20 @@ const Cards = ({
       </CardText>
     </Container>
   );
+};
+
+Cards.propTypes = {
+  id: PropTypes.string,
+  category: PropTypes.string,
+  share: PropTypes.string,
+  imgUrl: PropTypes.string,
+  title: PropTypes.string.isRequired,
+  code: PropTypes.string.isRequired,
+  price: PropTypes.string.isRequired,
+  isAvailable: PropTypes.bool,
+  isNew: PropTypes.bool,
+  type: PropTypes.string,
+  measure: PropTypes.string,
 };
 
 export default Cards;

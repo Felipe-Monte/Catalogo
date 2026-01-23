@@ -13,7 +13,7 @@ export const Container = styled.div`
   top: 80px;
   right: 0;
 
-  z-index: 2;
+  z-index: 1;
 
   background: #3e3b47;
 

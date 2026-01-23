@@ -25,7 +25,7 @@ export const Container = styled.div`
     align-items: center;
     align-content: flex-start;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 15px;
 
     scroll-behavior: smooth;
 
