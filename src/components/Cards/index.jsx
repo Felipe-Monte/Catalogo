@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react';
+import { useContext, useState } from 'react';
 import { FaCartPlus } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import { CardImg, CardText, Container } from './styles';
@@ -20,10 +20,6 @@ const Cards = ({
   const [imageLoaded, setImageLoaded] = useState(false);
 
   const { addToCart } = useContext(UserContext);
-
-  useEffect(() => {
-    setImageLoaded(false);
-  }, [imgUrl]);
 
   function handleCardClick() {
     if (isAvailable) {
@@ -62,12 +58,10 @@ const Cards = ({
         <img
           src={imgUrl}
           alt={`Imagem de ${title}`}
+          loading="lazy"
           onLoad={() => setImageLoaded(true)}
           onError={() => setImageLoaded(true)}
-          style={{
-            opacity: imageLoaded ? 1 : 0,
-            transition: 'opacity 0.3s ease',
-          }}
+          style={{ display: imageLoaded ? 'block' : 'none' }}
         />
         {!isAvailable && <div className="unavailable-banner">Esgotado</div>}
       </CardImg>
