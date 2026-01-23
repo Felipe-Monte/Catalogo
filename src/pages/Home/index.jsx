@@ -7,6 +7,7 @@ import Cards from '../../components/Cards';
 import ButtonBackToTop from '../../components/ButtonBackToTop';
 
 import jsonData from '../../products.json';
+import { BannerSlide } from '../../components/BannerSlide';
 
 export function Home() {
   const [searchTerm, setSearchTerm] = React.useState('');
@@ -52,6 +53,8 @@ export function Home() {
       />
 
       <main>
+        <BannerSlide/>
+        
         <Section>
           {filteredProducts.length > 0 ? (
             filteredProducts.map((card) => (

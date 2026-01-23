@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 100%;
   height: 100vh;
 
-  margin-top: 150px;
+  margin-top: 130px;
   padding-bottom: 0px;
 
   position: relative;
@@ -25,7 +25,7 @@ export const Container = styled.div`
     align-items: center;
     align-content: flex-start;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 8px;
 
     scroll-behavior: smooth;
 
