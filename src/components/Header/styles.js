@@ -53,10 +53,6 @@ export const Container = styled.header`
     height: 100px;
     padding: 0px 20px;
 
-    .sideBar {
-      display: block;
-    }
-
     .container_header {
       width: 100%;
       display: flex;

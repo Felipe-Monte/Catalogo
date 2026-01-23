@@ -46,7 +46,7 @@ export const Dots = styled.div`
   justify-content: center;
   align-items: center;
   gap: 10px;
-  z-index: 2;
+  z-index: 1;
   padding: 8px 12px;
   background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(8px);
@@ -97,7 +97,7 @@ export const Tag = styled.div`
   position: absolute;
   top: 16px;
   right: 16px;
-  z-index: 2;
+  z-index: 1;
 
   display: flex;
   align-items: center;

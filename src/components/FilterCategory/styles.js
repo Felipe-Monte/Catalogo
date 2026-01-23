@@ -7,26 +7,37 @@ export const Container = styled.div`
 
   width: 100%;
   height: fit-content;
-  padding: 12px 8px;
+  padding: 5px;
 
   position: fixed;
   top: 80px;
   right: 0;
   left: 0;
 
-  z-index: 1;
+  z-index: 2;
 
-  background: #3e3b47;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: #3e3b47;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+
+  &.visible {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  &.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none;
+  }
 
   ul {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: flex-start;
+    padding: 5px;
 
     gap: 16px;
-    padding: 8px 12px;
 
     list-style: none;
     overflow-x: auto;
@@ -97,14 +108,14 @@ export const Container = styled.div`
 
       &.active {
         .icon-wrapper {
-          background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+          background: linear-gradient(135deg, #10b981 0%, #059669 100%);
           border: 3px solid white;
           box-shadow: 0 4px 16px rgba(16, 185, 129, 0.4);
           transform: scale(1.1);
         }
 
         > span {
-          color: #10B981;
+          color: #10b981;
           font-weight: 600;
         }
       }
@@ -112,8 +123,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 600px) {
-    padding: 10px 8px;
-    margin-top: 20px;
+    top: 100px;
 
     ul {
       gap: 12px;

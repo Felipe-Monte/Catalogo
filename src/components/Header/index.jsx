@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
 import { Input } from '../Input';
-import SideBar from '../SideBar';
 import { Container } from './styles';
 
 export function Header({ title, onSearch, categorySelected }) {
@@ -23,8 +22,6 @@ export function Header({ title, onSearch, categorySelected }) {
         <p className="filter-text filter-mobile">
           Filtrando por: <span>{categorySelected}</span>
         </p>
-
-        <SideBar />
       </div>
 
       <Input

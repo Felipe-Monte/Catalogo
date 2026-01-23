@@ -36,7 +36,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 768px) {
-    margin-top: 132px;
+    margin-top: 180px;
 
     ::-webkit-scrollbar {
       display: none;
@@ -44,7 +44,7 @@ export const Container = styled.div`
   }
 
   @media(max-width: 600px){
-    margin-top: 210px;
+    margin-top: 200px;
   }
 `;
 
