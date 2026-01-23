@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { Container } from './styles';
 export function HeaderDetails({ title }) {
   return (
@@ -8,3 +9,7 @@ export function HeaderDetails({ title }) {
     </Container>
   );
 }
+
+HeaderDetails.propTypes = {
+  title: PropTypes.string,
+};

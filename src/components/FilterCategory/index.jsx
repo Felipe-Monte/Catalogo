@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useEffect, useRef, useState } from 'react';
 import jsonData from '../../products.json';
 import CategoryIcon from '../CategoryIcon';
@@ -111,6 +112,11 @@ const FilterCategory = ({ onSelectCategory, selectedCategory }) => {
       </ul>
     </Container>
   );
+};
+
+FilterCategory.propTypes = {
+  onSelectCategory: PropTypes.func.isRequired,
+  selectedCategory: PropTypes.string,
 };
 
 export default FilterCategory;
