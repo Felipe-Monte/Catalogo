@@ -1112,7 +1112,7 @@
     "title": "Short adidas c/6",
     "code": "01455",
     "price": "29,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1135,8 +1135,8 @@
     "category": "short",
     "share": "https://photos.app.goo.gl/toQMGzbhnbmTQVyj6",
     "imgUrl": "/malha crepe.webp",
-    "title": "Short malha crepe c/6",
-    "code": "02210",
+    "title": "Short bem garota c/4",
+    "code": "03656",
     "price": "40,00",
     "isAvailable": true,
     "isNew": false,
@@ -1255,7 +1255,7 @@
     "title": "Vestido lunender malha canelado c/3",
     "code": "02610",
     "price": "138,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -1859,19 +1859,6 @@
     "measure": "cx"
   },
   {
-    "id": "150",
-    "category": "alimentício",
-    "share": "",
-    "imgUrl": "/bolinho goulart.webp",
-    "title": "Bolinhos goulart c/15",
-    "code": "01158",
-    "price": "45,00",
-    "isAvailable": true,
-    "isNew": false,
-    "type": "Comissão",
-    "measure": "cx"
-  },
-  {
     "id": "151",
     "category": "conjunto",
     "share": "",
@@ -2319,7 +2306,7 @@
     "share": "",
     "imgUrl": "/bolinho-lukinha.webp",
     "title": "Bolinho lukinha misto c/12",
-    "code": "03186",
+    "code": "03761",
     "price": "3,00",
     "isAvailable": true,
     "isNew": true,
