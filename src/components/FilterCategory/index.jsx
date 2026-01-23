@@ -8,8 +8,6 @@ const FilterCategory = ({ onSelectCategory, selectedCategory }) => {
   const [activeCategory, setActiveCategory] = useState(
     selectedCategory || 'Todos',
   );
-  const [isVisible, setIsVisible] = useState(true);
-  const [lastScrollY, setLastScrollY] = useState(0);
   const listRef = useRef(null);
 
   // Atualiza a categoria ativa quando `selectedCategory` mudar no componente pai
@@ -58,42 +56,6 @@ const FilterCategory = ({ onSelectCategory, selectedCategory }) => {
     };
   }, []);
 
-  // Esconde/mostra o filtro ao scrollar no mobile
-  useEffect(() => {
-    let ticking = false;
-
-    const handleWindowScroll = () => {
-      if (!ticking) {
-        window.requestAnimationFrame(() => {
-          const currentScrollY = window.scrollY;
-          const isMobile = window.innerWidth <= 600;
-
-          if (isMobile) {
-            if (currentScrollY > lastScrollY && currentScrollY > 50) {
-              // Scrollando para baixo
-              setIsVisible(false);
-            } else if (currentScrollY < lastScrollY) {
-              // Scrollando para cima
-              setIsVisible(true);
-            }
-          } else {
-            setIsVisible(true);
-          }
-
-          setLastScrollY(currentScrollY);
-          ticking = false;
-        });
-
-        ticking = true;
-      }
-    };
-
-    window.addEventListener('scroll', handleWindowScroll, { passive: true });
-
-    return () => {
-      window.removeEventListener('scroll', handleWindowScroll);
-    };
-  }, [lastScrollY]);
 
   const uniqueCategories = [...new Set(jsonData.map((p) => p.category))].sort();
 
@@ -124,7 +86,7 @@ const FilterCategory = ({ onSelectCategory, selectedCategory }) => {
   };
 
   return (
-    <Container className={isVisible ? 'visible' : 'hidden'}>
+    <Container>
       <ul ref={listRef}>
         <li
           onClick={() => handleCategoryClick('Todos')}
