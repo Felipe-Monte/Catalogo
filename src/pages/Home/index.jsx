@@ -53,7 +53,7 @@ export function Home() {
       />
 
       <main>
-        <BannerSlide/>
+        {selectedCategory === 'Todos' && <BannerSlide/>}
         
         <Section>
           {filteredProducts.length > 0 ? (
