@@ -91,8 +91,10 @@ const FilterCategory = ({ onSelectCategory, selectedCategory }) => {
           onClick={() => handleCategoryClick('Todos')}
           className={activeCategory === 'Todos' ? 'active' : ''}
         >
-          <CategoryIcon iconName="todos" />
-          Todos
+          <div className="icon-wrapper">
+            <CategoryIcon iconName="todos" />
+          </div>
+          <span>Todos</span>
         </li>
         {uniqueCategories.map((category, index) => {
           const categoryKey = category.toLowerCase();
@@ -102,10 +104,12 @@ const FilterCategory = ({ onSelectCategory, selectedCategory }) => {
               onClick={() => handleCategoryClick(category)}
               className={activeCategory === category ? 'active' : ''}
             >
-              {categoryIcons[categoryKey] && (
-                <CategoryIcon iconName={categoryIcons[categoryKey]} />
-              )}
-              {category}
+              <div className="icon-wrapper">
+                {categoryIcons[categoryKey] && (
+                  <CategoryIcon iconName={categoryIcons[categoryKey]} />
+                )}
+              </div>
+              <span>{category}</span>
             </li>
           );
         })}

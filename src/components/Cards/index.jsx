@@ -1,9 +1,6 @@
 import React from 'react';
-import { FaCartPlus } from 'react-icons/fa';
 import { useNavigate } from 'react-router-dom';
 import { CardImg, CardText, Container } from './styles';
-
-import { UserContext } from '../../CartContext';
 
 const Cards = ({
   category,
@@ -17,7 +14,6 @@ const Cards = ({
   type,
 }) => {
   const navigate = useNavigate();
-  const { addToCart } = React.useContext(UserContext);
 
   function handleCardClick() {
     if (isAvailable) {
@@ -25,11 +21,6 @@ const Cards = ({
         state: { category, share, imgUrl, title, code, price, type },
       });
     }
-  }
-
-  function handleCartClick(e) {
-    e.stopPropagation();
-    addToCart({ code, title, price });
   }
 
   return (
@@ -60,9 +51,6 @@ const Cards = ({
         </div>
 
         <div className="container-price">
-          <button className="btnAddCart" onClick={handleCartClick}>
-            <FaCartPlus size={18} />
-          </button>
           <span>{price}</span>
         </div>
       </CardText>

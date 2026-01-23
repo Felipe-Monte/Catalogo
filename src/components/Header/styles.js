@@ -18,7 +18,7 @@ export const Container = styled.header`
   align-items: center;
   gap: 5px;
 
-  background-color: ${({ theme }) => theme.COLORS.PURPLE};
+  background-color: #2A2A2A;
 
   > p {
     font-size: 12px;
