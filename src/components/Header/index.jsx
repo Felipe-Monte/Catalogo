@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+
 import { useState } from 'react';
 import { FiSearch } from 'react-icons/fi';
 import { Input } from '../Input';
@@ -40,9 +40,3 @@ export function Header({ title, onSearch, categorySelected }) {
     </Container>
   );
 }
-
-Header.propTypes = {
-  title: PropTypes.string.isRequired,
-  onSearch: PropTypes.func.isRequired,
-  categorySelected: PropTypes.string,
-};
