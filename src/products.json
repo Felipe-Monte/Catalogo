@@ -1022,7 +1022,7 @@
     "code": "03183",
     "price": "48,00",
     "isAvailable": false,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -1373,7 +1373,7 @@
     "code": "02957",
     "price": "20,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "cx"
   },
@@ -1399,7 +1399,7 @@
     "code": "02958",
     "price": "20,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "cx"
   },
@@ -1412,7 +1412,7 @@
     "code": "02960",
     "price": "39,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2009,7 +2009,7 @@
     "title": "Colônia body splash 200ml cordial c/4",
     "code": "03619",
     "price": "45,00",
-    "isAvailable": true,
+    "isAvailable": false,
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
@@ -2373,8 +2373,8 @@
     "title": "Colcha plaza queen 2,40x2,60m",
     "code": "03805",
     "price": "225,00",
-    "isAvailable": true,
-    "isNew": true,
+    "isAvailable": false,
+    "isNew": false,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2438,8 +2438,8 @@
     "title": "Doce baianita cremoso c/12",
     "code": "03849",
     "price": "25,00",
-    "isAvailable": true,
-    "isNew": true,
+    "isAvailable": false,
+    "isNew": false,
     "type": "Comissão",
     "measure": "cx"
   },
@@ -2452,7 +2452,7 @@
     "code": "03851",
     "price": "145,00",
     "isAvailable": true,
-    "isNew": true,
+    "isNew": false,
     "type": "Comissão",
     "measure": "kit"
   }
