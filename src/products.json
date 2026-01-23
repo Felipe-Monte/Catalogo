@@ -1100,7 +1100,7 @@
     "code": "03183",
     "price": "48,00",
     "isAvailable": false,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -1451,7 +1451,7 @@
     "code": "02957",
     "price": "20,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "cx"
   },
@@ -1477,7 +1477,7 @@
     "code": "02958",
     "price": "20,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "cx"
   },
@@ -1490,7 +1490,7 @@
     "code": "02960",
     "price": "39,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2179,7 +2179,7 @@
     "code": "02959",
     "price": "39,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "cx"
   },
@@ -2192,7 +2192,7 @@
     "code": "03681",
     "price": "150,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Direta",
     "measure": "und"
   },
@@ -2283,7 +2283,7 @@
     "code": "00182",
     "price": "195,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "und"
   },
@@ -2361,7 +2361,7 @@
     "code": "03763",
     "price": "24,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2374,7 +2374,7 @@
     "code": "01075",
     "price": "23,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2384,10 +2384,10 @@
     "share": "",
     "imgUrl": "/tablete_minas.webp",
     "title": "Doce em tablete d. de minas 400g c/12",
-    "code": "03761",
+    "code": "03186",
     "price": "24,00",
-    "isAvailable": false,
-    "isNew": false,
+    "isAvailable": true,
+    "isNew": true,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2399,8 +2399,8 @@
     "title": "Bolinho lukinha misto c/12",
     "code": "03186",
     "price": "3,00",
-    "isAvailable": false,
-    "isNew": false,
+    "isAvailable": true,
+    "isNew": true,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2413,7 +2413,7 @@
     "code": "03762",
     "price": "21,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2426,7 +2426,7 @@
     "code": "03770",
     "price": "22,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2451,8 +2451,8 @@
     "title": "Colcha plaza queen 2,40x2,60m",
     "code": "03805",
     "price": "225,00",
-    "isAvailable": false,
-    "isNew": false,
+    "isAvailable": true,
+    "isNew": true,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2504,7 +2504,7 @@
     "code": "03847",
     "price": "18,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "kit"
   },
@@ -2516,8 +2516,8 @@
     "title": "Doce baianita cremoso c/12",
     "code": "03849",
     "price": "25,00",
-    "isAvailable": false,
-    "isNew": false,
+    "isAvailable": true,
+    "isNew": true,
     "type": "Comissão",
     "measure": "cx"
   },
@@ -2530,7 +2530,7 @@
     "code": "03851",
     "price": "145,00",
     "isAvailable": true,
-    "isNew": false,
+    "isNew": true,
     "type": "Comissão",
     "measure": "kit"
   }
