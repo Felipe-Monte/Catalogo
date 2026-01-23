@@ -2442,5 +2442,31 @@
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
+  },
+  {
+    "id": "196",
+    "category": "acessórios",
+    "share": "",
+    "imgUrl": "/harabelle.jpeg",
+    "title": "Sandália harabelle und",
+    "code": "03883",
+    "price": "49,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Direta",
+    "measure": ""
+  },
+  {
+    "id": "196",
+    "category": "acessórios",
+    "share": "",
+    "imgUrl": "/harabelle2.jpeg",
+    "title": "Sandália harabelle und",
+    "code": "03883",
+    "price": "49,00",
+    "isAvailable": true,
+    "isNew": true,
+    "type": "Direta",
+    "measure": ""
   }
 ]
