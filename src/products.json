@@ -13,32 +13,6 @@
     "measure": "kit"
   },
   {
-    "id": "2",
-    "category": "cosméticos",
-    "share": "https://photos.app.goo.gl/uYkCP3XkPjuVnJtn9",
-    "imgUrl": "/capilar cordial.webp",
-    "title": "Kit capilar cordial 1kg/1lt",
-    "code": "03396",
-    "price": "120,00",
-    "isAvailable": false,
-    "isNew": false,
-    "type": "Comissão",
-    "measure": "kit"
-  },
-  {
-    "id": "3",
-    "category": "perfumaria",
-    "share": "https://photos.app.goo.gl/BoDVsdLRCm4ZnfZ59",
-    "imgUrl": "/deo 50ml.webp",
-    "title": "Deo colônia cordial 50ml c/6",
-    "code": "03398",
-    "price": "60,00",
-    "isAvailable": false,
-    "isNew": false,
-    "type": "Comissão",
-    "measure": "kit"
-  },
-  {
     "id": "4",
     "category": "perfumaria",
     "share": "https://photos.app.goo.gl/9MpGuBZzJcM5dSon9",
@@ -49,32 +23,6 @@
     "isAvailable": true,
     "isNew": false,
     "type": "Comissão",
-    "measure": "und"
-  },
-  {
-    "id": "5",
-    "category": "acessórios",
-    "share": "https://photos.app.goo.gl/BoaHX9JppyReBhXVA",
-    "imgUrl": "/garrafa digital.webp",
-    "title": "Garrafa digital",
-    "code": "03355",
-    "price": "60,00",
-    "isAvailable": false,
-    "isNew": false,
-    "type": "Direta",
-    "measure": "und"
-  },
-  {
-    "id": "6",
-    "category": "acessórios",
-    "share": "https://photos.app.goo.gl/AHzTXfzh2bqfd5BaA",
-    "imgUrl": "/garrafa motivacional.webp",
-    "title": "Garrafa motivacional 3pçs",
-    "code": "03390",
-    "price": "70,00",
-    "isAvailable": false,
-    "isNew": false,
-    "type": "Direta",
     "measure": "und"
   },
   {
@@ -89,32 +37,6 @@
     "isNew": false,
     "type": "Comissão",
     "measure": "kit"
-  },
-  {
-    "id": "8",
-    "category": "acessórios",
-    "share": "https://photos.app.goo.gl/j7nYMKeo3KdcErnHA",
-    "imgUrl": "/maquina de corte.webp",
-    "title": "Maquina de corte cabelo",
-    "code": "03354",
-    "price": "78,00",
-    "isAvailable": false,
-    "isNew": false,
-    "type": "Direta",
-    "measure": "und"
-  },
-  {
-    "id": "9",
-    "category": "acessórios",
-    "share": "https://photos.app.goo.gl/ncjPwLwgmChtTUq4A",
-    "imgUrl": "/massageador.webp",
-    "title": "Massageador imp",
-    "code": "03344",
-    "price": "58,00",
-    "isAvailable": false,
-    "isNew": false,
-    "type": "Direta",
-    "measure": "und"
   },
   {
     "id": "10",
