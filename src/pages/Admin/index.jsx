@@ -1,7 +1,13 @@
 import { useMemo, useState } from 'react';
 import { Header } from '../../components/Header';
 import jsonData from '../../products.json';
-import { ActionButton, Container, Form } from './styles';
+import {
+  ActionButton,
+  Container,
+  Form,
+  ProductList,
+  SearchInput,
+} from './styles';
 
 export default function Admin() {
   // Use reverse() copy to show newest first if desired, or just raw list.
@@ -173,11 +179,7 @@ export default function Admin() {
 
   return (
     <Container>
-      <Header
-        title="Admin"
-        onSearch={() => {}}
-        categorySelected="Admin"
-      />
+      <Header title="Admin" onSearch={() => {}} categorySelected="Admin" />
 
       <main>
         {/* FORM SECTION */}
@@ -226,18 +228,41 @@ export default function Admin() {
 
           <div className="form-group">
             <label>Categoria</label>
-            <input
+            <select
               name="category"
-              value={formData.category}
-              onChange={handleChange}
-              required
-              list="categories"
-            />
-            <datalist id="categories">
-              {[...new Set(jsonData.map((p) => p.category))].map((c) => (
-                <option key={c} value={c} />
+              value={
+                jsonData.some((p) => p.category === formData.category) &&
+                formData.category !== ''
+                  ? formData.category
+                  : 'custom'
+              }
+              onChange={(e) => {
+                if (e.target.value === 'custom') {
+                  setFormData((prev) => ({ ...prev, category: '' }));
+                } else {
+                  handleChange(e);
+                }
+              }}
+            >
+              <option value="">Selecione...</option>
+              {[...new Set(jsonData.map((p) => p.category))].sort().map((c) => (
+                <option key={c} value={c}>
+                  {c}
+                </option>
               ))}
-            </datalist>
+              <option value="custom">Outra (Digitar nova)</option>
+            </select>
+
+            {(!jsonData.some((p) => p.category === formData.category) ||
+              formData.category === '') && (
+              <input
+                name="category"
+                placeholder="Digite a nova categoria"
+                value={formData.category}
+                onChange={handleChange}
+                style={{ marginTop: '5px' }}
+              />
+            )}
           </div>
 
           <div className="form-group">
@@ -367,71 +392,43 @@ export default function Admin() {
         <div
           style={{
             marginTop: '40px',
-            borderTop: '2px solid #eee',
+            borderTop: '1px solid #333',
             paddingTop: '20px',
           }}
         >
-          <h3>Gerenciar Produtos Existentes ({products.length})</h3>
+          <h3 style={{ color: '#fff', marginBottom: '15px' }}>
+            Gerenciar Produtos Existentes ({products.length})
+          </h3>
 
-          <input
+          <SearchInput
             type="text"
             placeholder="Buscar por nome ou código..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            style={{
-              width: '100%',
-              padding: '10px',
-              marginBottom: '20px',
-              fontSize: '16px',
-              border: '1px solid #ddd',
-              borderRadius: '4px',
-            }}
           />
 
-          <div
-            style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '10px' }}
-          >
+          <ProductList>
             {filteredProducts.map((p) => (
-              <div
-                key={p.id}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  padding: '10px',
-                  background: '#fff',
-                  border: '1px solid #eee',
-                  borderRadius: '4px',
-                  gap: '15px',
-                }}
-              >
-                <div style={{ width: '50px', height: '50px', flexShrink: 0 }}>
-                  <img
-                    src={p.imgUrl}
-                    alt={p.title}
-                    style={{
-                      width: '100%',
-                      height: '100%',
-                      objectFit: 'cover',
-                    }}
-                  />
+              <div key={p.id} className="product-item">
+                <div className="img-wrapper">
+                  <img src={p.imgUrl} alt={p.title} />
                 </div>
-                <div style={{ flex: 1 }}>
-                  <strong style={{ display: 'block' }}>{p.title}</strong>
-                  <span style={{ color: '#666', fontSize: '0.9em' }}>
+                <div className="info">
+                  <strong>{p.title}</strong>
+                  <span>
                     Cód: {p.code} | R$ {p.price}
                   </span>
                 </div>
-                <div style={{ display: 'flex', gap: '5px' }}>
+                <div className="actions">
                   <ActionButton
                     color="#ffc107"
-                    style={{ color: '#000', padding: '5px 10px' }}
+                    style={{ color: '#000' }}
                     onClick={() => handleEdit(p)}
                   >
                     Editar
                   </ActionButton>
                   <ActionButton
                     color="#dc3545"
-                    style={{ padding: '5px 10px' }}
                     onClick={() => handleDelete(p.id)}
                   >
                     Excluir
@@ -439,10 +436,10 @@ export default function Admin() {
                 </div>
               </div>
             ))}
-          </div>
+          </ProductList>
           {filteredProducts.length > 50 && (
             <p
-              style={{ textAlign: 'center', color: '#666', marginTop: '10px' }}
+              style={{ textAlign: 'center', color: '#999', marginTop: '10px' }}
             >
               Mostrando {filteredProducts.length} resultados.
             </p>
