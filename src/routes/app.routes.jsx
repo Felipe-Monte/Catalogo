@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom';
 import { CartProvider } from '../CartContext';
+import Admin from '../pages/Admin';
 import Details from '../pages/Details';
 import { Home } from '../pages/Home';
 import List from '../pages/List';
@@ -11,6 +12,7 @@ export function AppRoutes() {
         <Route path="/" element={<Home />} />
         <Route path="/details/:code" element={<Details />} />
         <Route path="/list" element={<List />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
     </CartProvider>
   );
