@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 100%;
   height: fit-content;
   padding: 8px 5px 5px 5px;
-
+  background: #181818;
   position: fixed;
   top: 80px;
   right: 0;
