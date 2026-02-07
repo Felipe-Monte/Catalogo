@@ -6,13 +6,12 @@ export const Container = styled.header`
   overflow: hidden;
   position: relative;
   border-radius: 12px;
-  margin: 16px 8px;
+  margin: 0 8px 8px 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.1);
 
   @media (max-width: 768px) {
     height: 160px;
-    margin: 12px 4px;
   }
 `;
 

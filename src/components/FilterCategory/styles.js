@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   width: 100%;
   height: fit-content;
-  padding: 5px;
+  padding: 8px 5px 5px 5px;
 
   position: fixed;
   top: 80px;
@@ -16,7 +16,7 @@ export const Container = styled.div`
 
   z-index: 2;
 
-    background: #3e3b47;
+ 
   transition: transform 0.3s ease, opacity 0.3s ease;
 
   &.visible {
